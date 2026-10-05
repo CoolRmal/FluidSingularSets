@@ -181,6 +181,9 @@ public import FluidSingularSets.StrongMixedPairings
 public import FluidSingularSets.MixedSlicePairings
 public import FluidSingularSets.EndpointVelocityInterpolation
 public import FluidSingularSets.SuitableVelocityTimeBound
+public import FluidSingularSets.HarmonicSpatialSmoothApprox
+public import FluidSingularSets.UniformMixedSlices
+public import FluidSingularSets.CanonicalForcePressureValues
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

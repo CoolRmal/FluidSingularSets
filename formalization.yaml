@@ -87,7 +87,8 @@ status:
     inequality for smooth harmonic corrections and actual harmonic-preserving time
     approximations are proved from original suitability;
     actual S1 time L∞ curve bounds, mixed pressure-velocity integral limits and
-    exact endpoint cubic interpolation are proved. The actual nonsmooth
+    exact endpoint cubic interpolation, genuine harmonic-preserving spatial
+    approximation and actual scalar pressure-value kernels are proved. The actual nonsmooth
     correction limit remains. A conditional
     uniform lower-charge reduction at exponent 25/23 is complete, including
     genuine terminal shifts, moving frames and common compact measure. Its
