@@ -36,14 +36,19 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Finite real velocity-pressure activity | Proved for actual solutions | RealCharge |
 | Mean-subtracted cubic charge and mixed-gradient pressure decay | Proved for actual solutions | MixedPressure |
 | Velocity and pressure decay on arbitrary smaller time windows | Proved for actual solutions | MixedVelocityDecay |
+| Combined real velocity-pressure window decay | Proved for actual solutions | SymmetricMixedDecay, CombinedWindowDecay |
+| Symmetric charge decay with the actual mixed oscillation source | Proved for actual solutions | SymmetricChargeDecay |
+| Local energy controlled by symmetric activity | Proved for actual solutions | ActualEnergyControl |
+| Actual backward-cylinder dissipation controlled by symmetric activity | Proved with admissible terminal time | GradientEnergyControl |
 | Mixed-gradient PDE recurrence | Open velocity decay and local energy assembly | New scale assembly needed |
 | Descendant Carleson bounds imply the dyadic embedding | Proved, finite and infinite families | CarlesonEmbedding, CountableCarleson |
 | Growth and descendant count give coefficient bounds | Proved scalar implication | FrostmanCarleson |
 | Actual slice-cell masses give descendant coefficient bounds | Proved, including infinite series | SpatialTraceCoefficients |
+| Finite cube families satisfy the concrete spatial Carleson bound | Proved from cell growth | SpatialTraceCarleson |
 | Joint measurability of actual activity and mixed-gradient masses | Proved for actual solutions | ActivityMeasurability |
 | Mass-ratio stopping and trace summation, including zero masses | Proved, finite and infinite families | TraceLayerCake, MassRatioStopping, MassRatioTrace |
 | Time integration of the spatial embedding | Proved from measurable coefficients | IntegratedCarleson |
-| Instantiate concrete dissipation coefficients | Open assembly | Integrated trace development |
+| Instantiate concrete dissipation coefficients | Proved, including measurable representatives and real finite sums | ConcreteTraceCarleson, ConcreteTraceAE |
 | Parabolic dyadic partitions and laminarity | Proved | ParabolicDyadic |
 | Adjacent interval containment | Proved | AdjacentIntervals |
 | Sixteen shifted grids and parabolic ball containment | Proved | ShiftedParabolicDyadic |
@@ -55,6 +60,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Compact weak limit preserving eventual open-ball bounds | Proved abstract limit construction | GaugeFrostmanLimit |
 | Actual cell tree, grouped atomic masses and uniform ball bounds | Proved | ParabolicFrostmanGeometry, GaugeFrostmanApproximations |
 | Gauge Frostman measure on any compact set of positive gauge measure | Proved under local gauge regularity | GaugeFrostmanConstruction |
+| Frostman measure for every finite iterated-log gauge | Proved | IteratedFrostman |
+| Frostman ball growth gives actual refined-cell growth | Proved with one level cutoff | FrostmanCellGrowth |
+| Full integrated spatial coefficient series is finite | Proved from actual Frostman growth | FrostmanTraceEmbedding |
 | Finite trace excludes a persistent set of positive mass | Proved abstract implication | ActivityTrace |
 | Transfer every gauge between parabolic carriers | Proved on every set | GaugeTransport |
 | Compact interior nullity implies full-domain nullity | Proved | CompactLocalization |
@@ -72,8 +80,10 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
-Hölder regularity implies local essential boundedness, as proved in RegularityBridge.
-The converse under suitability remains open. The same module proves a CKN epsilon
+For actual suitable solutions, local Hölder regularity and local essential boundedness
+are equivalent at every interior point, as proved in BoundedRegularity. VelocityOnlyBridge
+proves that bounded velocity makes the actual normalized pressure charge tend to zero;
+Caccioppoli and CKN regularity complete the converse. RegularityBridge also proves a CKN epsilon
 criterion for the independently specified Hölder convention and cubic charge decay
 under a local essential bound.
 

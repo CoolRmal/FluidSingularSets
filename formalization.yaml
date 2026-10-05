@@ -50,9 +50,11 @@ status:
     arbitrary-scale CKN regularity and persistent singular charge,
     finite real activity and joint activity measurability,
     actual-solution velocity and mixed-gradient pressure decay on smaller windows,
+    combined real window decay and local energy control by symmetric activity,
     small-radius gauge monotonicity and doubling, finite capacity measures,
     compact weak-limit construction, geometric gauge Frostman construction,
     concrete slice-cell descendant bounds and compact localization,
+    the actual Frostman-to-cell growth and integrated coefficient embedding,
     finite-trace contradiction and geometric packing arguments are proved.
     The two main solution proofs still contain placeholders and the
     project is not eligible for Palomar registration.
@@ -79,8 +81,8 @@ automation:
 fidelity:
   divergences: >-
     Statements use the CKN comparator's local Hölder regularity convention.
-    Manuscripts use essential boundedness; equivalence under suitability is
-    a remaining proof obligation. Box dimension is localized to compact
+    BoundedRegularity proves its equivalence to the manuscripts' local essential
+    boundedness under actual suitability. Box dimension is localized to compact
     interior patches and the force is identically zero. The gauge family uses
     successive factors log^i(1/r), i from 1 to k, extended with max(1, factor)
     away from zero. The extension agrees exactly with the requested positive

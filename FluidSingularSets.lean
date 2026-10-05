@@ -49,6 +49,20 @@ public import FluidSingularSets.GaugeFrostmanConstruction
 public import FluidSingularSets.SpatialTraceCoefficients
 public import FluidSingularSets.ShiftedSpatialRepresentation
 public import FluidSingularSets.MixedVelocityDecay
+public import FluidSingularSets.IteratedFrostman
+public import FluidSingularSets.SpatialTraceCarleson
+public import FluidSingularSets.FrostmanCellGrowth
+public import FluidSingularSets.FrostmanTraceEmbedding
+public import FluidSingularSets.ShiftedCellRepresentation
+public import FluidSingularSets.ActualEnergyControl
+public import FluidSingularSets.GradientEnergyControl
+public import FluidSingularSets.SymmetricMixedDecay
+public import FluidSingularSets.CombinedWindowDecay
+public import FluidSingularSets.VelocityOnlyBridge
+public import FluidSingularSets.BoundedRegularity
+public import FluidSingularSets.ConcreteTraceCarleson
+public import FluidSingularSets.ConcreteTraceAE
+public import FluidSingularSets.SymmetricChargeDecay
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

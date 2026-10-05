@@ -39,13 +39,17 @@ arbitrary-scale CKN regularity and its persistent singular charge consequence,
 small-radius gauge monotonicity and doubling,
 actual-solution velocity and pressure decay on smaller time windows,
 joint measurability of the actual activity and mixed-gradient masses,
-concrete slice-cell descendant coefficient bounds, the geometric gauge Frostman
-construction and compact measure limit construction,
+concrete slice-cell descendant coefficient bounds and their integrated embedding,
+local energy control by the symmetric activity, the geometric gauge Frostman
+construction for every finite logarithmic depth, and compact measure limit construction,
 and the reduction from a uniform ball charge to upper box dimension.
 These have no proof placeholders. The remaining
 analytic obligations include the PDE scale recurrence, the concrete dissipation trace,
 the velocity-only regularity
 criterion, pressure-gradient integrability, and accelerated-frame suitability.
+The normalized pressure charge is proved to tend to zero under local velocity boundedness.
+For actual suitable solutions, local essential boundedness and the formal Hölder regularity
+convention are proved equivalent at every interior point.
 See [the proof status](docs/proof-status.md) for the precise completed and open steps.
 
 The project pins Lean and Mathlib to `v4.35.0-rc2` and imports the
