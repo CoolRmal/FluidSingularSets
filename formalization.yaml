@@ -64,8 +64,12 @@ status:
     local pressure gradients are proved. Canonical normalized smooth weights and
     the full actual moving-frame data for time L^(3/2) acceleration are proved.
     Full smooth-frame suitability and strong local convergence under uniformly
-    convergent moving translations are proved. The actual AC-frame limit remains
-    in progress.
+    convergent moving translations are proved. Smooth approximation of the actual
+    AC mean, its acceleration and path, common compact tube containment, and
+    strong nonlinear Holder products are proved. The actual AC-frame suitability
+    limit remains in progress. Finite-degree polynomial inversion constructs
+    actual smooth zero-sphere divergence fields up to a spatial constant;
+    identification with the mean and a uniform inverse norm remain open.
     The variational Stokes velocity and its
     energy estimate are constructed; bounded local pressure recovery remains open.
     The box-dimension proof retains one placeholder, so the complete

@@ -94,6 +94,12 @@ public import FluidSingularSets.SmoothAcceleratedSuitability
 public import FluidSingularSets.AcceleratedPressureLp
 public import FluidSingularSets.AcceleratedLpStability
 public import FluidSingularSets.StokesTestPoincare
+public import FluidSingularSets.StrongLpProducts
+public import FluidSingularSets.MeanSmoothApprox
+public import FluidSingularSets.AcceleratedTubeLimit
+public import FluidSingularSets.FischerPolynomial
+public import FluidSingularSets.BallPolynomialInverse
+public import FluidSingularSets.PolynomialBallDivergence
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

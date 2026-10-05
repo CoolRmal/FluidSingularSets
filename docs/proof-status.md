@@ -88,10 +88,15 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Moving-frame actual local data for continuous or time L^(3/2) acceleration | Proved | AcceleratedData, AcceleratedPressureLp |
 | Genuine relative local energy inequality and full smooth-frame suitability | Proved | AcceleratedEnergy, SmoothAcceleratedSuitability |
 | Strong local convergence under uniform moving translations | Proved for actual solution fields | AcceleratedLpStability |
-| Smooth approximation and passage to the actual AC mean | Open | MeanSmoothApprox and weak-equation limits in progress |
+| Smooth approximation of the actual AC mean, acceleration and path | Proved with common supports and bounds | MeanSmoothApprox |
+| Compact common source tube for moving approximants | Proved from compactness and uniform convergence | AcceleratedTubeLimit |
+| Strong Holder products and actual integral convergence | Proved | StrongLpProducts |
+| Passage of suitability to the actual AC mean | Open | Weak-equation and energy limits in progress |
 | Local variational Stokes velocity and energy bound | Proved on actual completed gradient space | LocalStokesEnergy |
 | Genuine zero-boundary test Poincare estimate | Proved | StokesTestPoincare |
 | Weighted-gradient divergence identities and linear-source inverse | Proved for genuine smooth fields | WeightedBallDivergence |
+| Genuine finite-degree polynomial inverse and smooth ball divergence field | Proved up to an explicit spatial constant | FischerPolynomial, BallPolynomialInverse, PolynomialBallDivergence |
+| Identify that constant with the actual ball average | Open | Zero-boundary gradient approximation in progress |
 | Bounded local Stokes pressure recovery | Open | Uniform divergence inverse on a ball needed |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
