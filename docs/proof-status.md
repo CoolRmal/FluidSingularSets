@@ -185,6 +185,11 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual harmonic and pressure cutoff errors | Proved literal component pairings, genuine external source norms and Young bounds retaining the full-ball gradient term | ProjectedCutoffErrors |
 | Genuine mean-pressure cancellation on original intervals | Proved actual spatial mean integrability and exact tested pressure decomposition into nonlinear and viscous pairings | SuitablePressureMeanPairings |
 | Actual weighted-energy convection bound | Proved true cubed-cutoff energy supremum and mixed Sobolev interpolation with energy exponent five sixths | WeightedProjectedConvection |
+| Genuine full-ball projected gradients and energy classes | Proved actual ambient potential, correction, Hessian, weak gradients, divergence and original-interval joint/mixed classes on every compact interior | FullBallProjectedWeakGradient, FullBallProjectedData |
+| Exact full-ball pressure mean cancellation | Proved literal whole-ball pressure decomposition and arbitrary-interior original-interval signed pressure pairings | FullBallPressureMeanPairings |
+| Genuine spatial smoothing at arbitrary radii | Proved true C² compact extension, harmonic convolution, uniform derivative limits and actual smooth dual kernels with literal evaluation identities | FullBallSpatialSmoothApprox, FullBallSpatialKernels |
+| Sharp actual mixed viscous pressure pairing | Proved original-interval time L² pairing and Young absorption into full-ball gradient and endpoint velocity costs | ProjectedViscousMixedPairing |
+| Genuine weighted Sobolev with original velocity error | Proved cubed-cutoff L²/L⁶ estimate retaining the literal weighted derivative and an unweighted velocity square error | WeightedProjectedSobolev |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 

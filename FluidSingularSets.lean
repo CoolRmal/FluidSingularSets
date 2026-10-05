@@ -256,6 +256,14 @@ public import FluidSingularSets.ProjectedCutoffErrors
 public import FluidSingularSets.SuitablePressureMeanPairings
 public import FluidSingularSets.WeightedProjectedConvection
 
+public import FluidSingularSets.FullBallProjectedWeakGradient
+public import FluidSingularSets.FullBallProjectedData
+public import FluidSingularSets.FullBallPressureMeanPairings
+public import FluidSingularSets.FullBallSpatialSmoothApprox
+public import FluidSingularSets.FullBallSpatialKernels
+public import FluidSingularSets.ProjectedViscousMixedPairing
+public import FluidSingularSets.WeightedProjectedSobolev
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
