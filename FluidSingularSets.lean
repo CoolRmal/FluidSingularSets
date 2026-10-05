@@ -34,6 +34,14 @@ public import FluidSingularSets.ShiftedParabolicDyadic
 public import FluidSingularSets.CriticalPoincare
 public import FluidSingularSets.ScaleRegularity
 public import FluidSingularSets.GaugeFrostman
+public import FluidSingularSets.ShiftedCarleson
+public import FluidSingularSets.RealCharge
+public import FluidSingularSets.CompactLocalization
+public import FluidSingularSets.TraceCost
+public import FluidSingularSets.ParabolicRefinement
+public import FluidSingularSets.GaugeFrostmanLimit
+public import FluidSingularSets.GaugeTransport
+public import FluidSingularSets.MixedPressure
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

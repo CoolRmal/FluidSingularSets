@@ -33,7 +33,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Mixed-gradient cost controlled by dissipation | Proved for actual solutions | MixedGradient |
 | Remove lower-order term by mean subtraction | Proved for genuine local weak gradients | CriticalPoincare |
 | Singular points have positive symmetric charge at every small scale | Proved for actual solutions | ScaleRegularity |
-| Pressure decomposition and mixed-gradient PDE recurrence | Open | Reuse CKN pressure theory, assemble new estimates |
+| Finite real velocity-pressure activity | Proved for actual solutions | RealCharge |
+| Mean-subtracted cubic charge and mixed-gradient pressure decay | Proved for actual solutions | MixedPressure |
+| Mixed-gradient PDE recurrence | Open velocity decay and local energy assembly | New scale assembly needed |
 | Descendant Carleson bounds imply the dyadic embedding | Proved, finite and infinite families | CarlesonEmbedding, CountableCarleson |
 | Growth and descendant count give coefficient bounds | Proved scalar implication | FrostmanCarleson |
 | Mass-ratio stopping and trace summation, including zero masses | Proved, finite and infinite families | TraceLayerCake, MassRatioStopping, MassRatioTrace |
@@ -42,10 +44,16 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Parabolic dyadic partitions and laminarity | Proved | ParabolicDyadic |
 | Adjacent interval containment | Proved | AdjacentIntervals |
 | Sixteen shifted grids and parabolic ball containment | Proved | ShiftedParabolicDyadic |
+| Exact refinement, descendant count and measurable time selector | Proved | ParabolicRefinement |
+| Spatial and time-integrated embedding in adjacent grids | Proved | ShiftedCarleson |
+| Concrete cost and mass-ratio identities | Proved, including zero masses | TraceCost |
 | Compare cylinder and box dissipation costs | Open assembly | New trace assembly needed |
 | Positive gauge content gives uniform finite tree capacity and atomic measures | Proved abstract construction | GaugeFrostman |
+| Compact weak limit preserving eventual open-ball bounds | Proved abstract limit construction | GaugeFrostmanLimit |
 | Gauge Frostman measure on a persistent compact set | Open geometric instance and limit passage | GaugeFrostman development |
 | Finite trace excludes a persistent set of positive mass | Proved abstract implication | ActivityTrace |
+| Transfer every gauge between parabolic carriers | Proved on every set | GaugeTransport |
+| Compact interior nullity implies full-domain nullity | Proved | CompactLocalization |
 | Apply all pieces to the solution, then exhaust the domain | Open | Solution |
 
 | Box argument | Status | Modules |
