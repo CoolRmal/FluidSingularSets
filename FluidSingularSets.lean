@@ -132,6 +132,18 @@ public import FluidSingularSets.PressureGradientUniqueness
 public import FluidSingularSets.SlidingMixedCost
 public import FluidSingularSets.StokesEnergyVelocity
 
+public import FluidSingularSets.RepeatedLogGauge
+public import FluidSingularSets.StokesVectorForce
+public import FluidSingularSets.StokesVectorForceLinear
+public import FluidSingularSets.HarmonicC2
+public import FluidSingularSets.UnitBallPressureC2
+public import FluidSingularSets.StokesVectorPressureC2
+public import FluidSingularSets.UnitBallPressureBounds
+public import FluidSingularSets.StokesVectorPressureBounds
+public import FluidSingularSets.ProjectedEnergyAlgebra
+public import FluidSingularSets.BoxChargeReduction
+public import FluidSingularSets.StokesNonlinearPressure
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

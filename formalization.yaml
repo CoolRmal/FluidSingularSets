@@ -66,14 +66,20 @@ status:
     Full smooth-frame suitability and strong local convergence under uniformly
     convergent moving translations are proved. Smooth approximation of the actual
     AC mean, its acceleration and path, common compact tube containment, and
-    strong nonlinear Holder products are proved. The actual AC-frame suitability
-    limit remains in progress. Finite-degree polynomial inversion constructs
-    actual smooth zero-sphere divergence fields up to a spatial constant;
-    identification with the mean and a uniform inverse norm remain open.
-    The variational Stokes velocity and its
-    energy estimate are constructed; bounded local pressure recovery remains open.
-    The box-dimension proof retains one placeholder, so the complete
-    project is not yet eligible for Palomar registration.
+    strong nonlinear Holder products are proved. Full actual AC-frame suitability and moving-frame regularity transfer are
+    proved. The mean-zero polynomial divergence inverse has a degree-independent
+    energy bound and extends to all mean-zero ball L² data by actual density.
+    The local Stokes energy solution and reconstructed velocity are proved, as
+    are continuous pressure projection, gradient fixing, actual arbitrary-data
+    bounded mean-zero pressure, weak harmonicity for divergence-free sources,
+    C² representatives and quantitative interior gradient/Hessian estimates.
+    The literal repeated-deepest gauge variant also has proved nullity at every
+    finite depth. The exact projected energy algebra is proved. A conditional
+    uniform lower-charge reduction at exponent 25/23 is complete, including
+    genuine terminal shifts, moving frames and common compact measure. Its
+    velocity-only regularity criterion still needs proof from ordinary suitability.
+    The box-dimension proof retains one placeholder, so the complete project is
+    not yet eligible for Palomar registration.
   sorry_count: 1
   sorry_in_definitions: 0
   axioms: []
@@ -102,7 +108,8 @@ fidelity:
     interior patches and the force is identically zero. The gauge family uses
     successive factors log^i(1/r), i from 1 to k, extended with max(1, factor)
     away from zero. The extension agrees exactly with the requested positive
-    product at all sufficiently small radii.
+    product at all sufficiently small radii. The literal repeated-deepest formula
+    also has a proved nullity corollary in RepeatedLogGauge.
 
 review:
   status: "In progress; internal automated statement audit"

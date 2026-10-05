@@ -26,6 +26,7 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Gauge identities, small-radius formula and limit zero | Proved | Gauge, IteratedGauge |
 | Small-radius monotonicity and doubling | Proved | LogGaugeRegularity |
 | Successive factors dominate a repeated deepest factor | Proved near zero | LogProductComparison |
+| Literal repeated-deepest gauge singular-set nullity | Proved for every finite depth | RepeatedLogGauge |
 | Divergent reciprocal weights at every finite depth | Proved | IteratedLogSeries |
 | Affine change of scale index | Proved | IteratedScaling |
 | Persistent recurrence forces divergent weighted cost | Proved scalar implication | PersistentActivity, WeightedActivity, IteratedActivity |
@@ -114,8 +115,14 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual continuous pressure operators and gradient fixing | Proved with bounded pointwise estimates, idempotence and mean-zero uniqueness | RealHilbertDual, StokesPressureProjection, UnitBallPressureProjection |
 | Actual harmonic ball pressure for divergence-free source data | Proved from genuine Hessian testing on the completion | StokesGradientTest, UnitBallPressureHarmonic |
 | First derivatives of actual C¹ harmonic representatives are weakly harmonic | Proved from actual local integration by parts | LocalHarmonicDerivatives |
+| Actual continuous vector force with literal source equation | Proved from actual reconstructed velocity | StokesVectorForce, StokesVectorForceLinear |
+| Actual C² harmonic pressure representatives | Proved with true weak derivative identities | HarmonicC2, UnitBallPressureC2, StokesVectorPressureC2 |
+| Actual pressure gradient and Hessian bounds | Proved with universal force/source constants | UnitBallPressureBounds, StokesVectorPressureBounds |
+| Actual convective and viscous ball pressures | Proved from genuine tensors, with literal equations and raw-gradient convention | StokesNonlinearPressure |
+| Exact projected energy algebra | Proved pointwise; analytic cancellations remain | ProjectedEnergyAlgebra |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
-| Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
+| Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |
+| Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
 For actual suitable solutions, local Hölder regularity and local essential boundedness

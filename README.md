@@ -23,6 +23,14 @@ h_k(r)=r\prod_{i=1}^{k}[\log^{\circ i}(1/r)]^2,
 $$
 
 specified near zero, where all factors are positive, and extended to larger radii.
+The literal repeated-deepest interpretation is also proved:
+
+$$
+\widetilde h_k(r)=r[\log^{\circ k}(1/r)]^{2k}.
+$$
+
+Its actual Hausdorff measure is bounded by that of the successive-product gauge.
+
 
 **The gauge family is proved for every finite depth. The box-dimension proof remains
 unfinished. The complete project has not passed Comparator and is not registered
@@ -42,30 +50,26 @@ and the default Lean kernel. This verifies both gauge targets against their
 independent statements. The full comparison and official Palomar mechanical
 preflight remain pending the box proof.
 
-For the box bound, local velocity integrability at exponent 10/3 and the actual weak
-pressure gradient at exponent 5/4 are proved. The remaining analytic steps include
-pressure recovery for arbitrary data and the velocity-only regularity criterion.
-The actual absolutely continuous mean, its acceleration equation and quantitative
-scale bound, the weighted Poincare estimate, and the finite compact density measure
-are proved. The variational Stokes velocity and energy estimate are also constructed;
-recovering a bounded local pressure remains open. The polynomial obstruction
-constant is identified with the actual ball average. Canonical normalized smooth
-weights, full smooth-frame suitability including the local energy inequality,
-and the complete data predicate for time L^(3/2) acceleration are proved. Strong
-local convergence under moving translations, smooth approximation of the actual
-AC mean and its derivative, and the nonlinear Holder product limits are also
-proved. Actual divergence, momentum and local energy pass to strong local limits.
-Affine acceleration pressures and mean-subtracted velocities also converge. The moving
-relative velocity satisfies the required normalized endpoint mixed-norm bound.
-Full suitability for the actual AC mean frame is proved, with arbitrary path
-anchors. A genuine polynomial ball divergence inverse has a degree-independent
-norm-square bound of 3 and belongs to the zero-boundary Hilbert completion.
-Pressure recovery from actual bounded divergence lifts is proved; extending
-the polynomial inverse to all square-integrable ball data remains open. The
-packing and covering reduction at exponent 25/23 is already proved.
-Local essential boundedness and the formal Hölder regularity convention are also
-proved equivalent for actual suitable solutions at every interior point.
-See [the proof status](docs/proof-status.md) for the completed and open steps.
+For the box bound, the actual pressure gradient at exponent 5/4, the normalized
+weighted Poincaré estimate, the absolutely continuous weighted mean, and the
+finite compact density measure are proved. Full suitability and full-neighborhood
+regularity transfer for the actual accelerating mean frame are also proved.
+The moving relative velocity has the required endpoint mixed-norm bound.
+
+The local Stokes construction now includes the genuine zero-boundary energy
+completion, velocity reconstruction, a bounded divergence inverse on every
+mean-zero ball L² datum, and a bounded continuous mean-zero pressure operator.
+Its pressure is weakly harmonic for genuine divergence-free vector sources.
+Actual C² representatives and uniform interior gradient and Hessian estimates
+are proved. The exact algebraic expansion for the projected energy is proved;
+its analytic cancellations remain to be established.
+
+A completed conditional reduction turns a uniform velocity-only regularity
+criterion into the required singular lower charge at exponent 25/23, including
+the forward terminal shift and common compact pressure-gradient measure.
+The criterion is an explicit internal premise that still needs proof; it is
+not an extra hypothesis of the independent target. The packing and covering
+argument is already proved. See [the proof status](docs/proof-status.md).
 
 The project pins Lean and Mathlib to `v4.35.0-rc2` and imports the
 [Caffarelli–Kohn–Nirenberg library](https://github.com/scottnarmstrong/CaffarelliKohnNirenberg)
