@@ -175,6 +175,12 @@ public import FluidSingularSets.WeakDerivativeGradientFree
 public import FluidSingularSets.WeakContinuousTimePrimitive
 public import FluidSingularSets.SuitableHarmonicGradientTime
 public import FluidSingularSets.HarmonicScalarEnergyCancellation
+public import FluidSingularSets.SmoothProjectedLocalEnergy
+public import FluidSingularSets.HarmonicTimeSmoothApprox
+public import FluidSingularSets.StrongMixedPairings
+public import FluidSingularSets.MixedSlicePairings
+public import FluidSingularSets.EndpointVelocityInterpolation
+public import FluidSingularSets.SuitableVelocityTimeBound
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

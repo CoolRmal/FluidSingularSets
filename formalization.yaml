@@ -83,8 +83,12 @@ status:
     extension with true source compatibility, actual harmonic-gradient evolution
     and its AC representative are proved. Energy-dual evolution
     follows from compact suitable momentum pairings, and
-    smooth harmonic square cancellations are proved. The exact projected energy
-    algebra is proved. A conditional
+    smooth harmonic square cancellations are proved. The projected local energy
+    inequality for smooth harmonic corrections and actual harmonic-preserving time
+    approximations are proved from original suitability;
+    actual S1 time L∞ curve bounds, mixed pressure-velocity integral limits and
+    exact endpoint cubic interpolation are proved. The actual nonsmooth
+    correction limit remains. A conditional
     uniform lower-charge reduction at exponent 25/23 is complete, including
     genuine terminal shifts, moving frames and common compact measure. Its
     velocity-only regularity criterion still needs proof from ordinary suitability.

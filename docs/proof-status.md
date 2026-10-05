@@ -129,7 +129,11 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual harmonic-gradient time evolution and AC representative | Proved from suitable momentum, true closed-subspace differentiation and Bochner primitives | WeakDerivativeGradientFree, WeakContinuousTimePrimitive, SuitableHarmonicGradientTime |
 | Genuine weak-gradient, convection, momentum and pressure correction cancellations | Proved for actual smooth corrections and compact energy tests | HarmonicCorrectionCrossTerms, SmoothProjectedDivergence, SmoothHarmonicMomentum, SmoothProjectedPressureCancellation |
 | Smooth harmonic spatial and square energy cancellations | Proved from actual suitable weak gradients and true compact-test integration by parts | SmoothHarmonicEnergy, HarmonicScalarEnergyCancellation |
-| Exact projected energy algebra | Proved pointwise; analytic cancellations remain | ProjectedEnergyAlgebra |
+| Actual harmonic-preserving time approximations | Proved by smoothing genuine force derivatives and their exact operator-image primitives, with uniform field and strong derivative convergence | HarmonicTimeSmoothApprox |
+| Projected local energy for actual smooth harmonic corrections | Proved from the original suitable momentum, divergence, weak gradient and energy equations; actual nonsmooth correction limit remains | ProjectedEnergyAlgebra, SmoothProjectedLocalEnergy |
+| Actual time L∞ velocity and harmonic correction bounds | Proved quantitatively from the genuine S1 slice energy bound | SuitableVelocityTimeBound |
+| Genuine pressure-velocity integral limits | Proved for true spatial L² classes with time L¹/L∞ bounds and strong convergence | StrongMixedPairings, MixedSlicePairings |
+| Actual endpoint cubic interpolation | Proved with constant one and powers 3/4, 1/4, 3/4 of energy, time measure and mixed cost | EndpointVelocityInterpolation |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
