@@ -281,6 +281,15 @@ public import FluidSingularSets.FullBallCylinderEnergyRhs
 public import FluidSingularSets.CanonicalBallCutoffSecondBounds
 public import FluidSingularSets.ProjectedBallMixedRescaling
 
+public import FluidSingularSets.FullBallMarginCoefficients
+public import FluidSingularSets.FullBallTimeWeightedGradientControl
+public import FluidSingularSets.FullBallNativeEnergyRhs
+public import FluidSingularSets.FullBallTimeWeightedEnergy
+public import FluidSingularSets.FullBallTimeWeightedPressureErrors
+public import FluidSingularSets.TimeWeightedProjectedConvection
+public import FluidSingularSets.TimeWeightedProjectedSobolev
+public import FluidSingularSets.FullBallTestedEnergyBounds
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

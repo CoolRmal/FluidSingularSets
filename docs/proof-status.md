@@ -202,6 +202,11 @@ from the solution. Those hypotheses are not added to either target theorem.
 | True original gradient transfer and harmonic joint source control | Proved literal Hessian joint square bound from the endpoint source and unit-cutoff transfer from genuine projected to original gradient density | FullBallProjectedGradientControl |
 | Exact cutoff RHS and genuine canonical second derivative bound | Proved literal separated-test derivative/error-family identity and a universal sixth-cutoff Laplacian bound retaining the fourth spatial weight | FullBallCylinderEnergyRhs, CanonicalBallCutoffSecondBounds |
 | True endpoint and gradient rescaling at every physical projection radius | Proved actual inverse-radius scaling of extended mixed velocity, gradient norm and coordinate-square gradient costs without finiteness assumptions | ProjectedBallMixedRescaling |
+| True margin-dependent harmonic source coefficients | Proved exact inverse-cube velocity bound, inverse-sixth Hessian bound and actual projected slice coefficient control | FullBallMarginCoefficients |
+| Genuine native projected right hand side | Proved actual native joint integrability and exact compact/native/iterated integral identities | FullBallNativeEnergyRhs |
+| Actual time-weighted projected energies | Proved true square-root time weights, finite actual energy supremum, original-interval mixed classes and monotonicity | FullBallTimeWeightedEnergy, FullBallTestedEnergyBounds |
+| True time-weighted gradient transfer and Sobolev | Proved actual weighted gradient density control and Sobolev retaining the time weight on dissipation | FullBallTimeWeightedGradientControl, TimeWeightedProjectedSobolev |
+| Genuine time-weighted pressure, harmonic and convection estimates | Proved literal error pairings and sharp five-sixths convection absorption input with the actual tested energy supremum | FullBallTimeWeightedPressureErrors, TimeWeightedProjectedConvection |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
