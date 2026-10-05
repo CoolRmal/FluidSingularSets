@@ -44,10 +44,11 @@ secure mechanical preflight.
 
 For the box bound, local velocity integrability at exponent 10/3 and the actual weak
 pressure gradient at exponent 5/4 are proved. The remaining analytic steps include
-the quantitative mean bound, accelerated-frame suitability, and the velocity-only
-regularity criterion. The actual absolutely continuous mean and its acceleration
-equation, the weighted Poincare estimate, and the finite compact density measure
-are proved. The packing and covering reduction at exponent 25/23 is already proved.
+accelerated-frame suitability and the velocity-only regularity criterion.
+The actual absolutely continuous mean, its acceleration equation and quantitative
+scale bound, the weighted Poincare estimate, and the finite compact density measure
+are proved. The variational Stokes velocity and energy estimate are also constructed;
+recovering a bounded local pressure remains open. The packing and covering reduction at exponent 25/23 is already proved.
 Local essential boundedness and the formal Hölder regularity convention are also
 proved equivalent for actual suitable solutions at every interior point.
 See [the proof status](docs/proof-status.md) for the completed and open steps.

@@ -60,7 +60,9 @@ status:
     gauge nullity are proved for every finite logarithmic depth. Actual local
     pressure-gradient integrability at exponent 5/4 is also proved. The weighted
     Poincare estimate, absolutely continuous mean and actual acceleration formula,
-    and finite compact density with genuine local pressure gradients are proved.
+    quantitative scale bound for the mean, and finite compact density with genuine
+    local pressure gradients are proved. The variational Stokes velocity and its
+    energy estimate are constructed; bounded local pressure recovery remains open.
     The box-dimension proof retains one placeholder, so the complete
     project is not yet eligible for Palomar registration.
   sorry_count: 1

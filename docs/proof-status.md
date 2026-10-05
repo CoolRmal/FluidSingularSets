@@ -80,11 +80,13 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Pressure-gradient local integrability | Proved actual weak gradient in local L^(5/4) | PressureGradientFiveFourths |
 | Weighted Poincare around the actual normalized mean | Proved from suitable slices | WeightedVelocityPoincare |
 | Actual mean evolution, AC representative and L^(3/2) acceleration | Proved | WeightedMeanMotion |
-| Quantitative scale-explicit bound for mean motion | Open | MeanMotionBound in progress |
+| Quantitative scale-explicit bound for actual mean motion | Proved from suitability and actual pressure gradient | MeanMotionBound |
 | Finite compact density including actual pressure gradients | Proved | CompactBoxDensity |
 | Moving-frame geometry, smooth tests and genuine weak divergence/momentum | Proved | AcceleratedFrame |
 | Pointwise relative-energy expansion | Proved | AcceleratedEnergyAlgebra |
 | Moving-frame local class and energy inequality | Open | AcceleratedData, AcceleratedEnergy in progress |
+| Local variational Stokes velocity and energy bound | Proved on actual completed gradient space | LocalStokesEnergy |
+| Bounded local Stokes pressure recovery | Open | Divergence inverse on a ball needed |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
