@@ -32,12 +32,15 @@ Completed supporting results include persistent-activity divergence at every fin
 logarithmic depth and its affine scale comparison, exact gauge-family identities,
 the zero-factor member for actual suitable weak solutions, mass-ratio layer cake,
 finite and infinite dyadic Carleson embedding at exponent 7/6, mass-ratio stopping,
-the finite-trace contradiction, the critical weak-gradient Sobolev estimate,
-mixed-gradient integrability for actual solutions, parabolic dyadic geometry,
+the finite-trace contradiction, the critical weak-gradient Sobolev and
+mean-subtracted Poincare estimates, time integration of the spatial embedding,
+mixed-gradient integrability for actual solutions, sixteen adjacent parabolic grids,
+arbitrary-scale CKN regularity and its persistent singular charge consequence,
+small-radius gauge monotonicity and doubling,
 and the reduction from a uniform ball charge to upper box dimension.
 These have no proof placeholders. The remaining
-analytic obligations include the PDE scale recurrence, the dissipation trace,
-gauge Frostman and parabolic grid constructions, the velocity-only regularity
+analytic obligations include the PDE scale recurrence, the concrete dissipation trace,
+the gauge Frostman construction, the velocity-only regularity
 criterion, pressure-gradient integrability, and accelerated-frame suitability.
 See [the proof status](docs/proof-status.md) for the precise completed and open steps.
 

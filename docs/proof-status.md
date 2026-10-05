@@ -24,21 +24,27 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Independent solution class and parabolic measure | Proved bridge to CKN | Specification, CKNBridge |
 | Zero logarithmic factors for actual solutions | Proved | CKNBaseline |
 | Gauge identities, small-radius formula and limit zero | Proved | Gauge, IteratedGauge |
+| Small-radius monotonicity and doubling | Proved | LogGaugeRegularity |
+| Successive factors dominate a repeated deepest factor | Proved near zero | LogProductComparison |
 | Divergent reciprocal weights at every finite depth | Proved | IteratedLogSeries |
 | Affine change of scale index | Proved | IteratedScaling |
 | Persistent recurrence forces divergent weighted cost | Proved scalar implication | PersistentActivity, WeightedActivity, IteratedActivity |
 | Critical Sobolev estimate for weak gradients | Proved with a lower-order term | CriticalSobolev |
 | Mixed-gradient cost controlled by dissipation | Proved for actual solutions | MixedGradient |
-| Remove lower-order term by mean subtraction | Open | Critical Poincare development |
+| Remove lower-order term by mean subtraction | Proved for genuine local weak gradients | CriticalPoincare |
+| Singular points have positive symmetric charge at every small scale | Proved for actual solutions | ScaleRegularity |
 | Pressure decomposition and mixed-gradient PDE recurrence | Open | Reuse CKN pressure theory, assemble new estimates |
 | Descendant Carleson bounds imply the dyadic embedding | Proved, finite and infinite families | CarlesonEmbedding, CountableCarleson |
 | Growth and descendant count give coefficient bounds | Proved scalar implication | FrostmanCarleson |
-| Mass-ratio stopping and trace summation | Proved, finite and infinite families | TraceLayerCake, MassRatioStopping |
-| Time integration and concrete dissipation coefficients | Open assembly | Integrated trace development |
+| Mass-ratio stopping and trace summation, including zero masses | Proved, finite and infinite families | TraceLayerCake, MassRatioStopping, MassRatioTrace |
+| Time integration of the spatial embedding | Proved from measurable coefficients | IntegratedCarleson |
+| Instantiate concrete dissipation coefficients | Open assembly | Integrated trace development |
 | Parabolic dyadic partitions and laminarity | Proved | ParabolicDyadic |
 | Adjacent interval containment | Proved | AdjacentIntervals |
-| Shifted product grids and cylinder comparison | Open assembly | Shifted grid development |
-| Gauge Frostman measure on a persistent compact set | Open | New measure construction needed |
+| Sixteen shifted grids and parabolic ball containment | Proved | ShiftedParabolicDyadic |
+| Compare cylinder and box dissipation costs | Open assembly | New trace assembly needed |
+| Positive gauge content gives uniform finite tree capacity and atomic measures | Proved abstract construction | GaugeFrostman |
+| Gauge Frostman measure on a persistent compact set | Open geometric instance and limit passage | GaugeFrostman development |
 | Finite trace excludes a persistent set of positive mass | Proved abstract implication | ActivityTrace |
 | Apply all pieces to the solution, then exhaust the domain | Open | Solution |
 

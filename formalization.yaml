@@ -44,8 +44,11 @@ status:
     restated using Mathlib alone. The zero-factor family member follows from CKN.
     Supporting divergence at every finite logarithmic depth, gauge identities,
     mass-ratio layer cake, dyadic Carleson embedding at exponent 7/6,
-    mass-ratio stopping, critical weak-gradient Sobolev embedding,
-    actual-solution mixed-gradient integrability, parabolic dyadic geometry,
+    mass-ratio stopping including zero masses, critical weak-gradient Sobolev
+    and mean-subtracted Poincare estimates, integrated spatial embedding,
+    actual-solution mixed-gradient integrability, adjacent parabolic grids,
+    arbitrary-scale CKN regularity and persistent singular charge,
+    small-radius gauge monotonicity and doubling,
     finite-trace contradiction and geometric packing arguments are proved.
     The two main solution proofs still contain placeholders and the
     project is not eligible for Palomar registration.
