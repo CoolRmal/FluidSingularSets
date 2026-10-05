@@ -83,6 +83,7 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual mean evolution, AC representative and L^(3/2) acceleration | Proved | WeightedMeanMotion |
 | Quantitative scale-explicit bound for actual mean motion | Proved from suitability and actual pressure gradient | MeanMotionBound |
 | Finite compact density including actual pressure gradients | Proved | CompactBoxDensity |
+| Actual local pressure-gradient choice independence and common charge domination | Proved with joint almost-everywhere equality | PressureGradientUniqueness |
 | Moving-frame geometry, smooth tests and genuine weak divergence/momentum | Proved | AcceleratedFrame |
 | Pointwise relative-energy expansion | Proved | AcceleratedEnergyAlgebra |
 | Moving-frame actual local data for continuous or time L^(3/2) acceleration | Proved | AcceleratedData, AcceleratedPressureLp |
@@ -96,8 +97,10 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual moving relative velocity endpoint cost | Proved with normalized bound at exponent 25/23 | MovingRelativeVelocity |
 | Full suitability for the actual AC mean frame | Proved, with arbitrary spatial offsets and anchor times | AbsolutelyContinuousFrame |
 | Full-neighborhood regularity transfer through actual moving frames | Proved without a Hölder mean hypothesis | AcceleratedRegularity |
+| Strict actual mixed-cost bound persists under small terminal shifts | Proved from actual finite measurable time density | SlidingMixedCost |
 | Local variational Stokes velocity and energy bound | Proved on actual completed gradient space | LocalStokesEnergy |
 | Genuine zero-boundary test Poincare estimate | Proved | StokesTestPoincare |
+| Actual velocity reconstruction on completed gradient space | Proved in L², with true weak gradient and test agreement | StokesEnergyVelocity |
 | Weighted-gradient divergence identities and linear-source inverse | Proved for genuine smooth fields | WeightedBallDivergence |
 | Genuine finite-degree polynomial inverse and smooth ball divergence field | Proved up to an explicit spatial constant | FischerPolynomial, BallPolynomialInverse, PolynomialBallDivergence |
 | Identify the polynomial constant with the actual ball average | Proved, including zero-integral sources | BallBoundaryApproximation, PolynomialBallMeanInverse |
@@ -108,6 +111,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual polynomial density in ball L² and its mean-zero subspace | Proved | PolynomialBallDensity, PolynomialBallMeanDensity |
 | Bounded divergence right inverse on all actual mean-zero ball L² data | Proved with operator norm at most 2 | BallDivergenceInverse |
 | Actual bounded mean-zero Stokes pressure for arbitrary energy forces | Proved with physical sign, norm bound and literal weak test equation | UnitBallStokesPressure |
+| Actual continuous pressure operators and gradient fixing | Proved with bounded pointwise estimates, idempotence and mean-zero uniqueness | RealHilbertDual, StokesPressureProjection, UnitBallPressureProjection |
+| Actual harmonic ball pressure for divergence-free source data | Proved from genuine Hessian testing on the completion | StokesGradientTest, UnitBallPressureHarmonic |
+| First derivatives of actual C¹ harmonic representatives are weakly harmonic | Proved from actual local integration by parts | LocalHarmonicDerivatives |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
 | Apply charge bound to every compact interior patch | Open | Solution |

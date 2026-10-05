@@ -122,6 +122,15 @@ public import FluidSingularSets.PolynomialBallDensity
 public import FluidSingularSets.PolynomialBallMeanDensity
 public import FluidSingularSets.BallDivergenceInverse
 public import FluidSingularSets.UnitBallStokesPressure
+public import FluidSingularSets.RealHilbertDual
+public import FluidSingularSets.StokesPressureProjection
+public import FluidSingularSets.UnitBallPressureProjection
+public import FluidSingularSets.StokesGradientTest
+public import FluidSingularSets.UnitBallPressureHarmonic
+public import FluidSingularSets.LocalHarmonicDerivatives
+public import FluidSingularSets.PressureGradientUniqueness
+public import FluidSingularSets.SlidingMixedCost
+public import FluidSingularSets.StokesEnergyVelocity
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
