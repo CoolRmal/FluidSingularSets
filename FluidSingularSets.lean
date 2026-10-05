@@ -196,6 +196,9 @@ public import FluidSingularSets.FullBallHarmonicRegularity
 public import FluidSingularSets.SuitableHarmonicSmoothApprox
 public import FluidSingularSets.HarmonicHessianSmoothApprox
 
+public import FluidSingularSets.StokesTensorPressurePoisson
+public import FluidSingularSets.ProjectedCutoffConvection
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
