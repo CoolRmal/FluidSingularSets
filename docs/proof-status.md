@@ -145,6 +145,12 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Uniform true Hessian smoothing along compact force trajectories | Proved with a common bounded force operator and genuine fixed-force and moving-trajectory convergence | HarmonicHessianSmoothApprox |
 | Actual tensor-pressure Poisson and viscous harmonic identities | Proved from the genuine variational projection, literal velocity products and actual weak derivatives/divergence | StokesTensorPressurePoisson |
 | Genuine endpoint projected convection estimates | Proved with actual spatial/time Hölder interpolation, integrability, and a bounded cutoff gradient | ProjectedCutoffConvection |
+| Arbitrary-ball Stokes projection | Proved actual physical compact-test equations, zero mean and uniform norm four through affine energy transport | BallStokesPressureProjection |
+| Genuine harmonic pressure decay | Proved actual centered L² pressure oscillation with radius exponent five halves from weak harmonicity | HarmonicPressureOscillation |
+| Local suitable viscous pressure harmonicity | Proved on a common full time set in arbitrary local boxes using the actual weak gradient and divergence | SuitableViscousPressureHarmonic |
+| Genuine bounded joint slice classes | Proved actual spatial L² good slices and time L∞ class bounds from joint L∞ on finite spatial measure | JointTopSliceClasses |
+| Actual cubed-cutoff Sobolev estimate | Proved global weak product gradients and L⁶ control by the actual weighted gradient and cutoff energy | ProjectedCutoffSobolev |
+| Sharp weighted projected convection | Proved literal sixth-cutoff convection integrability and bound with the weighted cubed-cutoff velocity L⁶ moment | ProjectedWeightedConvection |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
