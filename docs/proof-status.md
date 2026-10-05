@@ -207,6 +207,11 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual time-weighted projected energies | Proved true square-root time weights, finite actual energy supremum, original-interval mixed classes and monotonicity | FullBallTimeWeightedEnergy, FullBallTestedEnergyBounds |
 | True time-weighted gradient transfer and Sobolev | Proved actual weighted gradient density control and Sobolev retaining the time weight on dissipation | FullBallTimeWeightedGradientControl, TimeWeightedProjectedSobolev |
 | Genuine time-weighted pressure, harmonic and convection estimates | Proved literal error pairings and sharp five-sixths convection absorption input with the actual tested energy supremum | FullBallTimeWeightedPressureErrors, TimeWeightedProjectedConvection |
+| Genuine endpoint mixed velocity finiteness | Proved the full-ball original L²-time/L⁶-space moment finite directly from the actual suitable energy and weak gradient slices | FullBallVelocityMomentFinite |
+| True tested dissipation and original-gradient transfer | Proved exact compact/native dissipation transport and the original gradient bound on every actual unit plateau | FullBallDissipationTransport, FullBallTestedOriginalGradient |
+| Actual time and Laplacian source errors | Proved genuine integrability and endpoint costs, retaining only an upper derivative bound in the signed time cost | FullBallCutoffSourceErrors |
+| Literal native error and pressure integral decomposition | Proved five actual signed error families, deriving joint pressure integrability from the actual RHS and connecting the true mixed pressure bound by Fubini | FullBallNativeErrorDecomposition, FullBallTestedRhsDecomposition |
+| Genuine weighted convection and margin powers | Proved the literal time-weighted flux bound and actual reciprocal source-coefficient gap powers | FullBallTimeWeightedConvection, FullBallEndpointGapBounds |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 

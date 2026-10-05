@@ -290,6 +290,15 @@ public import FluidSingularSets.TimeWeightedProjectedConvection
 public import FluidSingularSets.TimeWeightedProjectedSobolev
 public import FluidSingularSets.FullBallTestedEnergyBounds
 
+public import FluidSingularSets.FullBallVelocityMomentFinite
+public import FluidSingularSets.FullBallNativeErrorDecomposition
+public import FluidSingularSets.FullBallTestedRhsDecomposition
+public import FluidSingularSets.FullBallTestedOriginalGradient
+public import FluidSingularSets.FullBallDissipationTransport
+public import FluidSingularSets.FullBallCutoffSourceErrors
+public import FluidSingularSets.FullBallTimeWeightedConvection
+public import FluidSingularSets.FullBallEndpointGapBounds
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
