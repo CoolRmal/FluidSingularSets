@@ -53,7 +53,10 @@ weights, full smooth-frame suitability including the local energy inequality,
 and the complete data predicate for time L^(3/2) acceleration are proved. Strong
 local convergence under moving translations, smooth approximation of the actual
 AC mean and its derivative, and the nonlinear Holder product limits are also
-proved. The passage of suitability to the actual AC mean remains in progress. The packing and covering reduction at exponent 25/23 is already proved.
+proved. Actual divergence and momentum pass to strong local limits. The moving
+relative velocity satisfies the required normalized endpoint mixed-norm bound.
+The energy inequality passage to the actual AC mean remains in progress. The
+packing and covering reduction at exponent 25/23 is already proved.
 Local essential boundedness and the formal Hölder regularity convention are also
 proved equivalent for actual suitable solutions at every interior point.
 See [the proof status](docs/proof-status.md) for the completed and open steps.

@@ -101,6 +101,10 @@ public import FluidSingularSets.FischerPolynomial
 public import FluidSingularSets.BallPolynomialInverse
 public import FluidSingularSets.PolynomialBallDivergence
 
+public import FluidSingularSets.StrongLpIntegrands
+public import FluidSingularSets.WeakEquationLimit
+public import FluidSingularSets.MovingRelativeVelocity
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
