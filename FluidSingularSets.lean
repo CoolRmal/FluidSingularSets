@@ -86,6 +86,9 @@ public import FluidSingularSets.AcceleratedFrame
 public import FluidSingularSets.AcceleratedEnergyAlgebra
 public import FluidSingularSets.MeanMotionBound
 public import FluidSingularSets.LocalStokesEnergy
+public import FluidSingularSets.AcceleratedData
+public import FluidSingularSets.NormalizedWeightedCutoff
+public import FluidSingularSets.WeightedBallDivergence
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

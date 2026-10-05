@@ -61,7 +61,9 @@ status:
     pressure-gradient integrability at exponent 5/4 is also proved. The weighted
     Poincare estimate, absolutely continuous mean and actual acceleration formula,
     quantitative scale bound for the mean, and finite compact density with genuine
-    local pressure gradients are proved. The variational Stokes velocity and its
+    local pressure gradients are proved. Canonical normalized smooth weights and
+    the full actual moving-frame data for continuous acceleration are proved.
+    The variational Stokes velocity and its
     energy estimate are constructed; bounded local pressure recovery remains open.
     The box-dimension proof retains one placeholder, so the complete
     project is not yet eligible for Palomar registration.
@@ -100,9 +102,11 @@ review:
   reviewers: []
   notes: >-
     The two completed gauge targets passed the unsandboxed local development
-    Comparator, including all bundled independent kernels, at public checkpoint
-    1180af7. The full Comparator and secure Palomar preflight remain pending the
-    box proof. No external human mathematical review is claimed.
+    Comparator at 1180af7 and the secure Linux Comparator with bubblewrap and all
+    bundled independent kernels at public checkpoint 151a12f. Evidence is
+    https://github.com/CoolRmal/FluidSingularSets/actions/runs/37336630111.
+    The full Comparator and official Palomar preflight remain pending the box
+    proof. No external human mathematical review is claimed.
 
 alignment:
   namespace: "FluidSingularSets"

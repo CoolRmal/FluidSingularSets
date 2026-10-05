@@ -79,14 +79,17 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Compactness of the localized singular set | Proved | RegularSet |
 | Pressure-gradient local integrability | Proved actual weak gradient in local L^(5/4) | PressureGradientFiveFourths |
 | Weighted Poincare around the actual normalized mean | Proved from suitable slices | WeightedVelocityPoincare |
+| Canonical normalized smooth weight and universal scaled bounds | Proved, including the actual mixed Poincare estimate | NormalizedWeightedCutoff |
 | Actual mean evolution, AC representative and L^(3/2) acceleration | Proved | WeightedMeanMotion |
 | Quantitative scale-explicit bound for actual mean motion | Proved from suitability and actual pressure gradient | MeanMotionBound |
 | Finite compact density including actual pressure gradients | Proved | CompactBoxDensity |
 | Moving-frame geometry, smooth tests and genuine weak divergence/momentum | Proved | AcceleratedFrame |
 | Pointwise relative-energy expansion | Proved | AcceleratedEnergyAlgebra |
-| Moving-frame local class and energy inequality | Open | AcceleratedData, AcceleratedEnergy in progress |
+| Moving-frame actual local data for continuous acceleration | Proved | AcceleratedData |
+| Moving-frame local energy inequality and AC acceleration extension | Open | AcceleratedEnergy and approximation in progress |
 | Local variational Stokes velocity and energy bound | Proved on actual completed gradient space | LocalStokesEnergy |
-| Bounded local Stokes pressure recovery | Open | Divergence inverse on a ball needed |
+| Weighted-gradient divergence identities and linear-source inverse | Proved for genuine smooth fields | WeightedBallDivergence |
+| Bounded local Stokes pressure recovery | Open | Uniform divergence inverse on a ball needed |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
@@ -99,9 +102,10 @@ criterion for the independently specified Hölder convention and cubic charge de
 under a local essential bound.
 
 The gauge-only configuration `comparator-gauges.json` passed the local unsandboxed
-development comparison at public proof checkpoint `1180af7`. Both independent gauge
-statements matched, and Lean paranoid, lean4lean, NanoDa, con-leche, con-ron and the
-default Lean kernel accepted their proofs using only the permitted standard axioms.
-The full `comparator.json` still rejects `sorryAx` from the remaining box proof body.
-The secure Linux check and the pinned full Palomar workflow must pass after proof
-completion. The project has not been submitted or registered.
+development comparison at `1180af7`, then the [secure Linux comparison](https://github.com/CoolRmal/FluidSingularSets/actions/runs/37336630111)
+at public proof checkpoint `151a12f`. Both independent gauge statements matched,
+and Lean paranoid, lean4lean, NanoDa, con-leche, con-ron and the default Lean kernel
+accepted their proofs using only the permitted standard axioms. The Linux run used
+the required bubblewrap sandbox. The full `comparator.json` still rejects `sorryAx`
+from the remaining box proof body. The pinned full Palomar workflow must pass
+after proof completion. The project has not been submitted or registered.

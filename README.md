@@ -35,12 +35,12 @@ depth, contradicting positive Frostman mass on the singular set. Compact interio
 localization and exact isometric transport give the full-domain conclusion.
 All these supporting proofs contain no placeholders or custom axioms.
 
-At public proof checkpoint `1180af7`, the gauge-only configuration
-`comparator-gauges.json` passed the local unsandboxed development comparison,
-including Lean paranoid, lean4lean, NanoDa, con-leche, con-ron and the default
-Lean kernel. This verifies the two gauge targets against their independent
-statements. It does not verify the unfinished box target or satisfy Palomar's
-secure mechanical preflight.
+At public proof checkpoint `151a12f`, the gauge-only configuration
+`comparator-gauges.json` passed the [secure Linux comparison](https://github.com/CoolRmal/FluidSingularSets/actions/runs/37336630111)
+with bubblewrap, including Lean paranoid, lean4lean, NanoDa, con-leche, con-ron
+and the default Lean kernel. This verifies both gauge targets against their
+independent statements. The full comparison and official Palomar mechanical
+preflight remain pending the box proof.
 
 For the box bound, local velocity integrability at exponent 10/3 and the actual weak
 pressure gradient at exponent 5/4 are proved. The remaining analytic steps include
@@ -48,7 +48,10 @@ accelerated-frame suitability and the velocity-only regularity criterion.
 The actual absolutely continuous mean, its acceleration equation and quantitative
 scale bound, the weighted Poincare estimate, and the finite compact density measure
 are proved. The variational Stokes velocity and energy estimate are also constructed;
-recovering a bounded local pressure remains open. The packing and covering reduction at exponent 25/23 is already proved.
+recovering a bounded local pressure remains open. Canonical normalized smooth
+weights and the full moving-frame data predicate for continuous acceleration
+are proved. The local energy inequality and the extension to the actual AC mean
+remain in progress. The packing and covering reduction at exponent 25/23 is already proved.
 Local essential boundedness and the formal Hölder regularity convention are also
 proved equivalent for actual suitable solutions at every interior point.
 See [the proof status](docs/proof-status.md) for the completed and open steps.
