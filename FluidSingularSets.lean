@@ -206,6 +206,12 @@ public import FluidSingularSets.JointTopSliceClasses
 public import FluidSingularSets.ProjectedCutoffSobolev
 public import FluidSingularSets.ProjectedWeightedConvection
 
+public import FluidSingularSets.SuitableProjectedLocalEnergy
+public import FluidSingularSets.ProjectedCutoffMixedEnergy
+public import FluidSingularSets.BallStokesPressureSources
+public import FluidSingularSets.MixedQuadraticSources
+public import FluidSingularSets.SuitableProjectedPressureIdentification
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

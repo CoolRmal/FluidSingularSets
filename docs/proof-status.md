@@ -151,6 +151,11 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Genuine bounded joint slice classes | Proved actual spatial L² good slices and time L∞ class bounds from joint L∞ on finite spatial measure | JointTopSliceClasses |
 | Actual cubed-cutoff Sobolev estimate | Proved global weak product gradients and L⁶ control by the actual weighted gradient and cutoff energy | ProjectedCutoffSobolev |
 | Sharp weighted projected convection | Proved literal sixth-cutoff convection integrability and bound with the weighted cubed-cutoff velocity L⁶ moment | ProjectedWeightedConvection |
+| Actual nonsmooth suitable projected local energy | Proved from suitability and actual compact tests; all joint approximation, good-slice, mixed-pressure and strong-limit inputs are discharged | SuitableProjectedLocalEnergy |
+| Genuine weighted mixed cutoff energy | Proved from actual Sobolev slices by Tonelli, with canonical radius-gap cutoffs and suitable-data wrappers | ProjectedCutoffMixedEnergy |
+| Actual arbitrary-ball pressure sources | Proved true tensor/nonlinear Poisson, viscous harmonicity and radius-uniform Stokes source bounds | BallStokesPressureSources |
+| Quadratic mixed source pairing | Proved actual source L¹ spatial L² control and integrable pressure/velocity pairing with a quadratic mixed source bound | MixedQuadraticSources |
+| Actual projected pressure identification | Proved the energy pressure equals the literal nonlinear and viscous Stokes pressures plus the original spatial average | SuitableProjectedPressureIdentification |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |

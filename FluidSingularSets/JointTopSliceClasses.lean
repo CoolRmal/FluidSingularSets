@@ -71,7 +71,8 @@ theorem actualSliceLp_memLp_top_of_joint_memLp_top
   have hb : ∀ᵐ z ∂μ.prod ν, ‖F z‖ ≤ (C : ℝ) := hC.mono fun _ hx ↦ by exact_mod_cast hx
   refine ⟨actualSlice_memLp_two_of_joint_uniform_bound hF.aestronglyMeasurable hb, ?_⟩
   apply memLp_iff.mpr
-  exact (actualSliceLp_eLpNorm_top_le_of_joint_uniform_bound hF.aestronglyMeasurable hb).trans_lt (ENNReal.mul_lt_top ENNReal.ofReal_lt_top
+  exact (actualSliceLp_eLpNorm_top_le_of_joint_uniform_bound
+    hF.aestronglyMeasurable hb).trans_lt (ENNReal.mul_lt_top ENNReal.ofReal_lt_top
       (ENNReal.rpow_lt_top_of_nonneg (by norm_num) (measure_ne_top μ univ)))
 
 end FluidSingularSets
