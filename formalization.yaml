@@ -94,7 +94,11 @@ fidelity:
 review:
   status: "In progress; internal automated statement audit"
   reviewers: []
-  notes: "No external human mathematical review or completed Comparator check is claimed."
+  notes: >-
+    The two completed gauge targets passed the unsandboxed local development
+    Comparator, including all bundled independent kernels, at public checkpoint
+    1180af7. The full Comparator and secure Palomar preflight remain pending the
+    box proof. No external human mathematical review is claimed.
 
 alignment:
   namespace: "FluidSingularSets"

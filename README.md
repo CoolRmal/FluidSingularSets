@@ -35,6 +35,13 @@ depth, contradicting positive Frostman mass on the singular set. Compact interio
 localization and exact isometric transport give the full-domain conclusion.
 All these supporting proofs contain no placeholders or custom axioms.
 
+At public proof checkpoint `1180af7`, the gauge-only configuration
+`comparator-gauges.json` passed the local unsandboxed development comparison,
+including Lean paranoid, lean4lean, NanoDa, con-leche, con-ron and the default
+Lean kernel. This verifies the two gauge targets against their independent
+statements. It does not verify the unfinished box target or satisfy Palomar's
+secure mechanical preflight.
+
 For the box bound, local velocity integrability at exponent 10/3 and the actual weak
 pressure gradient at exponent 5/4 are proved. The remaining analytic steps include
 weighted mean motion, accelerated-frame suitability, and the velocity-only regularity

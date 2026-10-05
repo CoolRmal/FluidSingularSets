@@ -91,7 +91,10 @@ Caccioppoli and CKN regularity complete the converse. RegularityBridge also prov
 criterion for the independently specified Hölder convention and cubic charge decay
 under a local essential bound.
 
-Comparator's development check currently matches the independent statements and
-definitions, then rejects `sorryAx` from the remaining box proof body. This is not a
-passing Comparator result. The secure Linux check and the pinned full Palomar workflow
-must pass after proof completion. The project has not been submitted or registered.
+The gauge-only configuration `comparator-gauges.json` passed the local unsandboxed
+development comparison at public proof checkpoint `1180af7`. Both independent gauge
+statements matched, and Lean paranoid, lean4lean, NanoDa, con-leche, con-ron and the
+default Lean kernel accepted their proofs using only the permitted standard axioms.
+The full `comparator.json` still rejects `sorryAx` from the remaining box proof body.
+The secure Linux check and the pinned full Palomar workflow must pass after proof
+completion. The project has not been submitted or registered.
