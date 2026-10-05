@@ -42,6 +42,13 @@ public import FluidSingularSets.ParabolicRefinement
 public import FluidSingularSets.GaugeFrostmanLimit
 public import FluidSingularSets.GaugeTransport
 public import FluidSingularSets.MixedPressure
+public import FluidSingularSets.ActivityMeasurability
+public import FluidSingularSets.ParabolicFrostmanGeometry
+public import FluidSingularSets.GaugeFrostmanApproximations
+public import FluidSingularSets.GaugeFrostmanConstruction
+public import FluidSingularSets.SpatialTraceCoefficients
+public import FluidSingularSets.ShiftedSpatialRepresentation
+public import FluidSingularSets.MixedVelocityDecay
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

@@ -35,9 +35,12 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Singular points have positive symmetric charge at every small scale | Proved for actual solutions | ScaleRegularity |
 | Finite real velocity-pressure activity | Proved for actual solutions | RealCharge |
 | Mean-subtracted cubic charge and mixed-gradient pressure decay | Proved for actual solutions | MixedPressure |
+| Velocity and pressure decay on arbitrary smaller time windows | Proved for actual solutions | MixedVelocityDecay |
 | Mixed-gradient PDE recurrence | Open velocity decay and local energy assembly | New scale assembly needed |
 | Descendant Carleson bounds imply the dyadic embedding | Proved, finite and infinite families | CarlesonEmbedding, CountableCarleson |
 | Growth and descendant count give coefficient bounds | Proved scalar implication | FrostmanCarleson |
+| Actual slice-cell masses give descendant coefficient bounds | Proved, including infinite series | SpatialTraceCoefficients |
+| Joint measurability of actual activity and mixed-gradient masses | Proved for actual solutions | ActivityMeasurability |
 | Mass-ratio stopping and trace summation, including zero masses | Proved, finite and infinite families | TraceLayerCake, MassRatioStopping, MassRatioTrace |
 | Time integration of the spatial embedding | Proved from measurable coefficients | IntegratedCarleson |
 | Instantiate concrete dissipation coefficients | Open assembly | Integrated trace development |
@@ -50,7 +53,8 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Compare cylinder and box dissipation costs | Open assembly | New trace assembly needed |
 | Positive gauge content gives uniform finite tree capacity and atomic measures | Proved abstract construction | GaugeFrostman |
 | Compact weak limit preserving eventual open-ball bounds | Proved abstract limit construction | GaugeFrostmanLimit |
-| Gauge Frostman measure on a persistent compact set | Open geometric instance and limit passage | GaugeFrostman development |
+| Actual cell tree, grouped atomic masses and uniform ball bounds | Proved | ParabolicFrostmanGeometry, GaugeFrostmanApproximations |
+| Gauge Frostman measure on any compact set of positive gauge measure | Proved under local gauge regularity | GaugeFrostmanConstruction |
 | Finite trace excludes a persistent set of positive mass | Proved abstract implication | ActivityTrace |
 | Transfer every gauge between parabolic carriers | Proved on every set | GaugeTransport |
 | Compact interior nullity implies full-domain nullity | Proved | CompactLocalization |

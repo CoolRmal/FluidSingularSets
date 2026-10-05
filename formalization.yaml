@@ -48,9 +48,11 @@ status:
     and mean-subtracted Poincare estimates, integrated spatial embedding,
     actual-solution mixed-gradient integrability, adjacent parabolic grids,
     arbitrary-scale CKN regularity and persistent singular charge,
-    finite real activity, actual-solution mixed-gradient pressure decay,
+    finite real activity and joint activity measurability,
+    actual-solution velocity and mixed-gradient pressure decay on smaller windows,
     small-radius gauge monotonicity and doubling, finite capacity measures,
-    compact weak-limit construction and compact localization,
+    compact weak-limit construction, geometric gauge Frostman construction,
+    concrete slice-cell descendant bounds and compact localization,
     finite-trace contradiction and geometric packing arguments are proved.
     The two main solution proofs still contain placeholders and the
     project is not eligible for Palomar registration.

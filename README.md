@@ -37,11 +37,14 @@ mean-subtracted Poincare estimates, time integration of the spatial embedding,
 mixed-gradient integrability for actual solutions, sixteen adjacent parabolic grids,
 arbitrary-scale CKN regularity and its persistent singular charge consequence,
 small-radius gauge monotonicity and doubling,
-actual-solution mixed-gradient pressure decay, and compact measure limit construction,
+actual-solution velocity and pressure decay on smaller time windows,
+joint measurability of the actual activity and mixed-gradient masses,
+concrete slice-cell descendant coefficient bounds, the geometric gauge Frostman
+construction and compact measure limit construction,
 and the reduction from a uniform ball charge to upper box dimension.
 These have no proof placeholders. The remaining
 analytic obligations include the PDE scale recurrence, the concrete dissipation trace,
-the geometric gauge Frostman construction, the velocity-only regularity
+the velocity-only regularity
 criterion, pressure-gradient integrability, and accelerated-frame suitability.
 See [the proof status](docs/proof-status.md) for the precise completed and open steps.
 
