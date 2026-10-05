@@ -88,7 +88,8 @@ status:
     approximations are proved from original suitability;
     actual S1 time L∞ curve bounds, mixed pressure-velocity integral limits and
     exact endpoint cubic interpolation, genuine harmonic-preserving spatial
-    approximation and actual scalar pressure-value kernels are proved. The actual nonsmooth
+    approximation, actual scalar pressure-value/Hessian kernels, jointly smooth
+    harmonic corrections and strong operator-curve limits are proved. The actual nonsmooth
     correction limit remains. A conditional
     uniform lower-charge reduction at exponent 25/23 is complete, including
     genuine terminal shifts, moving frames and common compact measure. Its

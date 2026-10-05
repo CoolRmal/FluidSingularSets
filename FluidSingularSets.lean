@@ -184,6 +184,9 @@ public import FluidSingularSets.SuitableVelocityTimeBound
 public import FluidSingularSets.HarmonicSpatialSmoothApprox
 public import FluidSingularSets.UniformMixedSlices
 public import FluidSingularSets.CanonicalForcePressureValues
+public import FluidSingularSets.UnitBallHarmonicForceHessian
+public import FluidSingularSets.StrongOperatorCurveLimits
+public import FluidSingularSets.HarmonicJointSmoothApprox
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

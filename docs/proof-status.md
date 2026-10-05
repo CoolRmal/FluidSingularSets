@@ -132,6 +132,8 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual harmonic-preserving time approximations | Proved by smoothing genuine force derivatives and their exact operator-image primitives, with uniform field and strong derivative convergence | HarmonicTimeSmoothApprox |
 | Actual harmonic-preserving spatial approximations | Proved by smoothing the canonical pressure with true harmonicity, divergence and derivative convergence on interior balls | HarmonicSpatialSmoothApprox |
 | Actual scalar pressure-value operator and uniform mixed class limits | Proved with the genuine force norm bound, Lipschitz evaluation kernel, and derived good spatial slices | CanonicalForcePressureValues, UniformMixedSlices |
+| Actual joint smooth harmonic pressure corrections | Proved with exact time-gradient compatibility, interior harmonicity/divergence and quantitative smoothing errors | HarmonicJointSmoothApprox |
+| Actual force Hessian operator and strong operator-curve limits | Proved with true force norm bounds and Bochner dominated convergence, including varying input curves | UnitBallHarmonicForceHessian, StrongOperatorCurveLimits |
 | Projected local energy for actual smooth harmonic corrections | Proved from the original suitable momentum, divergence, weak gradient and energy equations; actual nonsmooth correction limit remains | ProjectedEnergyAlgebra, SmoothProjectedLocalEnergy |
 | Actual time L∞ velocity and harmonic correction bounds | Proved quantitatively from the genuine S1 slice energy bound | SuitableVelocityTimeBound |
 | Genuine pressure-velocity integral limits | Proved for true spatial L² classes with time L¹/L∞ bounds and strong convergence | StrongMixedPairings, MixedSlicePairings |
