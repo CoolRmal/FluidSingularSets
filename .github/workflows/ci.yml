@@ -25,8 +25,7 @@ jobs:
         run: ruby scripts/validate-formalization.rb
 
   build:
-    name: Build with Lean
-    needs: source
+    name: Build completed support library and standalone targets
     runs-on: ubuntu-24.04
     timeout-minutes: 90
     steps:

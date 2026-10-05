@@ -17,6 +17,15 @@ public import FluidSingularSets.CKNBridge
 public import FluidSingularSets.CKNBaseline
 public import FluidSingularSets.ActivityTrace
 public import FluidSingularSets.CarlesonEmbedding
+public import FluidSingularSets.MassRatioStopping
+public import FluidSingularSets.CountableCarleson
+public import FluidSingularSets.MixedGradient
+public import FluidSingularSets.CriticalSobolev
+public import FluidSingularSets.RegularityBridge
+public import FluidSingularSets.ParabolicDyadic
+public import FluidSingularSets.FrostmanCarleson
+public import FluidSingularSets.AdjacentIntervals
+public import FluidSingularSets.IteratedScaling
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

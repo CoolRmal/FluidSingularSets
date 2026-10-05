@@ -29,14 +29,17 @@ and has not been registered on Palomar.** A successful development build include
 intentional Challenge placeholders; it does not certify the two results.
 
 Completed supporting results include persistent-activity divergence at every finite
-logarithmic depth, exact gauge-family identities and small-radius agreement,
+logarithmic depth and its affine scale comparison, exact gauge-family identities,
 the zero-factor member for actual suitable weak solutions, mass-ratio layer cake,
-dyadic Carleson embedding at exponent 7/6, the finite-trace contradiction,
-finite-mass packing estimates, and the reduction from a uniform ball charge
-to upper box dimension. These have no proof placeholders. The remaining
+finite and infinite dyadic Carleson embedding at exponent 7/6, mass-ratio stopping,
+the finite-trace contradiction, the critical weak-gradient Sobolev estimate,
+mixed-gradient integrability for actual solutions, parabolic dyadic geometry,
+and the reduction from a uniform ball charge to upper box dimension.
+These have no proof placeholders. The remaining
 analytic obligations include the PDE scale recurrence, the dissipation trace,
 gauge Frostman and parabolic grid constructions, the velocity-only regularity
 criterion, pressure-gradient integrability, and accelerated-frame suitability.
+See [the proof status](docs/proof-status.md) for the precise completed and open steps.
 
 The project pins Lean and Mathlib to `v4.35.0-rc2` and imports the
 [Caffarelli–Kohn–Nirenberg library](https://github.com/scottnarmstrong/CaffarelliKohnNirenberg)
