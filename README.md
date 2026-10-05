@@ -64,7 +64,11 @@ Actual C² representatives and uniform interior gradient and Hessian estimates
 are proved. The actual nonsmooth projected local energy inequality is proved, including
 its analytic cancellations, genuine harmonic pressure primitive, and strong
 limit. Quantitative weighted cutoff estimates and pressure decay are also
-proved; their all-scale regularity iteration remains to be completed.
+proved. The full-ball pressure values, gradients, and Hessians now define actual
+bounded linear operators on arbitrary compact interiors, with quantitative
+boundary-margin estimates. Original-interval mean-pressure cancellation and
+the sharp weighted-energy convection estimate are also proved. Their
+all-scale regularity iteration remains to be completed.
 
 A completed conditional reduction turns a uniform velocity-only regularity
 criterion into the required singular lower charge at exponent 25/23, including

@@ -248,6 +248,14 @@ public import FluidSingularSets.TestedTimeEnergyBounds
 
 public import FluidSingularSets.ProjectedCylinderCutoff
 
+public import FluidSingularSets.FullBallHarmonicOperators
+public import FluidSingularSets.FullBallHarmonicValues
+public import FluidSingularSets.FullBallProjectedSources
+public import FluidSingularSets.LocalBoxProjectedWeakGradient
+public import FluidSingularSets.ProjectedCutoffErrors
+public import FluidSingularSets.SuitablePressureMeanPairings
+public import FluidSingularSets.WeightedProjectedConvection
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

@@ -179,6 +179,12 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Genuine nested pressure oscillation moments | Proved true mean-removed harmonic decay, time integration and a universal contraction with the actual suitable L⁶ source | UnitBallPressureOscillationMoment |
 | Quantitative actual tested time energy | Proved simultaneous energy essential supremum and full dissipation bounds from the literal bounded tested right hand side | TestedTimeEnergyBounds |
 | Actual smooth cutoff with arbitrary future cap | Proved compact supported sixth-power tests and upper time-derivative estimates independent of future cap width | ProjectedCylinderCutoff |
+| Actual source classes on every compact interior | Proved true subtype/product measure transport and genuine suitable velocity, gradient, pressure and original-interval slice classes for every interior radius | FullBallProjectedSources |
+| True harmonic operators on arbitrary compact interiors | Proved full-ball representative linearity and actual continuous gradient, value, Hessian and dual-kernel operators with margin-dependent bounds | FullBallHarmonicOperators, FullBallHarmonicValues |
+| Actual original-interval projected weak gradients | Proved genuine ambient potential, Hessian, weak gradient and divergence with the supplied force primitive and original interval | LocalBoxProjectedWeakGradient |
+| Actual harmonic and pressure cutoff errors | Proved literal component pairings, genuine external source norms and Young bounds retaining the full-ball gradient term | ProjectedCutoffErrors |
+| Genuine mean-pressure cancellation on original intervals | Proved actual spatial mean integrability and exact tested pressure decomposition into nonlinear and viscous pairings | SuitablePressureMeanPairings |
+| Actual weighted-energy convection bound | Proved true cubed-cutoff energy supremum and mixed Sobolev interpolation with energy exponent five sixths | WeightedProjectedConvection |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
