@@ -82,7 +82,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual mean evolution, AC representative and L^(3/2) acceleration | Proved | WeightedMeanMotion |
 | Quantitative scale-explicit bound for mean motion | Open | MeanMotionBound in progress |
 | Finite compact density including actual pressure gradients | Proved | CompactBoxDensity |
-| Accelerated-frame suitability | Open | New weak-equation transport needed |
+| Moving-frame geometry, smooth tests and genuine weak divergence/momentum | Proved | AcceleratedFrame |
+| Pointwise relative-energy expansion | Proved | AcceleratedEnergyAlgebra |
+| Moving-frame local class and energy inequality | Open | AcceleratedData, AcceleratedEnergy in progress |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
 | Apply charge bound to every compact interior patch | Open | Solution |

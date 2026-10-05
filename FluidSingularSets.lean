@@ -82,6 +82,8 @@ public import FluidSingularSets.SuitableGaugeNullity
 public import FluidSingularSets.WeightedVelocityPoincare
 public import FluidSingularSets.WeightedMeanMotion
 public import FluidSingularSets.CompactBoxDensity
+public import FluidSingularSets.AcceleratedFrame
+public import FluidSingularSets.AcceleratedEnergyAlgebra
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
