@@ -1,0 +1,599 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newcommand{\dimbox}{\overline{\dim}_{B,\mathrm{par}}}
+\title{Packing dimension and logarithmic gauges\\for the Navier--Stokes singular set}
+\author{Research draft}
+\date{October 3, 2026}
+\begin{document}
+\maketitle
+\noindent\textbf{Status.} The power-gauge argument has received internal proof checks, including a separate check of the endpoint packing-measure conclusion. The logarithmic extensions below are newly derived research arguments. This document is not an externally peer-reviewed result. The regularity input for the packing arguments is stated below. No optimality claim is made.
+
+\section{Statement}
+Let $(u,p)$ be an ordinary suitable weak solution of the unforced three-dimensional Navier--Stokes equations on an open spacetime domain $\mathcal O$:
+$$
+\partial_tu-\Delta u+(u\cdot\nabla)u+\nabla p=0,
+\qquad \operatorname{div}u=0.
+$$
+The assumptions are
+$$
+u\in L^\infty_{t,\mathrm{loc}}L^2_{x,\mathrm{loc}}
+\cap L^2_{t,\mathrm{loc}}H^1_{x,\mathrm{loc}},
+\qquad p\in L^{3/2}_{\mathrm{loc}},
+$$
+and the usual local energy inequality. Let $S$ be the set of points having no spacetime neighborhood on which $u$ is essentially bounded. Set
+$$
+Q_R(x,t)=B_R(x)\times(t-R^2,t),\qquad
+ d_{\mathrm{par}}((x,t),(y,s))=\max\{|x-y|,|t-s|^{1/2}\}.
+$$
+The covering number $N_{\mathrm{par}}(E,R)$ uses balls for this metric, and
+$$
+\dimbox E=\limsup_{R\downarrow0}
+\frac{\log N_{\mathrm{par}}(E,R)}{\log(1/R)}.
+$$
+
+\begin{theorem}
+For every compact $K\Subset\mathcal O$,
+$$
+\boxed{\dimbox(S\cap K)\le\frac{25}{23}.}
+$$
+Moreover, writing $\mathcal P^d_{\mathrm{par}}$ for packing measure in the parabolic metric,
+$$
+\boxed{\mathcal P^{25/23}_{\mathrm{par}}(S)=0,
+\qquad \dim_{P,\mathrm{par}}S\le\frac{25}{23}.}
+$$
+The same packing-dimension upper bound holds in the ordinary Euclidean spacetime metric.
+\end{theorem}
+
+\paragraph{The regularity input.}
+Li--Wang--Zhou's Theorem 1.2 \cite{LWZ}, with exponents $(2,6)$, gives a universal $\varepsilon_*>0$ such that
+$$
+\|v\|_{L^2(-1,0;L^6(B_1))}<\varepsilon_*
+\quad\Longrightarrow\quad
+v\text{ is regular at the terminal origin}.
+\eqno{(1)}
+$$
+The pair is admissible because $1\le 2/2+3/6=3/2<2$. The pressure retains its usual suitability integrability; its smallness is not required.
+
+\section{An integrable density}
+Throughout a fixed compact interior patch, use
+$$
+F=|\nabla u|^2+|u|^{10/3}+|\nabla p|^{5/4}.
+\eqno{(2)}
+$$
+We first check $F\in L^1_{\mathrm{loc}}$. The velocity terms follow from the energy class and Sobolev interpolation. For the pressure term, choose a smooth spatial cutoff $\chi$ supported in a larger interior ball and equal to one in a smaller ball. Extend the cutoff products by zero and define, summing over $i,j$,
+$$
+p_0=\mathcal R_i\mathcal R_j(\chi u_i u_j).
+$$
+Since
+$$
+\nabla(\chi u_i u_j)\in L^{5/4}_{t,x},
+\qquad \frac{1}{10/3}+\frac12=\frac45,
+$$
+Riesz-transform boundedness gives $\nabla p_0\in L^{5/4}_{t,x}$. The terms containing $\nabla\chi$ are integrable because $u\otimes u\in L^{5/3}_{t,x}$ locally. Also $p_0\in L^{5/3}_{t,x}$. The pressure Poisson equation makes $p-p_0$ spatially harmonic in the smaller ball. It belongs to $L^{3/2}_{t,x}$ there. Interior harmonic estimates therefore put its gradient in $L^{3/2}_tL^\infty_x$ on a further smaller ball, hence in $L^{5/4}_{t,x}$. This proves the assertion.
+
+\section{The outer mean controls the translation}
+Translate the prospective singular point to $(0,0)$. Fix a nonnegative $\phi\in C_c^\infty(B_1)$ with $\int\phi=1$, and put
+$$
+\phi_R(x)=R^{-3}\phi(x/R),\qquad
+m(t)=\int\phi_R(x)u(x,t)\,dx,
+\qquad I_R=(-R^2,0).
+$$
+All constants below depend only on this fixed weight and fixed radius ratios.
+
+\begin{lemma}
+For $0<R\le1$ and $0<\varepsilon\le1$, the smallness condition
+$$
+A:=\int_{Q_{2R}(0,0)}F\le\varepsilon R^{25/23}
+\eqno{(3)}
+$$
+implies
+$$
+M:=\sup_{I_R}|m(t)|
+\le C\varepsilon^{3/10}R^{-27/23}.
+\eqno{(4)}
+$$
+\end{lemma}
+
+\begin{proof}
+At every fixed positive radius the mean has an absolutely continuous representative. Indeed, integrating all spatial derivatives onto the fixed test function in the momentum equation gives
+$$
+m'=\int(\Delta\phi_R)u
++\int (u\cdot\nabla\phi_R)u
++\int p\nabla\phi_R.
+\eqno{(5)}
+$$
+The first two terms are bounded in time by local energy, and the last is in $L^{3/2}_t$. Thus $m\in W^{1,3/2}(I_R)$, including its terminal trace.
+
+For the quantitative estimate, instead retain convection as velocity times its gradient:
+$$
+m'=-\int\nabla\phi_R\cdot\nabla u
+-\int\phi_R(u\cdot\nabla)u
+-\int\phi_R\nabla p.
+$$
+H\"older's inequality and $|Q_R|\asymp R^5$ give
+$$
+\begin{aligned}
+\int_{I_R}|m'|
+&\le CR^{-4}\int_{Q_R}|\nabla u|
+ +CR^{-3}\int_{Q_R}|u||\nabla u|
+ +CR^{-3}\int_{Q_R}|\nabla p|\\
+&\le C\bigl(R^{-3/2}A^{1/2}+R^{-2}A^{4/5}\bigr).
+\end{aligned}
+\eqno{(6)}
+$$
+For the nonlinear term the unused volume exponent is $1-3/10-1/2=1/5$. For the pressure term it is $1-4/5=1/5$. The time average also obeys
+$$
+\frac1{R^2}\int_{I_R}|m|
+\le CR^{-5}\int_{Q_R}|u|
+\le CR^{-3/2}A^{3/10}.
+\eqno{(7)}
+$$
+A supremum is bounded by the average plus total variation. Substitution of (3) into (6)--(7) yields
+$$
+M\le C\bigl(
+\varepsilon^{3/10}R^{-27/23}
++\varepsilon^{1/2}R^{-22/23}
++\varepsilon^{4/5}R^{-26/23}\bigr).
+$$
+Since $R,\varepsilon\le1$, this is (4).
+\end{proof}
+
+\section{A small cylinder following that mean}
+Fix $0<c\le1/16$ and set
+$$
+r=cR^{25/23},\qquad
+X(t)=\int_0^t m(\tau)\,d\tau,
+\qquad -r^2<t<0.
+\eqno{(8)}
+$$
+By (4),
+$$
+\sup_{-r^2<t<0}|X(t)|\le r^2M
+\le Cc^2\varepsilon^{3/10}R.
+\eqno{(9)}
+$$
+Choose a universal $\varepsilon>0$ sufficiently small that this is at most $R/4$. Since $r\le R/16$, the translated ball $B_r(X(t))$ stays inside $B_{2R}$.
+
+Subtract the mean in these coordinates:
+$$
+v(y,t)=u(X(t)+y,t)-m(t),\qquad
+\pi(y,t)=p(X(t)+y,t)+m'(t)\cdot y.
+\eqno{(10)}
+$$
+This is again an ordinary suitable solution on $Q_r$. Here is why the accelerated frame is legitimate. We have $m\in W^{1,3/2}_t\subset C_t$ at fixed $R$, so $X$ is $C^1$, $m$ is bounded, and the added affine pressure lies in $L^{3/2}_{t,x}$. For smooth $m$, the chain rule gives the equations and the relative local energy inequality: the acceleration $-m'$ in the velocity equation is canceled by the affine pressure gradient. For the stated $m$, approximate it in $W^{1,3/2}_t$ by smooth functions on a slightly larger time interval. Their means converge uniformly and their paths in $C^1$. On any compact subtube, translated velocities converge strongly in $L^3$, translated gradients in $L^2$, and translated pressures in $L^{3/2}$. The smooth-frame equations and distributional local energy inequalities therefore pass to (10), including the affine pressure. No bound on $m'$ is used in the regularity estimate.
+
+Weighted Sobolev--Poincar\'e on the outer ball gives, for almost every time,
+$$
+\|u(t)-m(t)\|_{L^6(B_{2R})}
+\le C\|\nabla u(t)\|_{L^2(B_{2R})}.
+$$
+Restricting to the translated inner ball and integrating gives
+$$
+\|v\|_{L^2(-r^2,0;L^6(B_r))}^2
+\le C\int_{-r^2}^0\int_{B_{2R}}|\nabla u|^2
+\le CA.
+\eqno{(11)}
+$$
+Under Navier--Stokes scaling,
+$$
+V(y,\tau)=r\,v(ry,r^2\tau),\qquad
+\|V\|_{L^2(-1,0;L^6(B_1))}^2
+=r^{-1}\|v\|_{L^2(-r^2,0;L^6(B_r))}^2
+\le C\varepsilon/c.
+\eqno{(12)}
+$$
+Decrease the fixed $\varepsilon$ so that the last norm is below $\varepsilon_*/2$. Applying (1) proves regularity at the terminal origin in the translated frame, and hence in the original coordinates.
+
+\paragraph{The full-neighborhood convention.}
+For completeness, extend the same mean and frame slightly forward using (5). Finite-mixed-norm translation continuity preserves the strict smallness in (12) on cylinders with sufficiently small positive terminal time $h$. Their scaled $L^\infty_tL^2_x$ norms have a common finite bound $B$. The final $p=2$ argument in \cite{LWZ} gives a common positive regularity radius: its harmonic contribution at normalized radius $\ell$ is bounded by $C\ell B^3$. Choose one small $\ell$, then a positive $h$ smaller than half the resulting radius squared. The bounded cylinder ending at $h$ contains $(0,0)$ in its interior. The bounded mean and the $C^1$ translation transfer this neighborhood back to $u$.
+
+We have proved the following one-scale implication, with universal constants:
+$$
+\int_{Q_{2R}(z)}F\le\varepsilon R^{25/23}
+\quad\Longrightarrow\quad z\text{ is regular}.
+\eqno{(13)}
+$$
+Consequently every singular point satisfies the reverse strict inequality at every sufficiently small interior radius.
+
+\section{Equal-scale packing finishes the proof}
+Fix $K\Subset\mathcal O$ and a larger compact interior patch $K'$ containing all sufficiently small cylinders centered on $K$. Choose a maximal finite family $z_1,\ldots,z_n\in S\cap K$ with pairwise parabolic distances at least $8R$. Such a family is finite because $K$ is bounded.
+
+The cylinders $Q_{2R}(z_j)$ are disjoint. An intersection would force spatial distance less than $4R$ and time difference less than $4R^2$, hence parabolic distance less than $4R$. Maximality also gives a cover of $S\cap K$ by symmetric parabolic balls of radius $8R$. Applying the contrapositive of (13),
+$$
+n\varepsilon R^{25/23}
+<\sum_{j=1}^n\int_{Q_{2R}(z_j)}F
+\le\int_{K'}F<\infty.
+$$
+Therefore
+$$
+N_{\mathrm{par}}(S\cap K,8R)\le C_KR^{-25/23},
+$$
+which proves the box-dimension assertion.
+
+\section{The endpoint packing measure vanishes}
+Put $d=25/23$ and fix $E=S\cap K$ for compact $K\Subset\mathcal O$. The singular set is relatively closed, so $E$ is compact. The preceding covering bound implies that $E$ has zero spacetime Lebesgue measure: a radius-$R$ parabolic ball has volume comparable to $R^5$, while $N_{\mathrm{par}}(E,R)\le C_KR^{-d}$ and $d<5$. Define the finite measure $\mu=F\,dx\,dt$ on a fixed larger compact interior neighborhood. Absolute continuity therefore gives $\mu(E)=0$.
+
+A $\delta$-packing of $E$ is any finite or countable family of pairwise disjoint parabolic metric balls $C_{r_j}(z_j)$, centered at $z_j\in E$, with $0<r_j\le\delta$. Define
+$$
+\mathcal P^d_{\delta,\mathrm{par}}(E)
+=\sup\left\{\sum_j(2r_j)^d:
+\{C_{r_j}(z_j)\}_j\text{ is a }\delta\text{-packing of }E\right\},
+\qquad
+\mathcal P^d_{0,\mathrm{par}}(E)
+=\lim_{\delta\downarrow0}\mathcal P^d_{\delta,\mathrm{par}}(E).
+$$
+For small enough $\delta$ all balls and backward cylinders below lie in the fixed interior neighborhood. Since $Q_{r_j}(z_j)\subset C_{r_j}(z_j)$, the cylinders are disjoint. The contrapositive of (13), used at $R=r_j/2$, gives
+$$
+\varepsilon(r_j/2)^d
+<\mu\bigl(Q_{r_j}(z_j)\bigr).
+$$
+Their union lies in the parabolic $\delta$-neighborhood $N_\delta(E)$. Consequently every such packing satisfies
+$$
+\sum_j(2r_j)^d
+\le\frac{4^d}{\varepsilon}\sum_j\mu\bigl(Q_{r_j}(z_j)\bigr)
+\le\frac{4^d}{\varepsilon}\mu\bigl(N_\delta(E)\bigr).
+$$
+Because $E$ is compact and $\mu$ is finite nearby, the last expression tends to zero as $\delta\downarrow0$. Taking the supremum proves
+$$
+\mathcal P^d_{0,\mathrm{par}}(S\cap K)=0.
+$$
+Packing measure is the outer measure obtained from this premeasure by countable covers, so $\mathcal P^d_{\mathrm{par}}(S\cap K)=0$. Exhausting $\mathcal O$ by countably many compact sets proves $\mathcal P^d_{\mathrm{par}}(S)=0$. This argument works at the exact endpoint; no increase in the exponent is needed.
+
+On each bounded spacetime patch, the identity from the parabolic metric to the Euclidean metric is Lipschitz: if $d_{\mathrm{par}}(z,w)\le1$, then $|z-w|_{\mathrm{Eucl}}\le\sqrt2\,d_{\mathrm{par}}(z,w)$. Packing dimension cannot increase under a Lipschitz map. A countable bounded-patch cover therefore proves the Euclidean packing-dimension assertion as well.
+
+\paragraph{Why the exponent is $25/23$.}
+If the density threshold is $R^s$ and the inner radius is $r\asymp R^s$, the same mean estimate gives $M\lesssim R^{3s/10-3/2}$. The translation must satisfy $r^2M\lesssim R$, so
+$$
+2s+\frac{3s}{10}-\frac32\ge1
+\quad\Longleftrightarrow\quad s\ge\frac{25}{23}.
+$$
+At equality, the normalized gradient integral is small by (12). This explains the exponent in this proof; it does not establish sharpness for Navier--Stokes singular sets.
+
+\section{What a logarithmic improvement would mean}
+Throughout this section put $d=25/23$ and $L(r)=\log(e/r)$ for small positive $r$. An improvement with a fixed exponent $\alpha>0$ would be
+$$
+\mathcal P^{h_\alpha}_{\mathrm{par}}(S)=0,
+\qquad h_\alpha(r)=r^dL(r)^\alpha.
+$$
+For an increasing doubling gauge $h$, packing premeasure is defined as above with $(2r_j)^d$ replaced by $h(2r_j)$; its countable-cover outer measure is $\mathcal P^h_{\mathrm{par}}$. Since $h_\alpha(r)/r^d\to\infty$, this is a stronger statement than the power-gauge nullity already proved. A negative logarithmic exponent would instead give an immediate weaker consequence.
+
+\paragraph{The direct substitution does not close.}
+Suppose one only replaces (3) by $A\le\varepsilon R^dL(R)^\alpha$ and chooses $r=cR^dL(R)^\beta$. The gradient estimate requires $\beta\ge\alpha$ to keep $A/r$ uniformly small. The leading mean estimate requires
+$$
+\frac{r^2M}{R}\lesssim\varepsilon^{3/10}L(R)^{2\beta+3\alpha/10}
+\quad\text{to stay bounded, hence}\quad
+2\beta+3\alpha/10\le0.
+$$
+These requirements are incompatible for $\alpha>0$. In particular, the natural choice $\beta=\alpha$ loses $L(R)^{23\alpha/10}$. This shows a limitation of these estimates, not that the desired Navier--Stokes conclusion is false.
+
+\section{An unconditional multiplier chosen for the solution}
+\begin{theorem}
+For each suitable solution covered by the main theorem there is a continuous nondecreasing function $\eta:[1,\infty)\to[1,\infty)$, with $\eta(t)\to\infty$, such that the gauge
+$$
+h_\eta(r)=r^d\eta(L(r))
+$$
+is increasing and doubling near zero and satisfies
+$$
+\mathcal P^{h_\eta}_{\mathrm{par}}(S)=0,
+\qquad
+\lim_{r\downarrow0}h_\eta(r)N_{\mathrm{par}}(S\cap K,r)=0
+\quad\text{for every compact }K\Subset\mathcal O.
+$$
+The same function works on all compact patches of the given solution. An explicit choice using only the distribution of $F$ is given below; it does not require first locating $S$. It satisfies $\eta(t+c)/\eta(t)\to1$ for every fixed real $c$. A capped variant can be made slower than any specified nondecreasing unbounded benchmark, eventually. No fixed positive logarithmic power is asserted.
+\end{theorem}
+
+\begin{proof}
+Choose compact interior sets $K_n\subset\operatorname{int}K_{n+1}$ whose interiors exhaust $\mathcal O$. The already proved box bound makes $S$ Lebesgue-null. Put
+$$
+a(z)=\frac{2^{-n}}{1+\int_{K_n}F}
+\quad\text{on }K_n\setminus K_{n-1},\qquad
+d\nu(z)=a(z)F(z)\,dz,
+$$
+where $K_0$ is empty. Then $\nu(\mathcal O)\le1$, and $a$ is bounded below by a positive constant on each fixed compact interior set. On a single bounded localization with finite total density, one may instead simply take $d\nu=F\,dz/(1+\int F)$.
+
+\paragraph{A fully specified multiplier.}
+Define, for $t\ge1$,
+$$
+Z(z)=\log(e+F(z)),\qquad
+H(t)=\nu\{Z\ge t\}
+=\int_{\{F\ge e^t-e\}}aF\,dz,
+\qquad
+B(t)=\min\{t,H(t)^{-1/2}\},
+$$
+with $0^{-1/2}=+\infty$, and take
+$$
+\boxed{\displaystyle
+\eta(t)=\inf_{1\le s\le t}
+\left\{B(s)+\frac{25}{92}(t-s)\right\}.}
+$$
+This formula contains no freely chosen threshold sequence and no extra moment hypothesis. The tail $H$ is computed from the actual density. Since $Z$ is finite $\nu$-almost everywhere, $H(t)\to0$. Thus $B$ is nondecreasing, $B(1)=1$, and $B(t)\to\infty$.
+
+Put $c=d/4=25/92$. To check the infimum, compare $t_2>t_1$. Candidates $s\le t_1$ increase their value by $c(t_2-t_1)$, and candidates $t_1<s\le t_2$ have value at least $B(t_1)\ge\eta(t_1)$. Hence
+$$
+0\le\eta(t_2)-\eta(t_1)\le c(t_2-t_1),
+\qquad 1\le\eta(t)\le B(t),
+\qquad \eta(t)\le1+c(t-1).
+$$
+For any fixed $M$, choose $s_0$ with $B(s)\ge M$ for $s\ge s_0$. When $t\ge s_0+M/c$, candidates $s\le s_0$ also have value at least $M$. Therefore $\eta(t)\to\infty$. In particular the formula defines a continuous nondecreasing unbounded function.
+
+\paragraph{The integrability is automatic.}
+The inclusive survival function satisfies the rank bound
+$$
+\nu\{H(Z)<q\}\le q\quad(q>0).
+$$
+Indeed the set of values where the nonincreasing function $H$ is less than $q$ is an upper ray, and its inverse image has measure at most $q$ by continuity of finite measure on nested tails. This also handles atoms. Layer cake, writing $m=\nu(\mathcal O)$, gives
+$$
+\int H(Z)^{-1/2}\,d\nu
+\le\int_0^\infty\min\{m,\lambda^{-2}\}\,d\lambda
+=2\sqrt m\le2.
+$$
+If $m=0$, the conclusion is immediate. Since $\eta\le B\le H^{-1/2}$ and $a$ is bounded below on every compact patch, it follows that
+$$
+G:=F\eta(\log(e+F))\in L^1_{\mathrm{loc}}.
+$$
+
+\paragraph{Paying the packing gauge.}
+The power-gauge criterion (13) gives, at every singular center and all small interior radii,
+$$
+\int_{Q_r(z)}F\ge k r^d,\qquad k=\varepsilon2^{-d}>0.
+$$
+The portion with $F<e/r$ contributes at most $e|Q_1|r^4$, which is less than $kr^d/2$ at sufficiently small $r$, since $d<4$. The complementary portion retains at least half the charge and satisfies $Z\ge L(r)$. Therefore
+$$
+\int_{Q_r(z)}G
+\ge\frac{k}{2}r^d\eta(L(r)).
+$$
+The resulting gauge is increasing and tends to zero: its derivative exists almost everywhere and obeys
+$$
+h_\eta'(r)=r^{d-1}\{d\eta(L(r))-\eta'(L(r))\}
+\ge\frac{3d}{4}r^{d-1}>0,
+\qquad h_\eta(r)\le r^dL(r)\longrightarrow0.
+$$
+Also $h_\eta(2r)\le2^dh_\eta(r)$, and the fixed-additive-shift ratios of $\eta$ tend to one by its Lipschitz bound and divergence.
+
+Every sufficiently small disjoint packing centered on $E=S\cap K$ consequently satisfies
+$$
+\sum_jh_\eta(2r_j)
+\le\frac{2^{d+1}}{k}\int_{N_\delta(E)}G\longrightarrow0.
+$$
+Local integrability and nullity of $E$ justify the limit. This proves zero packing premeasure on each compact patch, and countable exhaustion proves the global assertion. The equal-radius separated-family argument proves the stated covering-number limit. The same $\eta$ works on all patches.
+
+\paragraph{The quoted distance-weighted integrability also holds.}
+This same multiplier, although defined from amplitudes of $F$, satisfies the distance-weighted assertion. For nonempty $S$ put
+$$
+T(z)=\log\frac{e}{\min\{1,\operatorname{dist}_{\mathrm{par}}(z,S)\}}.
+$$
+Fix $K\Subset\mathcal O$ and a larger compact interior patch. The already proved power box bound there gives
+$$
+|K\cap N_r(S)|\le C_Kr^{5-d}
+$$
+for small $r$. Write $a_K>0$ for a lower bound on $a$ in $K$. Splitting the density at amplitude $e^t$ yields, for sufficiently large $t$,
+$$
+\int_{K\cap\{T>t\}}F
+\le C_Ke^{-(4-d)t}+a_K^{-1}H(t).
+$$
+The first term uses the tube-volume bound at radius $e^{1-t}$; the second uses $F>e^t\Rightarrow Z>t$. Since $0\le\eta'\le c$, layer cake and the amplitude integrability just proved imply
+$$
+\int_KF\eta(T)
+\le C_K+cC_K\int_1^\infty e^{-(4-d)t}\,dt
++a_K^{-1}\int_1^\infty\eta'(t)H(t)\,dt<\infty.
+$$
+The last integral is bounded by $\int\eta(Z)\,d\nu$. Thus the exact distance-weighted route also works with the explicit formula, without knowing $S$ when defining $\eta$.
+
+\paragraph{An optional slower cap.}
+Replacing $t$ in the definition of $B(t)$ by any continuous nondecreasing unbounded function $b(t)\ge1$ gives the same proof and a multiplier $\eta\le b$. This establishes the optional benchmark restriction in the theorem. It does not provide a universal lower growth rate.
+\end{proof}
+
+This is an unconditional formula, but it is solution-dependent through $H$. It converts the actual density-tail distribution into a gauge; it does not prescribe a fixed elementary rate of divergence. Unlike the earlier existence proof by arbitrary sparse thresholds, the displayed prescription specifies every value of $\eta$ once $F$ and the exhaustion are given.
+
+\section{A fixed logarithmic power from an additional velocity moment}
+\begin{theorem}
+Suppose in addition, for some fixed $\kappa>0$, that
+$$
+|u|^{10/3}[\log(e+|u|)]^\kappa\in L^1_{\mathrm{loc}}(\mathcal O).
+$$
+Then, at the endpoint $\alpha=3\kappa/23$,
+$$
+\mathcal P^{h_\alpha}_{\mathrm{par}}(S)=0,
+\qquad
+\lim_{r\downarrow0}h_\alpha(r)N_{\mathrm{par}}(S\cap K,r)=0
+\quad(K\Subset\mathcal O),
+\qquad h_\alpha(r)=r^dL(r)^\alpha.
+$$
+The additional moment is a hypothesis here; its universal validity for suitable solutions has not been proved in this investigation.
+\end{theorem}
+
+\begin{proof}
+Define the locally integrable density and its outer charge by
+$$
+F_\kappa=|\nabla u|^2
++|u|^{10/3}[\log(e+|u|)]^\kappa
++|\nabla p|^{5/4},
+\qquad A_\kappa=\int_{Q_{2R}}F_\kappa.
+$$
+Choose $b=27/46$. Split the time-averaged mean into $|u|\le R^{-b}$ and its complement. On the complement, for small $R$, $\log(e+|u|)\ge c_bL(R)$. The low part contributes at most $CR^{-b}$, while Holder gives for the high part
+$$
+CR^{-5}\int_{Q_R\cap\{|u|>R^{-b}\}}|u|
+\le C_\kappa R^{-3/2}
+\bigl(L(R)^{-\kappa}A_\kappa\bigr)^{3/10}.
+$$
+The total variation estimate (6) remains valid with $A_\kappa$ in place of $A$, because $F\le F_\kappa$. Therefore
+$$
+M\le C_\kappa R^{-3/2}
+\bigl(L(R)^{-\kappa}A_\kappa\bigr)^{3/10}
++CR^{-b}+C R^{-3/2}A_\kappa^{1/2}
++C R^{-2}A_\kappa^{4/5}.
+$$
+Assume $A_\kappa\le\varepsilon R^dL(R)^\alpha$ and choose $r=cR^dL(R)^\alpha$. The leading contribution to displacement divided by $R$ is
+$$
+\frac{r^2}{R}\,
+C_\kappa R^{-3/2}
+\bigl(L(R)^{-\kappa}A_\kappa\bigr)^{3/10}
+\le C_\kappa c^2\varepsilon^{3/10}
+L(R)^{(23\alpha-3\kappa)/10}.
+$$
+At $\alpha=3\kappa/23$ its logarithmic exponent is zero. The other three contributions are bounded, respectively, by
+$$
+Cc^2R^{27/46}L(R)^{2\alpha},\quad
+Cc^2\varepsilon^{1/2}R^{5/23}L(R)^{5\alpha/2},\quad
+Cc^2\varepsilon^{4/5}R^{1/23}L(R)^{14\alpha/5},
+$$
+all tending to zero. Also $r/R\to0$. Fix $c$ and then a sufficiently small $\varepsilon$, and take $R$ sufficiently small. The same moving-cylinder proof applies, and its normalized mixed norm is at most $C A_\kappa/r\le C\varepsilon/c$. Thus the smallness condition implies regularity. Every singular cylinder therefore has $F_\kappa$-charge at least a fixed multiple of $R^dL(R)^\alpha$. The variable-radius and equal-radius arguments applied to $F_\kappa$ prove both conclusions, at the exact logarithmic endpoint.
+\end{proof}
+
+\paragraph{The extra moment does not follow from energy interpolation alone.}
+Fix a nonzero smooth compactly supported divergence-free field $\Psi$ and a smooth scalar time pulse $\zeta$. For the given $\kappa>0$, choose $s_n=\exp(-n^{2/\kappa})$, disjoint time intervals of lengths $\tau_n=s_n^2/n^2$ accumulating at an interior time, and put, on the $n$th interval,
+$$
+w(x,t)=s_n^{-3/2}\Psi(x/s_n)
+\zeta((t-t_n)/\tau_n),
+$$
+with $w=0$ elsewhere. Its spatial $L^2$ norm is uniformly bounded, and
+$$
+\int|\nabla w|^2\asymp\sum_n\tau_ns_n^{-2}<\infty,
+\qquad
+\int|w|^{10/3}\asymp\sum_n\tau_ns_n^{-2}<\infty.
+$$
+On fixed positive-measure parts of the seed and pulse, however,
+$$
+\int|w|^{10/3}[\log(e+|w|)]^\kappa
+\gtrsim\sum_n n^{-2}[\log(1/s_n)]^\kappa
+=\sum_n1=\infty.
+$$
+Thus even solenoidal energy-class fields need not have the hypothesized logarithmic moment. This field is not asserted to solve Navier--Stokes or its local energy inequality; it only excludes inferring that moment from the two energy norms without an additional PDE argument.
+
+\section{Why the present measure data cannot force a fixed log power}
+The following construction is an abstract obstruction, not a Navier--Stokes solution. It also preserves Hausdorff dimension zero, so adding the CKN Hausdorff-dimension conclusion to the concentration data does not remove this obstruction.
+
+Fix any $\alpha>0$ and $h(r)=r^dL(r)^\alpha$. There exist a compact set $E\subset\mathbb R^3\times\{0\}$ and $f\ge0$ in spacetime $L^1$ such that
+$$
+\dim_{H,\mathrm{par}}E=0,\qquad
+\mathcal P^{h}_{\mathrm{par}}(E)>0,\qquad
+\int_{Q_r(z)}f\ge c r^d
+\quad(z\in E,\ 0<r<r_0).
+$$
+Here is a constructive proof. Use spatial cubes of side $\ell_n=4^{-n}$. At each level every retained cube either keeps one corner child or all eight corner children, so the retained level-$n$ count is $N_n=2^{a_n}$, with $a_n-a_{n-1}$ equal to zero or three. Corner children have uniform gaps. Choose these branching levels with
+$$
+a_n\le 2dn-\alpha\log_2(n+n_0)+C,
+$$
+and with equality to within a fixed additive constant along infinitely many levels $n_j$. This is possible because the upper envelope eventually has slope strictly between zero and three. Alternate long intervals of no branching, chosen to make $a_n/n\to0$ along a subsequence, with maximal allowed branching until the envelope is reached again. Thus
+$$
+N_n\le C\ell_n^{-d}(n+n_0)^{-\alpha},
+\qquad
+N_{n_j}\asymp\ell_{n_j}^{-d}(n_j+n_0)^{-\alpha}.
+$$
+The limiting compact set has Hausdorff dimension zero by the forced-level subsequence. Give each retained cube equal mass under a probability $\sigma$ on $E$. Uniform separation and the upper bound on $N_n$ imply
+$$
+\sigma(B_r(x))\ge c h(r)\quad(x\in E).
+$$
+Indeed a descendant cube of side comparable to $r$ fits inside that ball and has mass $1/N_n\ge c h(r)$. At the saturated levels $n_j$, every occupied cube has mass comparable to $h(\ell_{n_j})$. Any subset $A\subset E$ therefore meets at least $c\sigma^*(A)/h(\ell_{n_j})$ such cubes. Points selected in them give a uniformly separated packing and hence
+$$
+\mathcal P^h_{0,\mathrm{par}}(A)\ge c\sigma^*(A).
+$$
+Here $\sigma^*$ denotes outer measure. Taking countable covers of $E$ proves $\mathcal P^h_{\mathrm{par}}(E)\ge c>0$.
+
+Finally let $\rho_m$ be a smooth probability density supported in
+$$
+B_{\ell_m}(0)\times(-\ell_m^2,-\ell_m^2/2),
+\qquad
+w_m=(m+n_0)^{-\alpha}-(m+n_0+1)^{-\alpha}>0,
+$$
+and define the absolutely continuous measure
+$$
+f\,dx\,dt=\sum_{m\ge1}w_m(\sigma*\rho_m).
+$$
+Its total mass is finite by telescoping. If $\ell_n\le r<4\ell_n$, all terms with $m\ge n+2$, arising from spatial points in $B_{r/2}(x)$, lie in $Q_r(x,0)$. Therefore
+$$
+\int_{Q_r(x,0)}f
+\ge\sigma(B_{r/2}(x))\sum_{m\ge n+2}w_m
+\ge c h(r)(n+n_0+2)^{-\alpha}
+\ge c r^d.
+$$
+This proves the claimed obstruction. A universal positive logarithmic power, if true for Navier--Stokes, must use more of the PDE than these three measure-theoretic facts.
+
+The construction also has recurrent CKN-size concentration at every center. Along the long forced-level subsequence, the descendant mass gives
+$$
+\frac1{\ell_n}\int_{Q_{\ell_n}(z)}f
+\ge c\,2^{2n-a_{n+2}}(n+n_0+2)^{-\alpha}\longrightarrow\infty,
+$$
+because $a_{n+2}/n\to0$ there. Hence adding an upper-density limsup condition of the CKN form to the abstract data still does not yield the fixed logarithmic packing conclusion.
+
+\section{Comparison with logarithmic Hausdorff gauges}
+Lei--Ren \cite{LR}, Theorem A, prove zero parabolic Hausdorff measure with gauge $r\log(e/r)$. Their notation $\mathcal P^h$ denotes Hausdorff measure, not packing measure. The project also contains separate research manuscripts on stronger Hausdorff gauges; their conclusions do not automatically imply logarithmic packing-gauge bounds. In the present investigation no unconditional fixed $\alpha>0$ for $r^{25/23}L(r)^\alpha$ has been established. The proved unconditional improvement is the solution-dependent multiplier above, and the proved fixed-power improvement requires the explicitly stated velocity moment.
+
+\section{A fixed logarithmic gauge from logarithmic dissipation}
+The additional assumption can be placed on dissipation alone, with no loss in the logarithmic exponent.
+\begin{lemma}[Conditional fixed-power logarithmic refinement]
+Suppose that for some $\beta>0$,
+$$
+D[\log(e+D)]^\beta\in L^1_{\mathrm{loc}},\qquad D=|\nabla u|^2.
+$$
+Then, with $h_\beta(r)=r^{25/23}[\log(e/r)]^\beta$,
+$$
+\mathcal P^{h_\beta}_{\mathrm{par}}(S)=0,
+\qquad
+N_{\mathrm{par}}(S\cap K,r)h_\beta(r)\longrightarrow0
+\quad(K\Subset\mathcal O).
+$$
+In fact the packing premeasure is zero on every such compact patch.
+\end{lemma}
+\begin{proof}
+\emph{First transfer the logarithm to velocity.}
+Take a fixed spatial cutoff and put $v=\chi u$, extended by zero. Poincar\'e telescoping and optimization over the averaging radius give, almost everywhere,
+$$
+|v(x)|\le C\|v\|_2^{2/5}
+\bigl[\mathsf M_x(|\nabla v|)(x)\bigr]^{3/5},
+$$
+where $\mathsf M_x$ is the ordinary spatial maximal operator. The kinetic norm is uniformly bounded in time. Raising to $10/3$, multiplying by the logarithm, and using maximal-operator boundedness on $L^2\log^\beta L$ therefore gives
+$$
+\int |v|^{10/3}[\log(e+|v|^{10/3})]^\beta
+\le C\int |\nabla v|^2[\log(e+|\nabla v|^2)]^\beta.
+$$
+The cutoff contribution is paid by the already known unweighted velocity moment, since
+$$
+|u|^2[\log(e+|u|^2)]^\beta
+\le C_\beta(1+|u|^{10/3}).
+$$
+Thus $U[\log(e+U)]^\beta$ is locally integrable, where $U=|u|^{10/3}$.
+
+\emph{Next transfer it to the actual pressure gradient.}
+The function $\Psi(a)=a[\log(e+a)]^\beta$ is increasing and convex. Weighted arithmetic--geometric mean and convexity give
+$$
+\Psi\bigl((|u||\nabla u|)^{5/4}\bigr)
+=\Psi(U^{3/8}D^{5/8})
+\le\tfrac38\Psi(U)+\tfrac58\Psi(D).
+$$
+Apply the cutoff pressure decomposition from Section 2. The derivatives of its input have $L^{5/4}\log^\beta L$ integrability; terms containing a cutoff derivative are controlled by $|u|^{5/2}$ times a logarithm, hence by the ordinary $|u|^{10/3}$ moment. Riesz transforms preserve this logarithmic class. The harmonic pressure remainder has gradient in $L^{3/2}_tL^\infty_x$ on a smaller ball, so the strict power gap $5/4<3/2$ pays its logarithm. Consequently
+$$
+F[\log(e+F)]^\beta\in L^1_{\mathrm{loc}}.
+$$
+For completeness, the modular operator bounds used here follow from two ordinary strong $L^p$ estimates with exponents on either side of the target exponent. Split the input above and below each level $\lambda$, use Chebyshev's inequality for the two parts, and integrate against the derivative of $\lambda^p[\log(e+\lambda)]^\beta$. The positive power gap on the high part and the negative gap on the low part bound both resulting integrals by the input modular. This applies to the maximal operator and the Riesz transforms, and may be integrated in time.
+
+\emph{Finally pay the gauge by Jensen's inequality.}
+At every singular center (13) gives $\int_{Q_r(z)}F\ge c r^d$, with $d=25/23$. Since $|Q_r|\asymp r^5$,
+$$
+\int_{Q_r(z)}\Psi(F)
+\ge |Q_r|\Psi\!\left(\frac{\int_{Q_r(z)}F}{|Q_r|}\right)
+\ge c_\beta r^d[\log(e/r)]^\beta
+$$
+for sufficiently small $r$. Thus $\Psi(F)$ is an integrable density paying $h_\beta$. The variable-radius and equal-radius disjoint-cylinder arguments already proved apply without a change of frame or inner radius. Their integrals over shrinking neighborhoods of the compact null set $S\cap K$ tend to zero. This proves both conclusions, and countable exhaustion gives the global packing statement.
+\end{proof}
+
+\paragraph{The remaining estimate.}
+Ordinary suitability gives $D\in L^1_{\mathrm{loc}}$. A fixed positive logarithmic gain for this actual dissipation has not been established in this investigation. The lemma is conditional; the unconditional multiplier proved above remains solution-dependent and can grow arbitrarily slowly.
+
+\begin{thebibliography}{9}
+\bibitem{LWZ} S. Li, W. Wang and D. Zhou,
+\emph{Remarks on interior regularity criteria without pressure for the Navier--Stokes equations},
+J. Differential Equations \textbf{397} (2024), 80--105.
+\href{https://doi.org/10.1016/j.jde.2024.03.006}{Published article};
+\href{https://arxiv.org/pdf/2305.00698}{Theorem 1.2 and its $p=2$ proof}.
+\bibitem{LR} Z. Lei and X. Ren,
+\emph{Quantitative partial regularity of the Navier--Stokes equations and applications},
+Advances in Mathematics \textbf{445} (2024), 109654.
+\href{https://doi.org/10.1016/j.aim.2024.109654}{Published article};
+\href{https://arxiv.org/pdf/2210.01783}{Theorem A and Remark 7}.
+\end{thebibliography}
+\end{document}

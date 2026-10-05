@@ -1,0 +1,27 @@
+name: Complete Palomar mechanical preflight
+
+# Run only after the finished public snapshot is ready. This is the official
+# full verifier, including license, metadata and Challenge provenance checks.
+# It does not submit, review or register the result.
+on:
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: Full public commit SHA; leave blank to check this workflow revision
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  mechanical-preflight:
+    uses: PalomarRegistry/PalomarSubmission/.github/workflows/submission.yml@d4e41c1d5b0d114c4859e6e5831dc6d3ad1d0d44
+    with:
+      repository: ${{ github.repository }}
+      commit: ${{ inputs.commit || github.sha }}
+      pipeline_commit: d4e41c1d5b0d114c4859e6e5831dc6d3ad1d0d44
+      request_id: fluid-singular-sets-${{ github.run_id }}-${{ github.run_attempt }}
+      mode: full
+      execution_profile: palomar-standard-v1
+      options: '{"comparator_config_path":"comparator.json"}'

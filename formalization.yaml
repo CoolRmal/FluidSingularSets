@@ -1,0 +1,90 @@
+version: "v0.4"
+
+project:
+  name: "FluidSingularSets"
+  description: >-
+    Work in progress on logarithmic Hausdorff nullity and an upper parabolic
+    box dimension bound of 25/23 for interior singular sets of unforced
+    three-dimensional suitable weak Navier–Stokes solutions.
+  authors: ["Yongxi (Aaron) Lin"]
+  responsible_maintainers: ["Yongxi (Aaron) Lin"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["math.AP", "math.MG"]
+  msc2020: ["35Q30", "28A78", "28A80"]
+
+sources:
+  - title: "A logarithmic refinement of CKN partial regularity"
+    authors: ["Yongxi Lin"]
+    type: paper
+    location: "papers/log-squared.tex"
+    relationship: formalizes
+    note: "Research manuscript supplied in the local project; the main proof remains unfinished."
+  - title: "Packing dimension and logarithmic gauges for the Navier–Stokes singular set"
+    type: paper
+    location: "papers/box-25-23.tex"
+    relationship: formalizes
+    note: "Local research draft provided by the project maintainer."
+  - title: "Remarks on interior regularity criteria without pressure for the Navier–Stokes equations"
+    type: paper
+    location: "https://arxiv.org/abs/2305.00698"
+    relationship: background
+    note: "The velocity-only regularity theorem used by the box proof is not yet formalized."
+
+related_formalizations:
+  - id: "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg"
+    relationship: builds-on
+    note: "Pinned at c26903f8e38b7b5a4594c80892e51b0599e8fd82; Apache-2.0."
+
+status:
+  scope: >-
+    The two main statements are independently restated using Mathlib alone.
+    Supporting scalar divergence, gauge and geometric packing arguments are
+    proved. The two main solution proofs still contain placeholders and the
+    project is not eligible for Palomar registration.
+  sorry_count: 2
+  sorry_in_definitions: 0
+  axioms: []
+
+automation:
+  methods:
+    - method: agent
+      models: ["GPT-6"]
+      framework: "Codex"
+      tool_setup: "Lean LSP, compiler, mathematical source audit, and parallel proof agents"
+      cost:
+        wall_time: "In progress"
+        spend_usd: "not tracked"
+        hardware: "local macOS computer"
+      prompting_notes: "Formalize both unconditional results, reuse CKN, and meet Palomar standards."
+  spend_usd: "not tracked"
+  notes: "Human maintainer identified from the authenticated GitHub profile; AI credited as automation."
+
+fidelity:
+  divergences: >-
+    Statements use the CKN comparator's local Hölder regularity convention.
+    Manuscripts use essential boundedness; equivalence under suitability is
+    a remaining proof obligation. Box dimension is localized to compact
+    interior patches and the force is identically zero.
+
+review:
+  status: "In progress; internal automated statement audit"
+  reviewers: []
+  notes: "No external human mathematical review or completed Comparator check is claimed."
+
+alignment:
+  namespace: "FluidSingularSets"
+  statements:
+    - source: "Logarithmic manuscript, main theorem"
+      lean: "FluidSingularSets.singularSet_logSquaredHausdorffMeasure_zero"
+      module: "Solution"
+      status: partial
+      note: "Unconditional target statement; proof unfinished."
+    - source: "Box manuscript, first theorem"
+      lean: "FluidSingularSets.singularSet_upperBoxDimension_le"
+      module: "Solution"
+      status: partial
+      note: "Upper parabolic box dimension on every compact interior patch; proof unfinished."
+
+acknowledgements: "Mathlib; the CKN formalization by Scott Armstrong and Vlad Vicol."
