@@ -95,6 +95,7 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Strong affine acceleration pressure and mean-subtracted velocity limits | Proved | AcceleratedPressureLimit |
 | Actual moving relative velocity endpoint cost | Proved with normalized bound at exponent 25/23 | MovingRelativeVelocity |
 | Full suitability for the actual AC mean frame | Proved, with arbitrary spatial offsets and anchor times | AbsolutelyContinuousFrame |
+| Full-neighborhood regularity transfer through actual moving frames | Proved without a Hölder mean hypothesis | AcceleratedRegularity |
 | Local variational Stokes velocity and energy bound | Proved on actual completed gradient space | LocalStokesEnergy |
 | Genuine zero-boundary test Poincare estimate | Proved | StokesTestPoincare |
 | Weighted-gradient divergence identities and linear-source inverse | Proved for genuine smooth fields | WeightedBallDivergence |
@@ -103,7 +104,10 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual zero-boundary polynomial fields belong to the Hilbert completion | Proved by strong gradient approximation | HilbertBallBoundary, PolynomialBallEnergy |
 | Uniform polynomial ball divergence inverse | Proved, with norm-square constant 3 independent of degree | PolynomialBallRellich |
 | Hilbert pressure recovery from genuine bounded divergence lifts | Proved, including actual integrable test equation | StokesPressureRecovery |
-| Bounded local Stokes pressure recovery for arbitrary square-integrable data | Open | Dense polynomial extension in progress |
+| Extend genuine bounded Hilbert lifts from dense data | Proved with a continuous linear right inverse | DenseHilbertLifts |
+| Actual polynomial density in ball L² and its mean-zero subspace | Proved | PolynomialBallDensity, PolynomialBallMeanDensity |
+| Bounded divergence right inverse on all actual mean-zero ball L² data | Proved with operator norm at most 2 | BallDivergenceInverse |
+| Actual bounded mean-zero Stokes pressure for arbitrary energy forces | Proved with physical sign, norm bound and literal weak test equation | UnitBallStokesPressure |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
