@@ -62,7 +62,10 @@ status:
     Poincare estimate, absolutely continuous mean and actual acceleration formula,
     quantitative scale bound for the mean, and finite compact density with genuine
     local pressure gradients are proved. Canonical normalized smooth weights and
-    the full actual moving-frame data for continuous acceleration are proved.
+    the full actual moving-frame data for time L^(3/2) acceleration are proved.
+    Full smooth-frame suitability and strong local convergence under uniformly
+    convergent moving translations are proved. The actual AC-frame limit remains
+    in progress.
     The variational Stokes velocity and its
     energy estimate are constructed; bounded local pressure recovery remains open.
     The box-dimension proof retains one placeholder, so the complete

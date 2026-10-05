@@ -89,6 +89,11 @@ public import FluidSingularSets.LocalStokesEnergy
 public import FluidSingularSets.AcceleratedData
 public import FluidSingularSets.NormalizedWeightedCutoff
 public import FluidSingularSets.WeightedBallDivergence
+public import FluidSingularSets.AcceleratedEnergy
+public import FluidSingularSets.SmoothAcceleratedSuitability
+public import FluidSingularSets.AcceleratedPressureLp
+public import FluidSingularSets.AcceleratedLpStability
+public import FluidSingularSets.StokesTestPoincare
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

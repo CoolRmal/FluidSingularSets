@@ -49,9 +49,10 @@ The actual absolutely continuous mean, its acceleration equation and quantitativ
 scale bound, the weighted Poincare estimate, and the finite compact density measure
 are proved. The variational Stokes velocity and energy estimate are also constructed;
 recovering a bounded local pressure remains open. Canonical normalized smooth
-weights and the full moving-frame data predicate for continuous acceleration
-are proved. The local energy inequality and the extension to the actual AC mean
-remain in progress. The packing and covering reduction at exponent 25/23 is already proved.
+weights, full smooth-frame suitability including the local energy inequality,
+and the complete data predicate for time L^(3/2) acceleration are proved. Strong
+local convergence under moving translations is also proved. The passage of
+suitability to the actual AC mean remains in progress. The packing and covering reduction at exponent 25/23 is already proved.
 Local essential boundedness and the formal Hölder regularity convention are also
 proved equivalent for actual suitable solutions at every interior point.
 See [the proof status](docs/proof-status.md) for the completed and open steps.

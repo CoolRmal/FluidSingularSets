@@ -85,9 +85,12 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Finite compact density including actual pressure gradients | Proved | CompactBoxDensity |
 | Moving-frame geometry, smooth tests and genuine weak divergence/momentum | Proved | AcceleratedFrame |
 | Pointwise relative-energy expansion | Proved | AcceleratedEnergyAlgebra |
-| Moving-frame actual local data for continuous acceleration | Proved | AcceleratedData |
-| Moving-frame local energy inequality and AC acceleration extension | Open | AcceleratedEnergy and approximation in progress |
+| Moving-frame actual local data for continuous or time L^(3/2) acceleration | Proved | AcceleratedData, AcceleratedPressureLp |
+| Genuine relative local energy inequality and full smooth-frame suitability | Proved | AcceleratedEnergy, SmoothAcceleratedSuitability |
+| Strong local convergence under uniform moving translations | Proved for actual solution fields | AcceleratedLpStability |
+| Smooth approximation and passage to the actual AC mean | Open | MeanSmoothApprox and weak-equation limits in progress |
 | Local variational Stokes velocity and energy bound | Proved on actual completed gradient space | LocalStokesEnergy |
+| Genuine zero-boundary test Poincare estimate | Proved | StokesTestPoincare |
 | Weighted-gradient divergence identities and linear-source inverse | Proved for genuine smooth fields | WeightedBallDivergence |
 | Bounded local Stokes pressure recovery | Open | Uniform divergence inverse on a ball needed |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
