@@ -74,7 +74,14 @@ status:
     bounded mean-zero pressure, weak harmonicity for divergence-free sources,
     C² representatives and quantitative interior gradient/Hessian estimates.
     The literal repeated-deepest gauge variant also has proved nullity at every
-    finite depth. The exact projected energy algebra is proved. A conditional
+    finite depth. Genuine measurable spatial Lp class curves and time moments
+    are proved. The actual suitable centered pressure has a finite time 5/4 L²
+    moment and literal energy-dual gradient pairing. Actual nonlinear and viscous
+    projected pressures have time 4/3 and 2 classes. Canonical harmonic gradient
+    and Hessian operators have true representation, bounds and weak derivatives.
+    Energy-dual evolution follows from compact suitable momentum pairings, and
+    smooth harmonic square cancellations are proved. The exact projected energy
+    algebra is proved. A conditional
     uniform lower-charge reduction at exponent 25/23 is complete, including
     genuine terminal shifts, moving frames and common compact measure. Its
     velocity-only regularity criterion still needs proof from ordinary suitability.

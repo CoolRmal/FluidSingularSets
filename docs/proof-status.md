@@ -119,6 +119,12 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual C² harmonic pressure representatives | Proved with true weak derivative identities | HarmonicC2, UnitBallPressureC2, StokesVectorPressureC2 |
 | Actual pressure gradient and Hessian bounds | Proved with universal force/source constants | UnitBallPressureBounds, StokesVectorPressureBounds |
 | Actual convective and viscous ball pressures | Proved from genuine tensors, with literal equations and raw-gradient convention | StokesNonlinearPressure |
+| Genuine spatial Lp class curves and mixed time moments | Proved from joint measurable data, with actual Tonelli identities | SliceLpMeasurable, SliceLpMoments |
+| Actual centered pressure in the energy dual | Proved from suitable pressure and weak gradients, with finite time 5/4 moment | PressureEnergyDual, PressureEnergyForces |
+| Actual nonlinear and viscous pressure time classes | Proved at time 4/3 and 2 from actual suitable energy data | StokesPressureTimeIntegrability, StokesPressureCurves |
+| Canonical harmonic gradient and Hessian operators | Proved with actual Riesz pairings, joint gradient measurability and weak derivatives | UnitBallHarmonicGradient, UnitBallHarmonicGradientPairing, UnitBallHarmonicGradientMeasurable, LocalHessianCalculus, UnitBallHarmonicHessian |
+| Energy-dual evolution from true compact suitable momentum tests | Proved for actual integrable forces with literal pairings | StokesMomentumTime, WeakTimePressure |
+| Smooth harmonic square time and Laplacian cancellations | Proved with actual compact-test integrability | SmoothHarmonicEnergy |
 | Exact projected energy algebra | Proved pointwise; analytic cancellations remain | ProjectedEnergyAlgebra |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |

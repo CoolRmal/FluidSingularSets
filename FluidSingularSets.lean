@@ -144,6 +144,23 @@ public import FluidSingularSets.ProjectedEnergyAlgebra
 public import FluidSingularSets.BoxChargeReduction
 public import FluidSingularSets.StokesNonlinearPressure
 
+public import FluidSingularSets.SliceLpMeasurable
+public import FluidSingularSets.SliceLpMoments
+public import FluidSingularSets.WeakTimePressure
+public import FluidSingularSets.StokesMomentumTime
+public import FluidSingularSets.SmoothHarmonicEnergy
+public import FluidSingularSets.PressureEnergyDual
+public import FluidSingularSets.PressureEnergyForces
+public import FluidSingularSets.PressureForceTime
+public import FluidSingularSets.StokesPressureTimeIntegrability
+public import FluidSingularSets.StokesPressureCurves
+public import FluidSingularSets.StokesForceCurves
+public import FluidSingularSets.UnitBallHarmonicGradient
+public import FluidSingularSets.UnitBallHarmonicGradientPairing
+public import FluidSingularSets.UnitBallHarmonicGradientMeasurable
+public import FluidSingularSets.LocalHessianCalculus
+public import FluidSingularSets.UnitBallHarmonicHessian
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
