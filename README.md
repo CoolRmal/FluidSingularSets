@@ -44,7 +44,7 @@ preflight remain pending the box proof.
 
 For the box bound, local velocity integrability at exponent 10/3 and the actual weak
 pressure gradient at exponent 5/4 are proved. The remaining analytic steps include
-accelerated-frame suitability and the velocity-only regularity criterion.
+pressure recovery for arbitrary data and the velocity-only regularity criterion.
 The actual absolutely continuous mean, its acceleration equation and quantitative
 scale bound, the weighted Poincare estimate, and the finite compact density measure
 are proved. The variational Stokes velocity and energy estimate are also constructed;
@@ -57,7 +57,11 @@ AC mean and its derivative, and the nonlinear Holder product limits are also
 proved. Actual divergence, momentum and local energy pass to strong local limits.
 Affine acceleration pressures and mean-subtracted velocities also converge. The moving
 relative velocity satisfies the required normalized endpoint mixed-norm bound.
-The assembly of full suitability for the actual AC mean remains in progress. The
+Full suitability for the actual AC mean frame is proved, with arbitrary path
+anchors. A genuine polynomial ball divergence inverse has a degree-independent
+norm-square bound of 3 and belongs to the zero-boundary Hilbert completion.
+Pressure recovery from actual bounded divergence lifts is proved; extending
+the polynomial inverse to all square-integrable ball data remains open. The
 packing and covering reduction at exponent 25/23 is already proved.
 Local essential boundedness and the formal Hölder regularity convention are also
 proved equivalent for actual suitable solutions at every interior point.

@@ -94,13 +94,16 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual divergence, momentum and local energy pass to strong limits | Proved with genuine limit data | WeakEquationLimit, LocalEnergyLimit |
 | Strong affine acceleration pressure and mean-subtracted velocity limits | Proved | AcceleratedPressureLimit |
 | Actual moving relative velocity endpoint cost | Proved with normalized bound at exponent 25/23 | MovingRelativeVelocity |
-| Passage of suitability to the actual AC mean | Open | Assembly from genuine smooth approximation and proved closure |
+| Full suitability for the actual AC mean frame | Proved, with arbitrary spatial offsets and anchor times | AbsolutelyContinuousFrame |
 | Local variational Stokes velocity and energy bound | Proved on actual completed gradient space | LocalStokesEnergy |
 | Genuine zero-boundary test Poincare estimate | Proved | StokesTestPoincare |
 | Weighted-gradient divergence identities and linear-source inverse | Proved for genuine smooth fields | WeightedBallDivergence |
 | Genuine finite-degree polynomial inverse and smooth ball divergence field | Proved up to an explicit spatial constant | FischerPolynomial, BallPolynomialInverse, PolynomialBallDivergence |
 | Identify the polynomial constant with the actual ball average | Proved, including zero-integral sources | BallBoundaryApproximation, PolynomialBallMeanInverse |
-| Bounded local Stokes pressure recovery | Open | Uniform divergence inverse on a ball needed |
+| Actual zero-boundary polynomial fields belong to the Hilbert completion | Proved by strong gradient approximation | HilbertBallBoundary, PolynomialBallEnergy |
+| Uniform polynomial ball divergence inverse | Proved, with norm-square constant 3 independent of degree | PolynomialBallRellich |
+| Hilbert pressure recovery from genuine bounded divergence lifts | Proved, including actual integrable test equation | StokesPressureRecovery |
+| Bounded local Stokes pressure recovery for arbitrary square-integrable data | Open | Dense polynomial extension in progress |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
 | Apply charge bound to every compact interior patch | Open | Solution |

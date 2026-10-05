@@ -110,6 +110,12 @@ public import FluidSingularSets.AcceleratedPressureLimit
 public import FluidSingularSets.BallBoundaryApproximation
 public import FluidSingularSets.PolynomialBallMeanInverse
 
+public import FluidSingularSets.AbsolutelyContinuousFrame
+public import FluidSingularSets.HilbertBallBoundary
+public import FluidSingularSets.PolynomialBallEnergy
+public import FluidSingularSets.PolynomialBallRellich
+public import FluidSingularSets.StokesPressureRecovery
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
