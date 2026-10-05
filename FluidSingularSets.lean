@@ -105,6 +105,11 @@ public import FluidSingularSets.StrongLpIntegrands
 public import FluidSingularSets.WeakEquationLimit
 public import FluidSingularSets.MovingRelativeVelocity
 
+public import FluidSingularSets.LocalEnergyLimit
+public import FluidSingularSets.AcceleratedPressureLimit
+public import FluidSingularSets.BallBoundaryApproximation
+public import FluidSingularSets.PolynomialBallMeanInverse
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

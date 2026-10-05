@@ -48,14 +48,16 @@ accelerated-frame suitability and the velocity-only regularity criterion.
 The actual absolutely continuous mean, its acceleration equation and quantitative
 scale bound, the weighted Poincare estimate, and the finite compact density measure
 are proved. The variational Stokes velocity and energy estimate are also constructed;
-recovering a bounded local pressure remains open. Canonical normalized smooth
+recovering a bounded local pressure remains open. The polynomial obstruction
+constant is identified with the actual ball average. Canonical normalized smooth
 weights, full smooth-frame suitability including the local energy inequality,
 and the complete data predicate for time L^(3/2) acceleration are proved. Strong
 local convergence under moving translations, smooth approximation of the actual
 AC mean and its derivative, and the nonlinear Holder product limits are also
-proved. Actual divergence and momentum pass to strong local limits. The moving
+proved. Actual divergence, momentum and local energy pass to strong local limits.
+Affine acceleration pressures and mean-subtracted velocities also converge. The moving
 relative velocity satisfies the required normalized endpoint mixed-norm bound.
-The energy inequality passage to the actual AC mean remains in progress. The
+The assembly of full suitability for the actual AC mean remains in progress. The
 packing and covering reduction at exponent 25/23 is already proved.
 Local essential boundedness and the formal Hölder regularity convention are also
 proved equivalent for actual suitable solutions at every interior point.

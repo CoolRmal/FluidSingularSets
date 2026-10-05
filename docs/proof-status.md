@@ -90,13 +90,16 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Strong local convergence under uniform moving translations | Proved for actual solution fields | AcceleratedLpStability |
 | Smooth approximation of the actual AC mean, acceleration and path | Proved with common supports and bounds | MeanSmoothApprox |
 | Compact common source tube for moving approximants | Proved from compactness and uniform convergence | AcceleratedTubeLimit |
-| Strong Holder products and actual integral convergence | Proved | StrongLpProducts |
-| Passage of suitability to the actual AC mean | Open | Weak-equation and energy limits in progress |
+| Strong Holder products and actual tested integral convergence | Proved | StrongLpProducts, StrongLpIntegrands |
+| Actual divergence, momentum and local energy pass to strong limits | Proved with genuine limit data | WeakEquationLimit, LocalEnergyLimit |
+| Strong affine acceleration pressure and mean-subtracted velocity limits | Proved | AcceleratedPressureLimit |
+| Actual moving relative velocity endpoint cost | Proved with normalized bound at exponent 25/23 | MovingRelativeVelocity |
+| Passage of suitability to the actual AC mean | Open | Assembly from genuine smooth approximation and proved closure |
 | Local variational Stokes velocity and energy bound | Proved on actual completed gradient space | LocalStokesEnergy |
 | Genuine zero-boundary test Poincare estimate | Proved | StokesTestPoincare |
 | Weighted-gradient divergence identities and linear-source inverse | Proved for genuine smooth fields | WeightedBallDivergence |
 | Genuine finite-degree polynomial inverse and smooth ball divergence field | Proved up to an explicit spatial constant | FischerPolynomial, BallPolynomialInverse, PolynomialBallDivergence |
-| Identify that constant with the actual ball average | Open | Zero-boundary gradient approximation in progress |
+| Identify the polynomial constant with the actual ball average | Proved, including zero-integral sources | BallBoundaryApproximation, PolynomialBallMeanInverse |
 | Bounded local Stokes pressure recovery | Open | Uniform divergence inverse on a ball needed |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |
