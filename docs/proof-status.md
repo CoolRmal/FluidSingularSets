@@ -15,8 +15,8 @@ $$
 for every compact interior patch $$K$$. The solution class is unforced, local,
 three-dimensional and suitable, as independently specified in `Challenge.lean`.
 
-The following tables distinguish proved supporting statements from the two open main
-proofs. A theorem about abstract coefficients is used only after deriving its hypotheses
+The following tables distinguish the proved gauge theorem and supporting statements from the open box
+proof. A theorem about abstract coefficients is used only after deriving its hypotheses
 from the solution. Those hypotheses are not added to either target theorem.
 
 | Gauge argument | Status | Modules |
@@ -70,7 +70,7 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Cell activity is finite, and zero dissipation gives zero activity | Proved from actual quadratic energy | CellMixedDissipation |
 | Transfer every gauge between parabolic carriers | Proved on every set | GaugeTransport |
 | Compact interior nullity implies full-domain nullity | Proved | CompactLocalization |
-| Apply all pieces to the solution, then exhaust the domain | Open | Solution |
+| Apply all pieces to the solution, then exhaust the domain | Proved for every finite depth | GaugeTraceExclusion, CompactGaugeNullity, SuitableGaugeNullity, Solution |
 
 | Box argument | Status | Modules |
 | --- | --- | --- |
@@ -92,6 +92,6 @@ criterion for the independently specified Hölder convention and cubic charge de
 under a local essential bound.
 
 Comparator's development check currently matches the independent statements and
-definitions, then rejects `sorryAx` from the two unfinished proof bodies. This is not a
+definitions, then rejects `sorryAx` from the remaining box proof body. This is not a
 passing Comparator result. The secure Linux check and the pinned full Palomar workflow
 must pass after proof completion. The project has not been submitted or registered.

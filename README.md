@@ -16,7 +16,7 @@ $$
 \overline{\dim}_{B,\mathrm{par}}(S\cap K)\le\frac{25}{23}
 $$
 
-for each compact interior set. The logarithmic family being added is
+for each compact interior set. The proved logarithmic family is
 
 $$
 h_k(r)=r\prod_{i=1}^{k}[\log^{\circ i}(1/r)]^2,
@@ -24,33 +24,24 @@ $$
 
 specified near zero, where all factors are positive, and extended to larger radii.
 
-**The two main proof bodies are unfinished. This project has not passed Comparator
-and has not been registered on Palomar.** A successful development build includes
-intentional Challenge placeholders; it does not certify the two results.
+**The gauge family is proved for every finite depth. The box-dimension proof remains
+unfinished. The complete project has not passed Comparator and is not registered
+on Palomar.** Challenge contains the intentional independent statement placeholders.
 
-Completed supporting results include persistent-activity divergence at every finite
-logarithmic depth and its affine scale comparison, exact gauge-family identities,
-the zero-factor member for actual suitable weak solutions, mass-ratio layer cake,
-finite and infinite dyadic Carleson embedding at exponent 7/6, mass-ratio stopping,
-the finite-trace contradiction, the critical weak-gradient Sobolev and
-mean-subtracted Poincare estimates, time integration of the spatial embedding,
-mixed-gradient integrability for actual solutions, sixteen adjacent parabolic grids,
-arbitrary-scale CKN regularity and its persistent singular charge consequence,
-small-radius gauge monotonicity and doubling,
-actual-solution velocity and pressure decay on smaller time windows,
-joint measurability of the actual activity and mixed-gradient masses,
-concrete slice-cell descendant coefficient bounds and their integrated embedding,
-local energy control by the symmetric activity, the geometric gauge Frostman
-construction for every finite logarithmic depth, and compact measure limit construction,
-and the reduction from a uniform ball charge to upper box dimension.
-These have no proof placeholders. The remaining
-analytic obligations include the PDE scale recurrence, the concrete dissipation trace,
-the velocity-only regularity
-criterion, pressure-gradient integrability, and accelerated-frame suitability.
-The normalized pressure charge is proved to tend to zero under local velocity boundedness.
-For actual suitable solutions, local essential boundedness and the formal Hölder regularity
-convention are proved equivalent at every interior point.
-See [the proof status](docs/proof-status.md) for the precise completed and open steps.
+The gauge proof constructs a genuine Frostman measure from positive gauge measure,
+derives the scale recurrence directly from suitability, and proves the concrete
+mass-ratio gradient trace. The reciprocal logarithmic weights diverge at every finite
+depth, contradicting positive Frostman mass on the singular set. Compact interior
+localization and exact isometric transport give the full-domain conclusion.
+All these supporting proofs contain no placeholders or custom axioms.
+
+For the box bound, local velocity integrability at exponent 10/3 and the actual weak
+pressure gradient at exponent 5/4 are proved. The remaining analytic steps include
+weighted mean motion, accelerated-frame suitability, and the velocity-only regularity
+criterion. The packing and covering reduction at exponent 25/23 is already proved.
+Local essential boundedness and the formal Hölder regularity convention are also
+proved equivalent for actual suitable solutions at every interior point.
+See [the proof status](docs/proof-status.md) for the completed and open steps.
 
 The project pins Lean and Mathlib to `v4.35.0-rc2` and imports the
 [Caffarelli–Kohn–Nirenberg library](https://github.com/scottnarmstrong/CaffarelliKohnNirenberg)
@@ -60,9 +51,8 @@ partial regularity for it. Ordinary one-dimensional Hausdorff nullity does not
 by itself prove either requested strengthening.
 
 `Challenge.lean` independently states the targets with Mathlib-only definitions.
-`Solution.lean` assembles the proof-side declarations and currently contains two
-explicit proof goals: the family of gauges and the box bound. The original
-logarithmic square target is a corollary of the unfinished family theorem.
+`Solution.lean` assembles the proved gauge family and its original logarithmic-square
+corollary. Its only remaining proof placeholder is the box-dimension bound.
 `comparator.json` permits only `propext`, `Quot.sound`, and
 `Classical.choice`. No custom axioms or substituted hypotheses stand in for either
 main conclusion.

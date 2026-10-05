@@ -73,6 +73,12 @@ public import FluidSingularSets.PointwiseGradientTrace
 public import FluidSingularSets.CylinderCellComparison
 public import FluidSingularSets.TraceActivityComparison
 public import FluidSingularSets.PressureGradientFiveFourths
+public import FluidSingularSets.DyadicActivitySequence
+public import FluidSingularSets.LocalizedGradientPatch
+public import FluidSingularSets.RawSingularPersistence
+public import FluidSingularSets.GaugeTraceExclusion
+public import FluidSingularSets.CompactGaugeNullity
+public import FluidSingularSets.SuitableGaugeNullity
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

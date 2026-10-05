@@ -21,7 +21,7 @@ sources:
     type: paper
     location: "papers/log-squared.tex"
     relationship: formalizes
-    note: "Research manuscript supplied in the local project; the main proof remains unfinished."
+    note: "Research manuscript supplied in the local project; the gauge proof and finite-depth extension are completed."
   - title: "Packing dimension and logarithmic gauges for the Navier–Stokes singular set"
     type: paper
     location: "papers/box-25-23.tex"
@@ -56,9 +56,12 @@ status:
     concrete slice-cell descendant bounds and compact localization,
     the actual Frostman-to-cell growth and integrated coefficient embedding,
     finite-trace contradiction and geometric packing arguments are proved.
-    The two main solution proofs still contain placeholders and the
-    project is not eligible for Palomar registration.
-  sorry_count: 2
+    The actual scale recurrence, concrete mass-ratio trace, and full-domain
+    gauge nullity are proved for every finite logarithmic depth. Actual local
+    pressure-gradient integrability at exponent 5/4 is also proved.
+    The box-dimension proof retains one placeholder, so the complete
+    project is not yet eligible for Palomar registration.
+  sorry_count: 1
   sorry_in_definitions: 0
   axioms: []
 
@@ -99,13 +102,13 @@ alignment:
     - source: "Logarithmic manuscript, finite iterated logarithm extension"
       lean: "FluidSingularSets.singularSet_iteratedLogHausdorffMeasure_zero"
       module: "Solution"
-      status: partial
-      note: "Zero factors proved using CKN; positive depths remain unfinished."
+      status: complete
+      note: "Every finite depth proved from actual suitability and the genuine Frostman trace."
     - source: "Logarithmic manuscript, main theorem"
       lean: "FluidSingularSets.singularSet_logSquaredHausdorffMeasure_zero"
       module: "Solution"
-      status: partial
-      note: "Unconditional target statement; proof unfinished."
+      status: complete
+      note: "Proved as the depth-one corollary of the full finite gauge family."
     - source: "Box manuscript, first theorem"
       lean: "FluidSingularSets.singularSet_upperBoxDimension_le"
       module: "Solution"

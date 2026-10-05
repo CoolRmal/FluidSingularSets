@@ -4,13 +4,14 @@ public import FluidSingularSets.CKNBridge
 public import FluidSingularSets.Geometry
 public import FluidSingularSets.IteratedGauge
 public import FluidSingularSets.CKNBaseline
+public import FluidSingularSets.SuitableGaugeNullity
 
 /-!
 # Proof assembly for the singular-set refinements
 
 The CKN dependency provides the same `CKNChallenge` solution class as the standalone Challenge
-and proves the ordinary CKN theorem for it. The two stronger results below remain proof goals.
-Neither is inferred from the ordinary CKN conclusion.
+and proves the ordinary CKN theorem for it. The finite logarithmic gauge family is proved
+using the actual suitable recurrence and Frostman trace. The box bound remains a proof goal.
 -/
 
 @[expose] public section
@@ -28,11 +29,7 @@ theorem singularSet_iteratedLogHausdorffMeasure_zero
     (k : ℕ) (Ω : Set Space) (I : Set ℝ)
     (data : CKNChallenge.LocalWeakNSESolution Ω I 3) (hforce : data.f = 0) :
     iteratedLogHausdorffMeasure k (CKNChallenge.singularSet Ω I data.u) = 0 := by
-  cases k with
-  | zero =>
-    exact suitableWeakSolution_iteratedLogHausdorffMeasure_zero_factors
-      3 (by norm_num) Ω I data
-  | succ k => sorry
+  exact suitable_singularSet_iteratedLogHausdorffMeasure_zero k data hforce
 
 /-- The interior singular set of every unforced local suitable weak solution has zero
 parabolic Hausdorff measure for the gauge `r(log(1/r))²`.
