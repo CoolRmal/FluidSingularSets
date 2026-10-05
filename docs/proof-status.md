@@ -124,7 +124,11 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual nonlinear and viscous pressure time classes | Proved at time 4/3 and 2 from actual suitable energy data | StokesPressureTimeIntegrability, StokesPressureCurves |
 | Canonical harmonic gradient and Hessian operators | Proved with actual Riesz pairings, joint gradient measurability and weak derivatives | UnitBallHarmonicGradient, UnitBallHarmonicGradientPairing, UnitBallHarmonicGradientMeasurable, LocalHessianCalculus, UnitBallHarmonicHessian |
 | Energy-dual evolution from true compact suitable momentum tests | Proved for actual integrable forces with literal pairings | StokesMomentumTime, WeakTimePressure |
-| Smooth harmonic square time and Laplacian cancellations | Proved with actual compact-test integrability | SmoothHarmonicEnergy |
+| Actual suitable pressure-correction weak time equation | Proved from ordinary unforced suitability with true force and pressure classes | ActualPressureCurve, SuitableProjectedPressureTime |
+| Actual harmonic gradient on energy-dual forces | Proved via true orthogonal projection, with exact source compatibility | UnitBallHarmonicForceGradient, UnitBallHarmonicForceExtension, UnitBallHarmonicGradientCompatibility |
+| Actual harmonic-gradient time evolution and AC representative | Proved from suitable momentum, true closed-subspace differentiation and Bochner primitives | WeakDerivativeGradientFree, WeakContinuousTimePrimitive, SuitableHarmonicGradientTime |
+| Genuine weak-gradient, convection, momentum and pressure correction cancellations | Proved for actual smooth corrections and compact energy tests | HarmonicCorrectionCrossTerms, SmoothProjectedDivergence, SmoothHarmonicMomentum, SmoothProjectedPressureCancellation |
+| Smooth harmonic spatial and square energy cancellations | Proved from actual suitable weak gradients and true compact-test integration by parts | SmoothHarmonicEnergy, HarmonicScalarEnergyCancellation |
 | Exact projected energy algebra | Proved pointwise; analytic cancellations remain | ProjectedEnergyAlgebra |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |

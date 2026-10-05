@@ -161,6 +161,21 @@ public import FluidSingularSets.UnitBallHarmonicGradientMeasurable
 public import FluidSingularSets.LocalHessianCalculus
 public import FluidSingularSets.UnitBallHarmonicHessian
 
+public import FluidSingularSets.ActualPressureCurve
+public import FluidSingularSets.UnitBallHarmonicForceGradient
+public import FluidSingularSets.UnitBallHarmonicForceExtension
+public import FluidSingularSets.UnitBallHarmonicGradientCompatibility
+public import FluidSingularSets.SuitableProjectedPressureTime
+public import FluidSingularSets.HarmonicCorrectionCrossTerms
+public import FluidSingularSets.SmoothProjectedDivergence
+public import FluidSingularSets.SmoothHarmonicMomentum
+public import FluidSingularSets.SmoothProjectedPressureCancellation
+
+public import FluidSingularSets.WeakDerivativeGradientFree
+public import FluidSingularSets.WeakContinuousTimePrimitive
+public import FluidSingularSets.SuitableHarmonicGradientTime
+public import FluidSingularSets.HarmonicScalarEnergyCancellation
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

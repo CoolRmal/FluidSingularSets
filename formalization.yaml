@@ -79,7 +79,10 @@ status:
     moment and literal energy-dual gradient pairing. Actual nonlinear and viscous
     projected pressures have time 4/3 and 2 classes. Canonical harmonic gradient
     and Hessian operators have true representation, bounds and weak derivatives.
-    Energy-dual evolution follows from compact suitable momentum pairings, and
+    The actual suitable pressure-correction time equation and force gradient
+    extension with true source compatibility, actual harmonic-gradient evolution
+    and its AC representative are proved. Energy-dual evolution
+    follows from compact suitable momentum pairings, and
     smooth harmonic square cancellations are proved. The exact projected energy
     algebra is proved. A conditional
     uniform lower-charge reduction at exponent 25/23 is complete, including
