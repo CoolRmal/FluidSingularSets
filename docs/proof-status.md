@@ -40,7 +40,7 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Symmetric charge decay with the actual mixed oscillation source | Proved for actual solutions | SymmetricChargeDecay |
 | Local energy controlled by symmetric activity | Proved for actual solutions | ActualEnergyControl |
 | Actual backward-cylinder dissipation controlled by symmetric activity | Proved with admissible terminal time | GradientEnergyControl |
-| Mixed-gradient PDE recurrence | Open velocity decay and local energy assembly | New scale assembly needed |
+| Mixed-gradient PDE recurrence | Proved for actual suitable solutions, with uniform dyadic contraction | FixedScaleRecurrence |
 | Descendant Carleson bounds imply the dyadic embedding | Proved, finite and infinite families | CarlesonEmbedding, CountableCarleson |
 | Growth and descendant count give coefficient bounds | Proved scalar implication | FrostmanCarleson |
 | Actual slice-cell masses give descendant coefficient bounds | Proved, including infinite series | SpatialTraceCoefficients |
@@ -55,7 +55,7 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Exact refinement, descendant count and measurable time selector | Proved | ParabolicRefinement |
 | Spatial and time-integrated embedding in adjacent grids | Proved | ShiftedCarleson |
 | Concrete cost and mass-ratio identities | Proved, including zero masses | TraceCost |
-| Compare cylinder and box dissipation costs | Open assembly | New trace assembly needed |
+| Compare cylinder and box dissipation costs | Proved for actual suitable solutions, including zero masses | CylinderCellComparison, SymmetricCellMixedComparison, TraceActivityComparison |
 | Positive gauge content gives uniform finite tree capacity and atomic measures | Proved abstract construction | GaugeFrostman |
 | Compact weak limit preserving eventual open-ball bounds | Proved abstract limit construction | GaugeFrostmanLimit |
 | Actual cell tree, grouped atomic masses and uniform ball bounds | Proved | ParabolicFrostmanGeometry, GaugeFrostmanApproximations |
@@ -64,6 +64,10 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Frostman ball growth gives actual refined-cell growth | Proved with one level cutoff | FrostmanCellGrowth |
 | Full integrated spatial coefficient series is finite | Proved from actual Frostman growth | FrostmanTraceEmbedding |
 | Finite trace excludes a persistent set of positive mass | Proved abstract implication | ActivityTrace |
+| Actual mass-ratio trace is summable | Proved from Frostman growth and finite gradient energy | ConcreteMassRatioTrace |
+| Pointwise cell costs are summable in all sixteen grids | Proved almost everywhere for the Frostman measure | PointwiseGradientTrace |
+| Exact divergent weights on dyadic arithmetic progressions | Proved at every positive logarithmic depth | DyadicLogWeights |
+| Cell activity is finite, and zero dissipation gives zero activity | Proved from actual quadratic energy | CellMixedDissipation |
 | Transfer every gauge between parabolic carriers | Proved on every set | GaugeTransport |
 | Compact interior nullity implies full-domain nullity | Proved | CompactLocalization |
 | Apply all pieces to the solution, then exhaust the domain | Open | Solution |
@@ -73,7 +77,7 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Exact exponent balance and moving-scale displacement | Proved scalar implications | MovingScale |
 | Uniform ball charge implies covering and dimension bounds | Proved | Packing, BoxFromCharge, BoxDimension |
 | Compactness of the localized singular set | Proved | RegularSet |
-| Pressure-gradient local integrability | Open | New analytic assembly needed |
+| Pressure-gradient local integrability | Proved actual weak gradient in local L^(5/4) | PressureGradientFiveFourths |
 | Weighted Poincare and mean-motion estimates | Open | New analytic assembly needed |
 | Accelerated-frame suitability | Open | New weak-equation transport needed |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |

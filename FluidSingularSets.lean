@@ -63,6 +63,16 @@ public import FluidSingularSets.BoundedRegularity
 public import FluidSingularSets.ConcreteTraceCarleson
 public import FluidSingularSets.ConcreteTraceAE
 public import FluidSingularSets.SymmetricChargeDecay
+public import FluidSingularSets.FixedScaleRecurrence
+public import FluidSingularSets.SymmetricCellMixedComparison
+public import FluidSingularSets.CellMixedDissipation
+public import FluidSingularSets.CompactCharge
+public import FluidSingularSets.DyadicLogWeights
+public import FluidSingularSets.ConcreteMassRatioTrace
+public import FluidSingularSets.PointwiseGradientTrace
+public import FluidSingularSets.CylinderCellComparison
+public import FluidSingularSets.TraceActivityComparison
+public import FluidSingularSets.PressureGradientFiveFourths
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
