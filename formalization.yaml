@@ -3,7 +3,8 @@ version: "v0.4"
 project:
   name: "FluidSingularSets"
   description: >-
-    Work in progress on logarithmic Hausdorff nullity and an upper parabolic
+    Work in progress on Hausdorff nullity for all finite products of squared
+    successive logarithms and an upper parabolic
     box dimension bound of 25/23 for interior singular sets of unforced
     three-dimensional suitable weak Navier–Stokes solutions.
   authors: ["Yongxi (Aaron) Lin"]
@@ -39,9 +40,12 @@ related_formalizations:
 
 status:
   scope: >-
-    The two main statements are independently restated using Mathlib alone.
-    Supporting scalar divergence, gauge and geometric packing arguments are
-    proved. The two main solution proofs still contain placeholders and the
+    Three target declarations for the two requested conclusions are independently
+    restated using Mathlib alone. The zero-factor family member follows from CKN.
+    Supporting divergence at every finite logarithmic depth, gauge identities,
+    mass-ratio layer cake, dyadic Carleson embedding at exponent 7/6,
+    finite-trace contradiction and geometric packing arguments are proved.
+    The two main solution proofs still contain placeholders and the
     project is not eligible for Palomar registration.
   sorry_count: 2
   sorry_in_definitions: 0
@@ -57,7 +61,9 @@ automation:
         wall_time: "In progress"
         spend_usd: "not tracked"
         hardware: "local macOS computer"
-      prompting_notes: "Formalize both unconditional results, reuse CKN, and meet Palomar standards."
+      prompting_notes: >-
+        Formalize the unconditional gauge family and local box bound, reuse CKN,
+        meet Palomar standards, and publish frequent checkpoints in a public repository.
   spend_usd: "not tracked"
   notes: "Human maintainer identified from the authenticated GitHub profile; AI credited as automation."
 
@@ -66,7 +72,10 @@ fidelity:
     Statements use the CKN comparator's local Hölder regularity convention.
     Manuscripts use essential boundedness; equivalence under suitability is
     a remaining proof obligation. Box dimension is localized to compact
-    interior patches and the force is identically zero.
+    interior patches and the force is identically zero. The gauge family uses
+    successive factors log^i(1/r), i from 1 to k, extended with max(1, factor)
+    away from zero. The extension agrees exactly with the requested positive
+    product at all sufficiently small radii.
 
 review:
   status: "In progress; internal automated statement audit"
@@ -76,6 +85,11 @@ review:
 alignment:
   namespace: "FluidSingularSets"
   statements:
+    - source: "Logarithmic manuscript, finite iterated logarithm extension"
+      lean: "FluidSingularSets.singularSet_iteratedLogHausdorffMeasure_zero"
+      module: "Solution"
+      status: partial
+      note: "Zero factors proved using CKN; positive depths remain unfinished."
     - source: "Logarithmic manuscript, main theorem"
       lean: "FluidSingularSets.singularSet_logSquaredHausdorffMeasure_zero"
       module: "Solution"

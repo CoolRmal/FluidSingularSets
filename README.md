@@ -28,23 +28,28 @@ specified near zero, where all factors are positive, and extended to larger radi
 and has not been registered on Palomar.** A successful development build includes
 intentional Challenge placeholders; it does not certify the two results.
 
-Completed supporting results include persistent-activity divergence, logarithmic
-gauge properties, finite-mass packing estimates, and the reduction from a uniform
-ball charge to upper box dimension. These have no proof placeholders. The remaining
+Completed supporting results include persistent-activity divergence at every finite
+logarithmic depth, exact gauge-family identities and small-radius agreement,
+the zero-factor member for actual suitable weak solutions, mass-ratio layer cake,
+dyadic Carleson embedding at exponent 7/6, the finite-trace contradiction,
+finite-mass packing estimates, and the reduction from a uniform ball charge
+to upper box dimension. These have no proof placeholders. The remaining
 analytic obligations include the PDE scale recurrence, the dissipation trace,
 gauge Frostman and parabolic grid constructions, the velocity-only regularity
 criterion, pressure-gradient integrability, and accelerated-frame suitability.
 
 The project pins Lean and Mathlib to `v4.35.0-rc2` and imports the
 [Caffarelli–Kohn–Nirenberg library](https://github.com/scottnarmstrong/CaffarelliKohnNirenberg)
-at commit `c26903f8e38b7b5a4594c80892e51b0599e8fd82`. Its comparator bridge supplies
+at commit `c26903f8e38b7b5a4594c80892e51b0599e8fd82`. The adapted comparator bridge supplies
 the independently stated local suitable-solution class and proves ordinary CKN
 partial regularity for it. Ordinary one-dimensional Hausdorff nullity does not
 by itself prove either requested strengthening.
 
 `Challenge.lean` independently states the targets with Mathlib-only definitions.
 `Solution.lean` assembles the proof-side declarations and currently contains two
-explicit proof goals. `comparator.json` permits only `propext`, `Quot.sound`, and
+explicit proof goals: the family of gauges and the box bound. The original
+logarithmic square target is a corollary of the unfinished family theorem.
+`comparator.json` permits only `propext`, `Quot.sound`, and
 `Classical.choice`. No custom axioms or substituted hypotheses stand in for either
 main conclusion.
 

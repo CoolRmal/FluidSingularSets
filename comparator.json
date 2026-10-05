@@ -2,6 +2,7 @@
   "challenge_module": "Challenge",
   "solution_module": "Solution",
   "theorem_names": [
+    "FluidSingularSets.singularSet_iteratedLogHausdorffMeasure_zero",
     "FluidSingularSets.singularSet_logSquaredHausdorffMeasure_zero",
     "FluidSingularSets.singularSet_upperBoxDimension_le"
   ],
