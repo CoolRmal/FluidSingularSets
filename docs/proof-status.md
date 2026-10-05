@@ -156,6 +156,13 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual arbitrary-ball pressure sources | Proved true tensor/nonlinear Poisson, viscous harmonicity and radius-uniform Stokes source bounds | BallStokesPressureSources |
 | Quadratic mixed source pairing | Proved actual source L¹ spatial L² control and integrable pressure/velocity pairing with a quadratic mixed source bound | MixedQuadraticSources |
 | Actual projected pressure identification | Proved the energy pressure equals the literal nonlinear and viscous Stokes pressures plus the original spatial average | SuitableProjectedPressureIdentification |
+| Genuine scaled pressure localization and decay | Proved affine harmonic transport, literal centered averages, actual nonlinear local harmonic remainders and radius-five-halves pressure decay | BallHarmonicPressureDecay |
+| Actual suitable pressure decay on balls | Proved physical pressure harmonicity/localized oscillation on a common full time set directly from suitability | SuitableBallPressureHarmonic |
+| Pressure gradient on arbitrary local boxes | Proved joint measurable L⁵ᐟ⁴ pressure derivatives using finite native pressure patches with the original time interval preserved | LocalBoxPressureForces |
+| Actual projected weak gradients and divergence | Proved original-plus-harmonic slice weak gradients, divergence, joint energy and genuine weighted mixed Sobolev bounds | SuitableProjectedWeakGradient |
+| True endpoint mixed physical pressure curves | Proved actual nonlinear time L¹ spatial L² and viscous time L² spatial L² bounds by the literal endpoint velocity/gradient costs | StokesPressureMixedBounds |
+| Actual harmonic derivative source bounds | Proved correction and Hessian bounds by the actual original spatial L² velocity class on a common full time set | ProjectedHarmonicSourceBounds |
+| Actual spatial mean pressure pairings | Proved genuine mean integrability, true constant mixed classes and zero pairing against actual zero-integral spatial tests | MixedSpatialMeans |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |

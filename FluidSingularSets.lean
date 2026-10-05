@@ -212,6 +212,14 @@ public import FluidSingularSets.BallStokesPressureSources
 public import FluidSingularSets.MixedQuadraticSources
 public import FluidSingularSets.SuitableProjectedPressureIdentification
 
+public import FluidSingularSets.BallHarmonicPressureDecay
+public import FluidSingularSets.SuitableBallPressureHarmonic
+public import FluidSingularSets.LocalBoxPressureForces
+public import FluidSingularSets.SuitableProjectedWeakGradient
+public import FluidSingularSets.StokesPressureMixedBounds
+public import FluidSingularSets.ProjectedHarmonicSourceBounds
+public import FluidSingularSets.MixedSpatialMeans
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
