@@ -190,6 +190,11 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Genuine spatial smoothing at arbitrary radii | Proved true C² compact extension, harmonic convolution, uniform derivative limits and actual smooth dual kernels with literal evaluation identities | FullBallSpatialSmoothApprox, FullBallSpatialKernels |
 | Sharp actual mixed viscous pressure pairing | Proved original-interval time L² pairing and Young absorption into full-ball gradient and endpoint velocity costs | ProjectedViscousMixedPairing |
 | Genuine weighted Sobolev with original velocity error | Proved cubed-cutoff L²/L⁶ estimate retaining the literal weighted derivative and an unweighted velocity square error | WeightedProjectedSobolev |
+| Genuine uniformly bounded full-ball smooth operators and limits | Proved actual compact pressure/gradient/Hessian operators, finite uniform bounds and genuine fixed-force and moving compact-trajectory convergence | FullBallHessianSmoothApprox, FullBallSmoothLimits |
+| Exact full-ball joint differential smoothing | Proved actual smooth pressure, gradient and Hessian fields, exact force-primitive time derivative and harmonic/divergence identities on arbitrary interiors | FullBallJointSmoothApprox |
+| True projected mixed source and Sobolev control | Proved actual full-ball source controls for projected L²/L⁶ and weighted cubed-cutoff mixed cost on original intervals | FullBallProjectedSixControl |
+| Genuine full-ball cutoff pressure bounds | Proved actual weighted nonlinear-pressure pairings and viscous Young bounds with the literal original gradient/endpoint costs at arbitrary interior radii | FullBallProjectedPressurePairings |
+| Genuine bounded radius iteration with boundary costs | Proved explicit nested-radius contraction and source polynomial with all forcing powers up to thirty two; actual PDE one-step premise remains | ProjectedRadiusIteration32 |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 

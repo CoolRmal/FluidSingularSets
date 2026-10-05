@@ -264,6 +264,13 @@ public import FluidSingularSets.FullBallSpatialKernels
 public import FluidSingularSets.ProjectedViscousMixedPairing
 public import FluidSingularSets.WeightedProjectedSobolev
 
+public import FluidSingularSets.FullBallHessianSmoothApprox
+public import FluidSingularSets.FullBallSmoothLimits
+public import FluidSingularSets.FullBallJointSmoothApprox
+public import FluidSingularSets.FullBallProjectedSixControl
+public import FluidSingularSets.FullBallProjectedPressurePairings
+public import FluidSingularSets.ProjectedRadiusIteration32
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
