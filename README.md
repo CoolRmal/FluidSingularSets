@@ -61,8 +61,10 @@ completion, velocity reconstruction, a bounded divergence inverse on every
 mean-zero ball L² datum, and a bounded continuous mean-zero pressure operator.
 Its pressure is weakly harmonic for genuine divergence-free vector sources.
 Actual C² representatives and uniform interior gradient and Hessian estimates
-are proved. The exact algebraic expansion for the projected energy is proved;
-its analytic cancellations remain to be established.
+are proved. The actual nonsmooth projected local energy inequality is proved, including
+its analytic cancellations, genuine harmonic pressure primitive, and strong
+limit. Quantitative weighted cutoff estimates and pressure decay are also
+proved; their all-scale regularity iteration remains to be completed.
 
 A completed conditional reduction turns a uniform velocity-only regularity
 criterion into the required singular lower charge at exponent 25/23, including

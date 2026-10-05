@@ -134,7 +134,7 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual scalar pressure-value operator and uniform mixed class limits | Proved with the genuine force norm bound, Lipschitz evaluation kernel, and derived good spatial slices | CanonicalForcePressureValues, UniformMixedSlices |
 | Actual joint smooth harmonic pressure corrections | Proved with exact time-gradient compatibility, interior harmonicity/divergence and quantitative smoothing errors | HarmonicJointSmoothApprox |
 | Actual force Hessian operator and strong operator-curve limits | Proved with true force norm bounds and Bochner dominated convergence, including varying input curves | UnitBallHarmonicForceHessian, StrongOperatorCurveLimits |
-| Projected local energy for actual smooth harmonic corrections | Proved from the original suitable momentum, divergence, weak gradient and energy equations; actual nonsmooth correction limit remains | ProjectedEnergyAlgebra, SmoothProjectedLocalEnergy |
+| Projected local energy for actual smooth harmonic corrections | Proved from the original suitable momentum, divergence, weak gradient and energy equations; the nonsmooth limit is also complete | ProjectedEnergyAlgebra, SmoothProjectedLocalEnergy |
 | Actual time L∞ velocity and harmonic correction bounds | Proved quantitatively from the genuine S1 slice energy bound | SuitableVelocityTimeBound |
 | Genuine pressure-velocity integral limits | Proved for true spatial L² classes with time L¹/L∞ bounds and strong convergence | StrongMixedPairings, MixedSlicePairings |
 | Actual endpoint cubic interpolation | Proved with constant one and powers 3/4, 1/4, 3/4 of energy, time measure and mixed cost | EndpointVelocityInterpolation |
@@ -165,6 +165,13 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual spatial mean pressure pairings | Proved genuine mean integrability, true constant mixed classes and zero pairing against actual zero-integral spatial tests | MixedSpatialMeans |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |
+| Actual centered pressure restriction | Proved bounded linear restriction and literal mean subtraction, exact oscillation moments, and all time exponents | BallCenteredPressureOperator |
+| Physical and native unit pressure compatibility | Proved actual equality of affine energy transports, Stokes pressures, and nonlinear/viscous curves | BallStokesUnitCompatibility |
+| True projected spatial velocity energy | Proved finite corrected energy and explicit source S1 bounds, with genuine good slices and time L∞ classes | SuitableProjectedVelocityEnergy |
+| Pressure energy on arbitrary local boxes | Proved actual spatial L² pressure and time L⁵ᐟ⁴ energy-force classes while preserving the original time interval | LocalBoxPressureEnergy |
+| Energy force classes on arbitrary local boxes | Proved full-ball H1 to L⁶, genuine quartic time interpolation and all actual energy force classes on the original time interval | LocalBoxEnergyForces |
+| Actual time-energy extraction | Proved scalar Lebesgue differentiation, true backward cutoff limits, product integration and essential energy supremum from literal tested inequalities | TestedTimeEnergy |
+| Genuine nonsmooth energy at almost every time | Proved actual energy/dissipation/RHS integrability, real smooth ramp tests and literal time-energy extraction directly from suitability | SuitableProjectedTimeEnergy |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
