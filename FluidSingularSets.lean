@@ -188,6 +188,11 @@ public import FluidSingularSets.UnitBallHarmonicForceHessian
 public import FluidSingularSets.StrongOperatorCurveLimits
 public import FluidSingularSets.HarmonicJointSmoothApprox
 
+public import FluidSingularSets.ProjectedEnergyStrongLimit
+public import FluidSingularSets.MixedWeightedVelocity
+public import FluidSingularSets.ProjectedCaccioppoliAlgebra
+public import FluidSingularSets.FullBallHarmonicRegularity
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

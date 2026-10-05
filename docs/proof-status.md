@@ -138,6 +138,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual time L∞ velocity and harmonic correction bounds | Proved quantitatively from the genuine S1 slice energy bound | SuitableVelocityTimeBound |
 | Genuine pressure-velocity integral limits | Proved for true spatial L² classes with time L¹/L∞ bounds and strong convergence | StrongMixedPairings, MixedSlicePairings |
 | Actual endpoint cubic interpolation | Proved with constant one and powers 3/4, 1/4, 3/4 of energy, time measure and mixed cost | EndpointVelocityInterpolation |
+| Genuine full projected-energy strong limit | Proved for the actual energy density, pressure pairing, true spatial classes, and uniform tested velocity limits | ProjectedEnergyStrongLimit, MixedWeightedVelocity |
+| Endpoint absorption and bounded radius iteration | Proved with explicit geometric radii and contraction; actual cutoff estimate remains | ProjectedCaccioppoliAlgebra |
+| Actual full-ball harmonic force pressure | Proved with whole-ball C² representatives and explicit derivative bounds on every interior ball | FullBallHarmonicRegularity |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
