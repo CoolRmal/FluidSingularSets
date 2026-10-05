@@ -275,6 +275,11 @@ public import FluidSingularSets.FullBallProjectedLocalEnergy
 public import FluidSingularSets.FullBallHarmonicCutoffErrors
 public import FluidSingularSets.FullBallProjectedSignedErrors
 public import FluidSingularSets.ProjectedBallRescaling
+public import FluidSingularSets.FullBallProjectedTimeEnergy
+public import FluidSingularSets.FullBallProjectedGradientControl
+public import FluidSingularSets.FullBallCylinderEnergyRhs
+public import FluidSingularSets.CanonicalBallCutoffSecondBounds
+public import FluidSingularSets.ProjectedBallMixedRescaling
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

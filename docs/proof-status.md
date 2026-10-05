@@ -198,6 +198,10 @@ from the solution. Those hypotheses are not added to either target theorem.
 | True suitable full-ball smooth source sequence and local energy inequality | Proved actual source-derived joint approximations and the projected local energy inequality on every compact interior radius and exact original interval | FullBallSuitableSmoothApprox, FullBallProjectedLocalEnergy |
 | Genuine summed pressure and harmonic cutoff errors | Proved actual pressure mean cancellation, finite component sums, signed error bounds and quantitative original-source harmonic Hessian control | FullBallHarmonicCutoffErrors, FullBallProjectedSignedErrors |
 | Genuine arbitrary physical projection-ball rescaling | Proved suitable-solution and local-box pullback, literal native unit ball and original interval endpoint transport | ProjectedBallRescaling |
+| Genuine original-interval tested projected time energy | Proved actual tested density integrability, backward cutoff extraction and almost-everywhere energy plus dissipation inequality on every compact interior radius | FullBallProjectedTimeEnergy |
+| True original gradient transfer and harmonic joint source control | Proved literal Hessian joint square bound from the endpoint source and unit-cutoff transfer from genuine projected to original gradient density | FullBallProjectedGradientControl |
+| Exact cutoff RHS and genuine canonical second derivative bound | Proved literal separated-test derivative/error-family identity and a universal sixth-cutoff Laplacian bound retaining the fourth spatial weight | FullBallCylinderEnergyRhs, CanonicalBallCutoffSecondBounds |
+| True endpoint and gradient rescaling at every physical projection radius | Proved actual inverse-radius scaling of extended mixed velocity, gradient norm and coordinate-square gradient costs without finiteness assumptions | ProjectedBallMixedRescaling |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
