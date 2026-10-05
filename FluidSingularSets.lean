@@ -79,6 +79,9 @@ public import FluidSingularSets.RawSingularPersistence
 public import FluidSingularSets.GaugeTraceExclusion
 public import FluidSingularSets.CompactGaugeNullity
 public import FluidSingularSets.SuitableGaugeNullity
+public import FluidSingularSets.WeightedVelocityPoincare
+public import FluidSingularSets.WeightedMeanMotion
+public import FluidSingularSets.CompactBoxDensity
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

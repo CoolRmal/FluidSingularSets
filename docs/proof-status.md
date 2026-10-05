@@ -78,7 +78,10 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Uniform ball charge implies covering and dimension bounds | Proved | Packing, BoxFromCharge, BoxDimension |
 | Compactness of the localized singular set | Proved | RegularSet |
 | Pressure-gradient local integrability | Proved actual weak gradient in local L^(5/4) | PressureGradientFiveFourths |
-| Weighted Poincare and mean-motion estimates | Open | New analytic assembly needed |
+| Weighted Poincare around the actual normalized mean | Proved from suitable slices | WeightedVelocityPoincare |
+| Actual mean evolution, AC representative and L^(3/2) acceleration | Proved | WeightedMeanMotion |
+| Quantitative scale-explicit bound for mean motion | Open | MeanMotionBound in progress |
+| Finite compact density including actual pressure gradients | Proved | CompactBoxDensity |
 | Accelerated-frame suitability | Open | New weak-equation transport needed |
 | Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
 | Uniform charge at every singular center and small radius | Open | New PDE criterion needed |

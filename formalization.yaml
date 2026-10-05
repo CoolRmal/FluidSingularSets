@@ -58,7 +58,9 @@ status:
     finite-trace contradiction and geometric packing arguments are proved.
     The actual scale recurrence, concrete mass-ratio trace, and full-domain
     gauge nullity are proved for every finite logarithmic depth. Actual local
-    pressure-gradient integrability at exponent 5/4 is also proved.
+    pressure-gradient integrability at exponent 5/4 is also proved. The weighted
+    Poincare estimate, absolutely continuous mean and actual acceleration formula,
+    and finite compact density with genuine local pressure gradients are proved.
     The box-dimension proof retains one placeholder, so the complete
     project is not yet eligible for Palomar registration.
   sorry_count: 1
