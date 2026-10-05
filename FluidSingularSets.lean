@@ -6,6 +6,8 @@ public import FluidSingularSets.BoxDimension
 public import FluidSingularSets.BoxFromCharge
 public import FluidSingularSets.Packing
 public import FluidSingularSets.PersistentActivity
+public import FluidSingularSets.WeightedActivity
+public import FluidSingularSets.MovingScale
 public import FluidSingularSets.CKNBridge
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
