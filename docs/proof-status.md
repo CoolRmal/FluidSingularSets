@@ -195,6 +195,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | True projected mixed source and Sobolev control | Proved actual full-ball source controls for projected L²/L⁶ and weighted cubed-cutoff mixed cost on original intervals | FullBallProjectedSixControl |
 | Genuine full-ball cutoff pressure bounds | Proved actual weighted nonlinear-pressure pairings and viscous Young bounds with the literal original gradient/endpoint costs at arbitrary interior radii | FullBallProjectedPressurePairings |
 | Genuine bounded radius iteration with boundary costs | Proved explicit nested-radius contraction and source polynomial with all forcing powers up to thirty two; actual PDE one-step premise remains | ProjectedRadiusIteration32 |
+| True suitable full-ball smooth source sequence and local energy inequality | Proved actual source-derived joint approximations and the projected local energy inequality on every compact interior radius and exact original interval | FullBallSuitableSmoothApprox, FullBallProjectedLocalEnergy |
+| Genuine summed pressure and harmonic cutoff errors | Proved actual pressure mean cancellation, finite component sums, signed error bounds and quantitative original-source harmonic Hessian control | FullBallHarmonicCutoffErrors, FullBallProjectedSignedErrors |
+| Genuine arbitrary physical projection-ball rescaling | Proved suitable-solution and local-box pullback, literal native unit ball and original interval endpoint transport | ProjectedBallRescaling |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 

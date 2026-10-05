@@ -270,6 +270,11 @@ public import FluidSingularSets.FullBallJointSmoothApprox
 public import FluidSingularSets.FullBallProjectedSixControl
 public import FluidSingularSets.FullBallProjectedPressurePairings
 public import FluidSingularSets.ProjectedRadiusIteration32
+public import FluidSingularSets.FullBallSuitableSmoothApprox
+public import FluidSingularSets.FullBallProjectedLocalEnergy
+public import FluidSingularSets.FullBallHarmonicCutoffErrors
+public import FluidSingularSets.FullBallProjectedSignedErrors
+public import FluidSingularSets.ProjectedBallRescaling
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
