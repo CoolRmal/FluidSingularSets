@@ -234,6 +234,20 @@ public import FluidSingularSets.TestedTimeEnergy
 
 public import FluidSingularSets.SuitableProjectedTimeEnergy
 
+public import FluidSingularSets.LocalBoxProjectedTime
+
+public import FluidSingularSets.LocalBoxProjectedLocalEnergy
+
+public import FluidSingularSets.LocalBoxProjectedTimeEnergy
+
+public import FluidSingularSets.UnitBallPressureMixedBounds
+
+public import FluidSingularSets.UnitBallPressureOscillationMoment
+
+public import FluidSingularSets.TestedTimeEnergyBounds
+
+public import FluidSingularSets.ProjectedCylinderCutoff
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

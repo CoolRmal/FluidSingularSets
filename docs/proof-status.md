@@ -172,6 +172,13 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Energy force classes on arbitrary local boxes | Proved full-ball H1 to L⁶, genuine quartic time interpolation and all actual energy force classes on the original time interval | LocalBoxEnergyForces |
 | Actual time-energy extraction | Proved scalar Lebesgue differentiation, true backward cutoff limits, product integration and essential energy supremum from literal tested inequalities | TestedTimeEnergy |
 | Genuine nonsmooth energy at almost every time | Proved actual energy/dissipation/RHS integrability, real smooth ramp tests and literal time-energy extraction directly from suitability | SuitableProjectedTimeEnergy |
+| Actual harmonic evolution on original intervals | Proved complete momentum evolution, true gradient-free force primitive, AC representative and genuine smooth force approximants on the original local interval | LocalBoxProjectedTime |
+| Genuine projected energy on original local intervals | Proved nonsmooth local energy directly from suitable source data and actual supported tests without a fixed extra future margin | LocalBoxProjectedLocalEnergy |
+| Actual time energy on original intervals | Proved true ramp tests and AE-time energy/dissipation inequality for the actual interval and primitive | LocalBoxProjectedTimeEnergy |
+| Native endpoint pressure moments | Proved exact native/physical time norms and actual nonlinear L¹/viscous L² bounds from endpoint source costs | UnitBallPressureMixedBounds |
+| Genuine nested pressure oscillation moments | Proved true mean-removed harmonic decay, time integration and a universal contraction with the actual suitable L⁶ source | UnitBallPressureOscillationMoment |
+| Quantitative actual tested time energy | Proved simultaneous energy essential supremum and full dissipation bounds from the literal bounded tested right hand side | TestedTimeEnergyBounds |
+| Actual smooth cutoff with arbitrary future cap | Proved compact supported sixth-power tests and upper time-derivative estimates independent of future cap width | ProjectedCylinderCutoff |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
