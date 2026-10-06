@@ -1,6 +1,6 @@
 # FluidSingularSets
 
-Lean formalization in progress for the interior singular set of unforced
+Lean formalization for the interior singular set of unforced
 three-dimensional suitable weak Navier–Stokes solutions.
 
 The targets use the parabolic metric
@@ -32,9 +32,10 @@ $$
 Its actual Hausdorff measure is bounded by that of the successive-product gauge.
 
 
-**The gauge family is proved for every finite depth. The box-dimension proof remains
-unfinished. The complete project has not passed Comparator and is not registered
-on Palomar.** Challenge contains the intentional independent statement placeholders.
+**Both requested conclusions are proved, including every finite gauge depth.
+Full Comparator verification and official Palomar mechanical preflight are pending.
+The project is not yet registered on Palomar.** Challenge contains the intentional
+independent statement placeholders; Solution and the supporting proofs have none.
 
 The gauge proof constructs a genuine Frostman measure from positive gauge measure,
 derives the scale recurrence directly from suitability, and proves the concrete
@@ -48,7 +49,7 @@ At public proof checkpoint `151a12f`, the gauge-only configuration
 with bubblewrap, including Lean paranoid, lean4lean, NanoDa, con-leche, con-ron
 and the default Lean kernel. This verifies both gauge targets against their
 independent statements. The full comparison and official Palomar mechanical
-preflight remain pending the box proof.
+preflight check the completed box proof as well.
 
 For the box bound, the actual pressure gradient at exponent 5/4, the normalized
 weighted Poincaré estimate, the absolutely continuous weighted mean, and the
@@ -67,15 +68,18 @@ limit. Quantitative weighted cutoff estimates and pressure decay are also
 proved. The full-ball pressure values, gradients, and Hessians now define actual
 bounded linear operators on arbitrary compact interiors, with quantitative
 boundary-margin estimates. Original-interval mean-pressure cancellation and
-the sharp weighted-energy convection estimate are also proved. Their
-all-scale regularity iteration remains to be completed.
+the sharp weighted-energy convection estimate are also proved. Genuine Gaussian
+energy extraction and nonlinear pressure contraction give the actual shrinking-scale
+recurrence. Its positive source threshold traps every scale below the CKN regularity
+budget, with finiteness and the reciprocal interpolation factor retained.
 
-A completed conditional reduction turns a uniform velocity-only regularity
-criterion into the required singular lower charge at exponent 25/23, including
-the forward terminal shift and common compact pressure-gradient measure.
-The criterion is an explicit internal premise that still needs proof; it is
-not an extra hypothesis of the independent target. The packing and covering
-argument is already proved. See [the proof status](docs/proof-status.md).
+The proved velocity-only criterion gives a common essential velocity bound on a
+fixed inner cylinder. Genuine quarter-box rescaling and a compact regularity cover
+make its radius independent of the solution and terminal time. The criterion yields
+the singular lower charge at exponent 25/23, including the forward terminal shift
+and common compact pressure-gradient measure. Packing and covering then give the
+requested upper box dimension on every compact interior patch.
+See [the proof status](docs/proof-status.md).
 
 The project pins Lean and Mathlib to `v4.35.0-rc2` and imports the
 [Caffarelli–Kohn–Nirenberg library](https://github.com/scottnarmstrong/CaffarelliKohnNirenberg)
@@ -85,8 +89,8 @@ partial regularity for it. Ordinary one-dimensional Hausdorff nullity does not
 by itself prove either requested strengthening.
 
 `Challenge.lean` independently states the targets with Mathlib-only definitions.
-`Solution.lean` assembles the proved gauge family and its original logarithmic-square
-corollary. Its only remaining proof placeholder is the box-dimension bound.
+`Solution.lean` assembles the proved gauge family, its original logarithmic-square
+corollary, and the local upper box-dimension bound.
 `comparator.json` permits only `propext`, `Quot.sound`, and
 `Classical.choice`. No custom axioms or substituted hypotheses stand in for either
 main conclusion.
@@ -98,7 +102,7 @@ lake exe cache get
 lake build
 ```
 
-The following registration gates must all pass after completing the main proofs:
+The following registration gates must all pass for the submitted snapshot:
 
 ```sh
 python3 scripts/check-lean-sources.py

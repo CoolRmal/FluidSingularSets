@@ -376,6 +376,8 @@ public import FluidSingularSets.FullBallScaledEndpointSequence
 public import FluidSingularSets.EndpointInteriorRescaling
 public import FluidSingularSets.EndpointRegularGeometry
 public import FluidSingularSets.EndpointVelocityCostRescaling
+public import FluidSingularSets.EndpointOriginRegularity
+public import FluidSingularSets.UniformEndpointVelocityCriterion
 
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 

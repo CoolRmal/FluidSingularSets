@@ -1,6 +1,6 @@
 name = "FluidSingularSets"
 version = "0.1.0"
-defaultTargets = ["FluidSingularSets", "Challenge"]
+defaultTargets = ["FluidSingularSets", "Challenge", "Solution"]
 
 [leanOptions]
 autoImplicit = false

@@ -15,8 +15,8 @@ $$
 for every compact interior patch $$K$$. The solution class is unforced, local,
 three-dimensional and suitable, as independently specified in `Challenge.lean`.
 
-The following tables distinguish the proved gauge theorem and supporting statements from the open box
-proof. A theorem about abstract coefficients is used only after deriving its hypotheses
+The following tables record the proved gauge theorem, box theorem and supporting statements.
+A theorem about abstract coefficients is used only after deriving its hypotheses
 from the solution. Those hypotheses are not added to either target theorem.
 
 | Gauge argument | Status | Modules |
@@ -163,7 +163,7 @@ from the solution. Those hypotheses are not added to either target theorem.
 | True endpoint mixed physical pressure curves | Proved actual nonlinear time L¹ spatial L² and viscous time L² spatial L² bounds by the literal endpoint velocity/gradient costs | StokesPressureMixedBounds |
 | Actual harmonic derivative source bounds | Proved correction and Hessian bounds by the actual original spatial L² velocity class on a common full time set | ProjectedHarmonicSourceBounds |
 | Actual spatial mean pressure pairings | Proved genuine mean integrability, true constant mixed classes and zero pairing against actual zero-integral spatial tests | MixedSpatialMeans |
-| Velocity-only single-scale regularity criterion | Open | Formalize cited Li–Wang–Zhou result |
+| Velocity-only single-scale regularity criterion | Proved from genuine projected energy and pressure iteration with a universal source threshold and fixed inner radius | EndpointOriginRegularity, UniformEndpointVelocityCriterion |
 | Uniform singular lower charge from the velocity-only criterion | Proved conditional reduction, with actual terminal/frame geometry | BoxChargeReduction |
 | Actual centered pressure restriction | Proved bounded linear restriction and literal mean subtraction, exact oscillation moments, and all time exponents | BallCenteredPressureOperator |
 | Physical and native unit pressure compatibility | Proved actual equality of affine energy transports, Stokes pressures, and nonlinear/viscous curves | BallStokesUnitCompatibility |
@@ -252,8 +252,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual rescaled forcing and shrinking sequence | Proved true radius-three-quarter dissipation/source control, the literal finite iteration sequence, its initial bound and nonlinear recurrence, and extended projected-energy comparison | ScaledEndpointSourceBounds, FullBallScaledEndpointSequence |
 | Genuine closed inner-point and physical cost geometry | Proved exact quarter-box containment, native source enlargement, physical closed-cylinder local boxes and original velocity-cost rescaling | EndpointInteriorRescaling, EndpointVelocityCostRescaling |
 | Actual native regularity gives a common physical inner bound | Proved compact closed-cylinder geometry, true pointwise unscaling and a finite-subcover essential velocity bound on the fixed physical inner cylinder | EndpointRegularGeometry |
-| Discharge the velocity-only criterion in the actual box target | Open | Apply actual recurrence trapping and join origin regularity to a fixed inner cylinder |
-| Apply charge bound to every compact interior patch | Open | Solution |
+| Actual universal native endpoint origin threshold | Proved genuine finite shrinking-sequence trapping, reciprocal all-radius interpolation and true original CKN regularity | EndpointOriginRegularity |
+| Discharge the velocity-only criterion in the actual box target | Proved a positive universal source threshold and radius one eighth, using actual closed-inner regularity and physical compact velocity bounds | UniformEndpointVelocityCriterion |
+| Apply charge bound to every compact interior patch | Proved the requested upper parabolic box dimension bound from the genuine uniform criterion and finite singular charge | Solution |
 
 For actual suitable solutions, local Hölder regularity and local essential boundedness
 are equivalent at every interior point, as proved in BoundedRegularity. VelocityOnlyBridge
@@ -267,6 +268,7 @@ development comparison at `1180af7`, then the [secure Linux comparison](https://
 at public proof checkpoint `151a12f`. Both independent gauge statements matched,
 and Lean paranoid, lean4lean, NanoDa, con-leche, con-ron and the default Lean kernel
 accepted their proofs using only the permitted standard axioms. The Linux run used
-the required bubblewrap sandbox. The full `comparator.json` still rejects `sorryAx`
-from the remaining box proof body. The pinned full Palomar workflow must pass
-after proof completion. The project has not been submitted or registered.
+the required bubblewrap sandbox. Solution and supporting proofs now contain no
+placeholders or custom axioms. The full `comparator.json` and pinned official
+Palomar workflow must pass for the completed snapshot before intake.
+The project has not been submitted or registered.

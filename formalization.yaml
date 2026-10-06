@@ -3,7 +3,7 @@ version: "v0.4"
 project:
   name: "FluidSingularSets"
   description: >-
-    Work in progress on Hausdorff nullity for all finite products of squared
+    Hausdorff nullity for all finite products of squared
     successive logarithms and an upper parabolic
     box dimension bound of 25/23 for interior singular sets of unforced
     three-dimensional suitable weak Navier–Stokes solutions.
@@ -28,10 +28,11 @@ sources:
     relationship: formalizes
     note: "Local research draft provided by the project maintainer."
   - title: "Remarks on interior regularity criteria without pressure for the Navier–Stokes equations"
+    authors: ["Shuai Li", "Wendong Wang", "Daoguo Zhou"]
     type: paper
     location: "https://arxiv.org/abs/2305.00698"
     relationship: background
-    note: "The velocity-only regularity theorem used by the box proof is not yet formalized."
+    note: "Background for the velocity-only regularity criterion proved internally from actual projected energy and pressure estimates."
 
 related_formalizations:
   - id: "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg"
@@ -47,17 +48,19 @@ status:
     The literal repeated-deepest logarithmic gauge also has proved nullity at
     every finite depth. The box development proves actual moving-frame suitability,
     pressure-gradient integrability, a common finite compact charge measure and
-    the singular reverse-charge reduction conditional on its analytic criterion.
+    the singular reverse-charge reduction and its genuine uniform analytic criterion.
     The analytic development proves the genuine local Stokes projection, nonsmooth
     projected energy inequality, actual terminal-free radius Caccioppoli estimate,
     native initial projected energy and nonlinear pressure, true Gaussian error
     bounds and energy extraction, normalized pressure contraction and the actual
     nonlinear iteration step. A positive geometric projected-energy budget implies
-    original CKN regularity. The remaining work joins nonlinear recurrence trapping
-    to origin regularity and to the uniform fixed inner-cylinder criterion.
-    The box-dimension target retains one placeholder. Full Comparator verification,
-    official Palomar preflight and registration remain pending its completion.
-  sorry_count: 1
+    original CKN regularity. The actual finite shrinking sequence and positive
+    nonlinear trap give native origin regularity; genuine quarter-box rescaling
+    and compact regularity give a universal fixed inner-cylinder criterion.
+    All three target declarations are proved without placeholders or added
+    analytic hypotheses. Full Comparator verification, official Palomar preflight
+    and registration remain pending.
+  sorry_count: 0
   sorry_in_definitions: 0
   axioms: []
 
@@ -89,15 +92,19 @@ fidelity:
     also has a proved nullity corollary in RepeatedLogGauge.
 
 review:
-  status: "In progress; internal automated statement audit"
+  status: "Internal automated statement audit; full mechanical verification pending"
   reviewers: []
   notes: >-
     The two completed gauge targets passed the unsandboxed local development
     Comparator at 1180af7 and the secure Linux Comparator with bubblewrap and all
     bundled independent kernels at public checkpoint 151a12f. Evidence is
     https://github.com/CoolRmal/FluidSingularSets/actions/runs/37336630111.
-    The full Comparator and official Palomar preflight remain pending the box
-    proof. No external human mathematical review is claimed.
+    An independent automated review of the 299-module box dependency closure,
+    including source finiteness, regularity transfers and covering definitions,
+    is recorded in docs/box-source-audit.md. The completed proof assembly passes
+    strict compilation and the complete project build. Full Comparator and
+    official Palomar preflight remain pending. No external human mathematical
+    review is claimed.
 
 alignment:
   namespace: "FluidSingularSets"
@@ -115,7 +122,7 @@ alignment:
     - source: "Box manuscript, first theorem"
       lean: "FluidSingularSets.singularSet_upperBoxDimension_le"
       module: "Solution"
-      status: partial
-      note: "Upper parabolic box dimension on every compact interior patch; proof unfinished."
+      status: complete
+      note: "Upper parabolic box dimension on every compact interior patch, using the proved uniform velocity-only criterion and genuine finite charge."
 
 acknowledgements: "Mathlib; the CKN formalization by Scott Armstrong and Vlad Vicol."

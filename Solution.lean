@@ -5,13 +5,16 @@ public import FluidSingularSets.Geometry
 public import FluidSingularSets.IteratedGauge
 public import FluidSingularSets.CKNBaseline
 public import FluidSingularSets.SuitableGaugeNullity
+public import FluidSingularSets.CompactBoxCriterion
+public import FluidSingularSets.UniformEndpointVelocityCriterion
 
 /-!
 # Proof assembly for the singular-set refinements
 
 The CKN dependency provides the same `CKNChallenge` solution class as the standalone Challenge
-and proves the ordinary CKN theorem for it. The finite logarithmic gauge family is proved
-using the actual suitable recurrence and Frostman trace. The box bound remains a proof goal.
+and proves the ordinary CKN theorem for it. The finite logarithmic gauge family follows
+from the actual suitable recurrence and Frostman trace. Genuine projected endpoint
+regularity supplies the uniform criterion and compact charge bound for box counting.
 -/
 
 @[expose] public section
@@ -49,6 +52,9 @@ theorem singularSet_upperBoxDimension_le
     (hK : IsCompact K) (hinterior : K ⊆ Ω ×ˢ I) :
     upperParabolicBoxDimension (CKNChallenge.singularSet Ω I data.u ∩ K) ≤
       ENNReal.ofReal (25 / 23 : ℝ) := by
-  sorry
+  obtain ⟨κ, hκ, hcriterion⟩ :=
+    exists_uniform_velocity_only_interior_criterion 3 (by norm_num)
+  exact suitable_compact_singularSet_upperBoxDimension_le_of_velocity_criterion
+    hκ hcriterion data hforce hK hinterior
 
 end FluidSingularSets

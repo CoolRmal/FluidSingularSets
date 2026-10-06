@@ -25,7 +25,7 @@ jobs:
         run: ruby scripts/validate-formalization.rb
 
   build:
-    name: Build completed support library and standalone targets
+    name: Build the complete formalization and standalone targets
     runs-on: ubuntu-24.04
     timeout-minutes: 90
     steps:
