@@ -299,6 +299,14 @@ public import FluidSingularSets.FullBallCutoffSourceErrors
 public import FluidSingularSets.FullBallTimeWeightedConvection
 public import FluidSingularSets.FullBallEndpointGapBounds
 
+public import FluidSingularSets.FullBallGradientMomentFinite
+public import FluidSingularSets.FullBallTestedRhsBounds
+public import FluidSingularSets.FullBallEndpointAbsorption
+public import FluidSingularSets.FullBallCanonicalCutoffData
+public import FluidSingularSets.FullBallTestedCaccioppoli
+public import FluidSingularSets.FullBallCanonicalCaccioppoli
+public import FluidSingularSets.FullBallGeneralTestedEnergy
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

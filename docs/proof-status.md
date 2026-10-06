@@ -212,6 +212,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual time and Laplacian source errors | Proved genuine integrability and endpoint costs, retaining only an upper derivative bound in the signed time cost | FullBallCutoffSourceErrors |
 | Literal native error and pressure integral decomposition | Proved five actual signed error families, deriving joint pressure integrability from the actual RHS and connecting the true mixed pressure bound by Fubini | FullBallNativeErrorDecomposition, FullBallTestedRhsDecomposition |
 | Genuine weighted convection and margin powers | Proved the literal time-weighted flux bound and actual reciprocal source-coefficient gap powers | FullBallTimeWeightedConvection, FullBallEndpointGapBounds |
+| Genuine tested suitable Caccioppoli inequality | Proved from the actual projected LEI and literal integrable signed RHS, with endpoint Young absorption and no assumed energy bound | FullBallTestedRhsBounds, FullBallEndpointAbsorption, FullBallTestedCaccioppoli |
+| Actual terminal-independent canonical gradient estimate | Proved with genuine compact admissible cutoffs, exact unit plateaus and three-quarter original-gradient contraction | FullBallCanonicalCutoffData, FullBallGradientMomentFinite, FullBallCanonicalCaccioppoli |
+| Actual energy extraction for joint space-time tests | Proved true essential energy supremum and full coordinate dissipation for arbitrary genuine nonnegative supported tests | FullBallGeneralTestedEnergy |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
