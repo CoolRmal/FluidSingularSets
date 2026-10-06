@@ -371,6 +371,12 @@ public import FluidSingularSets.CompactBoxCriterion
 public import FluidSingularSets.FullBallEndpointIterationStep
 public import FluidSingularSets.EndpointRecurrenceSmallness
 
+public import FluidSingularSets.ScaledEndpointSourceBounds
+public import FluidSingularSets.FullBallScaledEndpointSequence
+public import FluidSingularSets.EndpointInteriorRescaling
+public import FluidSingularSets.EndpointRegularGeometry
+public import FluidSingularSets.EndpointVelocityCostRescaling
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

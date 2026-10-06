@@ -24,4 +24,6 @@ jobs:
       request_id: fluid-singular-sets-${{ github.run_id }}-${{ github.run_attempt }}
       mode: full
       execution_profile: palomar-standard-v1
-      options: '{"comparator_config_path":"comparator.json"}'
+      options: >-
+        {"comparator_config_path":"comparator.json",
+         "authorization_relationship":"I am a responsible author or maintainer"}

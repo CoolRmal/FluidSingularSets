@@ -249,6 +249,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Requested compact box bound conditional on the analytic criterion | Proved actual finite pressure-gradient charge localization, singular reverse charge and exact isometric transport to the independently stated upper box dimension | CompactBoxCriterion |
 | Genuine full suitable-solution iteration step | Proved actual finite iteration identity and full nonlinear energy-pressure recurrence using only suitability and literal native sources | FullBallEndpointIterationStep |
 | True positive endpoint source threshold | Proved positive shrink ratio, nonlinear trap below the CKN interpolation budget, and original-source smallness controlling every step | EndpointRecurrenceSmallness |
+| Actual rescaled forcing and shrinking sequence | Proved true radius-three-quarter dissipation/source control, the literal finite iteration sequence, its initial bound and nonlinear recurrence, and extended projected-energy comparison | ScaledEndpointSourceBounds, FullBallScaledEndpointSequence |
+| Genuine closed inner-point and physical cost geometry | Proved exact quarter-box containment, native source enlargement, physical closed-cylinder local boxes and original velocity-cost rescaling | EndpointInteriorRescaling, EndpointVelocityCostRescaling |
+| Actual native regularity gives a common physical inner bound | Proved compact closed-cylinder geometry, true pointwise unscaling and a finite-subcover essential velocity bound on the fixed physical inner cylinder | EndpointRegularGeometry |
 | Discharge the velocity-only criterion in the actual box target | Open | Apply actual recurrence trapping and join origin regularity to a fixed inner cylinder |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
