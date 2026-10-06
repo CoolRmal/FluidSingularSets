@@ -218,6 +218,13 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Genuine whole source polynomial gap bound | Proved from actual operator coefficients and canonical cutoff budgets, with no terminal-cap dependence | FullBallEndpointCoefficientBounds |
 | True terminal cylinder exhaustion | Proved countable increasing exhaustion and null terminal-slice transport to the literal CKN cylinder | TruncatedCylinderExhaustion |
 | Actual joint-test pressure mean cancellation | Proved genuine spatial slices and exact centered nonlinear/viscous pressure pairings for arbitrary joint smooth tests and arbitrary time-dependent means | FullBallJointPressureTest |
+| Genuine terminal-free cylinder Caccioppoli | Proved the actual full backward cylinder contraction by countable terminal exhaustion | FullBallCylinderCaccioppoli |
+| True physical-radius iteration | Proved the literal original coordinate-gradient bound on the three-quarter cylinder by the endpoint velocity polynomial, without an outer-gradient term | NestedProjectionBallRescaling, FullBallRadiusCaccioppoli |
+| Actual joint energy error integrability and decomposition | Proved all four genuine Gaussian error families integrable and the exact native/compact/iterated integral decomposition | FullBallJointEnergyErrors, FullBallJointErrorIntegrability, FullBallJointRhsDecomposition |
+| True scalar mixed pressure-test energy control | Proved actual time L∞ spatial L² class bounds from the literal Euclidean slice supremum | ProjectedScalarEnergyBound |
+| Genuine fixed-projection iteration quantities and pressure decay | Defined actual projected energy and pressure quantities and proved native same-box centered nonlinear decay | FullBallPressureOscillationDecay |
+| Actual viscous pressure oscillation moment | Proved centered harmonic time L² spatial L² decay with radius power five halves from the full coordinate-gradient source | FullBallViscousOscillationMoment |
+| Genuine compact Gaussian tests and signed heat bounds | Proved actual supported admissible tests, inner lower bounds, gradient bounds and signed terminal-independent heat upper bounds | ProjectedGaussianCutoff |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 

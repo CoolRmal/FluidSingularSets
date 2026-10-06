@@ -311,6 +311,17 @@ public import FluidSingularSets.FullBallJointPressureTest
 public import FluidSingularSets.FullBallEndpointCoefficientBounds
 public import FluidSingularSets.TruncatedCylinderExhaustion
 
+public import FluidSingularSets.FullBallCylinderCaccioppoli
+public import FluidSingularSets.NestedProjectionBallRescaling
+public import FluidSingularSets.FullBallRadiusCaccioppoli
+public import FluidSingularSets.FullBallJointEnergyErrors
+public import FluidSingularSets.FullBallJointErrorIntegrability
+public import FluidSingularSets.FullBallJointRhsDecomposition
+public import FluidSingularSets.ProjectedScalarEnergyBound
+public import FluidSingularSets.FullBallPressureOscillationDecay
+public import FluidSingularSets.FullBallViscousOscillationMoment
+public import FluidSingularSets.ProjectedGaussianCutoff
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
