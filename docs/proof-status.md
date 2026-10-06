@@ -225,6 +225,12 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Genuine fixed-projection iteration quantities and pressure decay | Defined actual projected energy and pressure quantities and proved native same-box centered nonlinear decay | FullBallPressureOscillationDecay |
 | Actual viscous pressure oscillation moment | Proved centered harmonic time L² spatial L² decay with radius power five halves from the full coordinate-gradient source | FullBallViscousOscillationMoment |
 | Genuine compact Gaussian tests and signed heat bounds | Proved actual supported admissible tests, inner lower bounds, gradient bounds and signed terminal-independent heat upper bounds | ProjectedGaussianCutoff |
+| Genuine Gaussian heat energy estimate | Proved actual projected energy finiteness, true Tonelli square-moment control and the signed inverse-radius heat bound | ProjectedGaussianHeatError |
+| Actual Gaussian pressure flux classes and pairings | Proved genuine nonlinear L¹ and viscous L² native pressure classes, centered mixed pairings and inverse-square Gaussian flux control from the actual projected slice energy | FullBallJointPressureEnergy, CenteredPressureEnergyPairing, ProjectedGaussianPressureEnergy, FullBallNativePressureClasses, ProjectedGaussianPressurePairings |
+| True initial projected energy at the rescaled native radius | Proved actual quarter-cylinder slice and dissipation bounds, countable terminal exhaustion, and the three-quarter rescaled initial energy bound solely from the original endpoint velocity polynomial | TerminalSliceEnergyExhaustion, ProjectedPlateauEnergy, FullBallInitialTestedEnergy, FullBallInitialProjectedEnergy, FullBallInitialScaledEnergy |
+| Genuine arbitrary-radius weak vector Sobolev | Proved actual same-ball L⁶ membership and the uniform gradient plus inverse-radius velocity norm bound | BallH1Vector |
+| True nonlinear pressure absorption | Proved the actual seven-sixths pressure factor is absorbed into a small linear energy term and a three-halves remainder | ProjectedPressureIterationAbsorption |
+| Genuine shrinking-scale nonlinear trapping | Proved shrinking-factor, positive energy-threshold and source-smallness selection, invariant nonlinear trapping and its affine geometric envelope | EndpointShrinkingIteration |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 

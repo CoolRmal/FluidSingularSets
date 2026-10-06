@@ -322,6 +322,22 @@ public import FluidSingularSets.FullBallPressureOscillationDecay
 public import FluidSingularSets.FullBallViscousOscillationMoment
 public import FluidSingularSets.ProjectedGaussianCutoff
 
+public import FluidSingularSets.FullBallJointPressureEnergy
+public import FluidSingularSets.CenteredPressureEnergyPairing
+public import FluidSingularSets.ProjectedGaussianPressureEnergy
+public import FluidSingularSets.FullBallNativePressureClasses
+public import FluidSingularSets.ProjectedGaussianPressurePairings
+public import FluidSingularSets.ProjectedGaussianHeatError
+public import FluidSingularSets.TerminalSliceEnergyExhaustion
+public import FluidSingularSets.ProjectedPlateauEnergy
+public import FluidSingularSets.FullBallInitialTestedEnergy
+public import FluidSingularSets.FullBallInitialProjectedEnergy
+public import FluidSingularSets.FullBallInitialScaledEnergy
+public import FluidSingularSets.BallH1Vector
+
+public import FluidSingularSets.ProjectedPressureIterationAbsorption
+public import FluidSingularSets.EndpointShrinkingIteration
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
