@@ -238,6 +238,11 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Actual Gaussian convection and harmonic flux | Proved global integrability, literal endpoint source moments, normalized energy/source costs and genuine harmonic Young absorption | ProjectedGaussianFluxErrors, ProjectedGaussianSourceEnergy, ProjectedGaussianConvectionEnergy, ProjectedGaussianHarmonicYoung |
 | True finite iteration pressure algebra | Proved actual finite iteration quantity, normalized two-thirds pressure control and exact seven-sixths pressure-energy product | FullBallIterationPressureAlgebra |
 | Genuine interpolation and gradient limit | Proved actual all-radius projected energy interpolation, harmonic correction mass vanishes and the original CKN gradient limsup is bounded by twice the eventual projected energy budget | ProjectedRadiusInterpolation, ProjectedGradientLimit |
+| Actual nonlinear pressure source and contraction | Proved genuine original-velocity quartic source, normalized nonlinear-pressure contraction at power three halves, real finite conversion and initial quarter pressure source bound | FullBallNonlinearPressureSource, FullBallNonlinearPressureDecay, FullBallNonlinearPressureReal |
+| Genuine normalized Gaussian pressure absorption | Proved literal convective seven-sixths and harmonic viscous flux bounds, true Young absorption and the actual combined pressure RHS cost | ProjectedGaussianConvectivePressureAbsorption, ProjectedGaussianViscousPressureAbsorption, ProjectedGaussianPressureRhs |
+| True Gaussian nonpressure RHS aggregation | Proved exact cylinder/global error identities and universal heat, convection and harmonic cost for the actual tested solution | ProjectedGaussianNonpressureRhs |
+| Actual projected-energy CKN regularity budget | Proved universal positive eventual and geometric projected-energy budgets imply true origin regularity | ProjectedGradientCriterion |
+| Common bounded velocity on compact regular sets | Proved a finite-subcover AE velocity bound from actual local Hölder regularity | CompactRegularVelocity |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 

@@ -352,6 +352,16 @@ public import FluidSingularSets.ProjectedGaussianSourceEnergy
 public import FluidSingularSets.ProjectedGradientLimit
 public import FluidSingularSets.ProjectedRadiusInterpolation
 
+public import FluidSingularSets.FullBallNonlinearPressureSource
+public import FluidSingularSets.FullBallNonlinearPressureDecay
+public import FluidSingularSets.FullBallNonlinearPressureReal
+public import FluidSingularSets.ProjectedGaussianConvectivePressureAbsorption
+public import FluidSingularSets.ProjectedGaussianViscousPressureAbsorption
+public import FluidSingularSets.ProjectedGaussianPressureRhs
+public import FluidSingularSets.ProjectedGaussianNonpressureRhs
+public import FluidSingularSets.ProjectedGradientCriterion
+public import FluidSingularSets.CompactRegularVelocity
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
