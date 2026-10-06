@@ -274,5 +274,6 @@ and Lean paranoid, lean4lean, NanoDa, con-leche, con-ron and the default Lean ke
 accepted their proofs using only the permitted standard axioms. The Linux run used
 the required bubblewrap sandbox. Solution and supporting proofs now contain no
 placeholders or custom axioms. The full `comparator.json` and pinned official
-Palomar workflow must pass for the completed snapshot before intake.
-The project has not been submitted or registered.
+Palomar workflow passed for the completed snapshot in the
+[verification record](verification.md). The approved snapshot has been submitted
+to Palomar. Its service verification, review and registration remain pending.

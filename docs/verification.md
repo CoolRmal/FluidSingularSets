@@ -1,7 +1,8 @@
 # Verification record
 
 The completed formalization has passed independent Comparator CI and the official full
-Palomar mechanical preflight. Palomar registration remains pending.
+Palomar mechanical preflight. The approved source snapshot has been submitted to
+Palomar; service verification, review and registration remain pending.
 
 Both runs checked these three targets:
 
