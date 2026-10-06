@@ -338,6 +338,20 @@ public import FluidSingularSets.BallH1Vector
 public import FluidSingularSets.ProjectedPressureIterationAbsorption
 public import FluidSingularSets.EndpointShrinkingIteration
 
+public import FluidSingularSets.BallH1MixedEnergy
+public import FluidSingularSets.FullBallGeneralEnergyComparison
+public import FluidSingularSets.FullBallIterationPressureAlgebra
+public import FluidSingularSets.FullBallJointPatchRhs
+public import FluidSingularSets.FullBallProjectedPressureSource
+public import FluidSingularSets.ProjectedGaussianConvectionEnergy
+public import FluidSingularSets.ProjectedGaussianEnergyExtraction
+public import FluidSingularSets.ProjectedGaussianFluxErrors
+public import FluidSingularSets.ProjectedGaussianHarmonicYoung
+public import FluidSingularSets.ProjectedGaussianRhs
+public import FluidSingularSets.ProjectedGaussianSourceEnergy
+public import FluidSingularSets.ProjectedGradientLimit
+public import FluidSingularSets.ProjectedRadiusInterpolation
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

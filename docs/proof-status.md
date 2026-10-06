@@ -231,6 +231,13 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Genuine arbitrary-radius weak vector Sobolev | Proved actual same-ball L⁶ membership and the uniform gradient plus inverse-radius velocity norm bound | BallH1Vector |
 | True nonlinear pressure absorption | Proved the actual seven-sixths pressure factor is absorbed into a small linear energy term and a three-halves remainder | ProjectedPressureIterationAbsorption |
 | Genuine shrinking-scale nonlinear trapping | Proved shrinking-factor, positive energy-threshold and source-smallness selection, invariant nonlinear trapping and its affine geometric envelope | EndpointShrinkingIteration |
+| Actual whole-ball mixed weak Sobolev and nonlinear projected source | Proved genuine same-ball mixed energy, literal projected quartic and cubic moments, and normalized cubic control by energy power three halves | BallH1MixedEnergy, FullBallProjectedPressureSource |
+| Genuine arbitrary-test inner energy comparison | Proved actual slice supremum and dissipation comparison from a geometric test lower bound | FullBallGeneralEnergyComparison |
+| Actual Gaussian inner energy extraction | Proved literal uniform tested RHS controls inner slice energy, dissipation and normalized energy by countable terminal exhaustion | ProjectedGaussianEnergyExtraction |
+| Genuine localized Gaussian RHS | Proved exact four actual cylinder-error decomposition and centered nonlinear/viscous pressure error bound on the original interval | FullBallJointPatchRhs, ProjectedGaussianRhs |
+| Actual Gaussian convection and harmonic flux | Proved global integrability, literal endpoint source moments, normalized energy/source costs and genuine harmonic Young absorption | ProjectedGaussianFluxErrors, ProjectedGaussianSourceEnergy, ProjectedGaussianConvectionEnergy, ProjectedGaussianHarmonicYoung |
+| True finite iteration pressure algebra | Proved actual finite iteration quantity, normalized two-thirds pressure control and exact seven-sixths pressure-energy product | FullBallIterationPressureAlgebra |
+| Genuine interpolation and gradient limit | Proved actual all-radius projected energy interpolation, harmonic correction mass vanishes and the original CKN gradient limsup is bounded by twice the eventual projected energy budget | ProjectedRadiusInterpolation, ProjectedGradientLimit |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 
