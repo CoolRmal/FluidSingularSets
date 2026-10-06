@@ -1,10 +1,11 @@
 # Verification record
 
 The completed formalization has passed independent Comparator CI and the official full
-Palomar mechanical preflight. The approved source snapshot has been submitted to
-Palomar, and its service verification also passed. Review and registration remain pending.
+Palomar mechanical preflight. Palomar's service verification and automated review are
+complete, and source snapshot `dd3ae61ce421a634818f52a6e11a8b78dd1bfc97` is
+[registered as PALOMAR-2026-10-06-000006, version 1](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-06-000006&version=1).
 
-Both runs checked these three targets:
+The verification runs checked these three targets:
 
 - `FluidSingularSets.singularSet_iteratedLogHausdorffMeasure_zero`
 - `FluidSingularSets.singularSet_logSquaredHausdorffMeasure_zero`
@@ -48,4 +49,13 @@ con-ron, NanoDa, and Lean's default kernel.
 The service report rates Challenge provenance as `high`, records Mathlib as its
 only direct import, and lists no untrusted sources. Challenge has 322 lines and
 14,633 bytes; the line count accounts for the nonblocking review-surface advisory.
-Palomar's private review and registration remain pending.
+
+The public registration record identifies the same source commit and an automated
+review by `codex:gpt-6-sol`, completed at `2026-10-06T04:08:24Z`. The review outcome
+is `neutral`, with no blocking problems, warnings, comments or requested changes.
+The mechanical review-surface advisory above remains nonblocking and is distinct
+from the automated review findings.
+
+Registration and review apply to the exact `dd3ae61ce421a634818f52a6e11a8b78dd1bfc97`
+snapshot. Subsequent documentation updates do not alter the registered proof source.
+No external human mathematical peer review is claimed.

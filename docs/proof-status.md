@@ -17,7 +17,9 @@ three-dimensional and suitable, as independently specified in `Challenge.lean`.
 
 All three target declarations passed the full Comparator and the official full
 Palomar mechanical preflight for the source identities in the
-[verification record](verification.md). Palomar registration remains pending.
+[verification record](verification.md). Source snapshot
+`dd3ae61ce421a634818f52a6e11a8b78dd1bfc97` is registered as
+[PALOMAR-2026-10-06-000006, version 1](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-06-000006&version=1).
 
 The following tables record the proved gauge theorem, box theorem and supporting statements.
 A theorem about abstract coefficients is used only after deriving its hypotheses
@@ -275,5 +277,9 @@ accepted their proofs using only the permitted standard axioms. The Linux run us
 the required bubblewrap sandbox. Solution and supporting proofs now contain no
 placeholders or custom axioms. The full `comparator.json` and pinned official
 Palomar workflow passed for the completed snapshot in the
-[verification record](verification.md). The approved snapshot has been submitted
-to Palomar, and its service verification passed. Review and registration remain pending.
+[verification record](verification.md). Palomar's service verification passed and
+the exact source snapshot `dd3ae61ce421a634818f52a6e11a8b78dd1bfc97` is
+[registered as version 1](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-06-000006&version=1).
+Its automated review by `codex:gpt-6-sol`, completed at `2026-10-06T04:08:24Z`,
+reported no blocking problems or requested changes. These records apply to that
+snapshot; no external human mathematical peer review is claimed.

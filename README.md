@@ -34,7 +34,8 @@ Its actual Hausdorff measure is bounded by that of the successive-product gauge.
 
 **Both requested conclusions are proved, including every finite gauge depth.
 Full Comparator verification and official Palomar mechanical preflight passed
-for published source snapshot `dd3ae61`. Palomar registration remains pending.**
+for published source snapshot `dd3ae61`, now registered as
+[PALOMAR-2026-10-06-000006, version 1](https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-06-000006&version=1).**
 See the [verification record](docs/verification.md). Challenge contains the intentional
 independent statement placeholders; Solution and the supporting proofs have none.
 
@@ -103,7 +104,7 @@ lake exe cache get
 lake build
 ```
 
-The following registration gates must all pass for the submitted snapshot:
+The registration gates passed for the registered snapshot and can be reproduced with:
 
 ```sh
 python3 scripts/check-lean-sources.py
@@ -117,8 +118,12 @@ The pinned official workflow in `.github/workflows/palomar-preflight.yml` suppli
 the complete mechanical check. Registration follows the current
 [Palomar submission process](https://submit.palomar-registry.org/).
 
-Source manuscripts are in `papers/`. These are research drafts; external
-mathematical peer review is not claimed. The responsible maintainer is
+Palomar's automated review by `codex:gpt-6-sol`, completed on
+`2026-10-06T04:08:24Z`, reported no blocking problems or requested changes.
+The registration and review apply to the source snapshot above; later documentation
+updates do not change that attribution. Source manuscripts are in `papers/`.
+These are research drafts; external human mathematical peer review is not claimed.
+The responsible maintainer is
 Yongxi (Aaron) Lin (`CoolRmal`). See `formalization.yaml` for current status.
 
 Released under Apache-2.0. Reused CKN material retains its original authorship

@@ -60,7 +60,8 @@ status:
     All three target declarations are proved without placeholders or added
     analytic hypotheses. Full Comparator verification and official Palomar preflight
     passed for source snapshot dd3ae61ce421a634818f52a6e11a8b78dd1bfc97.
-    Palomar registration remains pending.
+    That snapshot is registered as PALOMAR-2026-10-06-000006, version 1:
+    https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-06-000006&version=1.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms: []
@@ -72,7 +73,7 @@ automation:
       framework: "Codex"
       tool_setup: "Lean LSP, compiler, mathematical source audit, and parallel proof agents"
       cost:
-        wall_time: "In progress"
+        wall_time: "not tracked"
         spend_usd: "not tracked"
         hardware: "local macOS computer"
       prompting_notes: >-
@@ -93,8 +94,8 @@ fidelity:
     also has a proved nullity corollary in RepeatedLogGauge.
 
 review:
-  status: "Internal automated statement audit; full mechanical verification passed"
-  reviewers: []
+  status: "Palomar registered; automated review completed; full mechanical verification passed"
+  reviewers: ["codex:gpt-6-sol (automated)"]
   notes: >-
     The two completed gauge targets passed the unsandboxed local development
     Comparator at 1180af7 and the secure Linux Comparator with bubblewrap and all
@@ -111,8 +112,16 @@ review:
     dd3ae61ce421a634818f52a6e11a8b78dd1bfc97:
     https://github.com/CoolRmal/FluidSingularSets/actions/runs/37406563795.
     See docs/verification.md for the precise source identities and nonblocking
-    review-surface advisory. Palomar registration remains pending.
-    No external human mathematical review is claimed.
+    review-surface advisory. Palomar's service verification also passed for the
+    exact same snapshot:
+    https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37409636115.
+    The snapshot is registered as PALOMAR-2026-10-06-000006, version 1:
+    https://palomar-registry.org/entry.html?id=PALOMAR-2026-10-06-000006&version=1.
+    Its public automated review by codex:gpt-6-sol, completed at
+    2026-10-06T04:08:24Z, has a neutral outcome and no blocking problems,
+    warnings, comments or requested changes. Registration and review apply to
+    that source snapshot, not subsequent documentation updates.
+    No external human mathematical peer review is claimed.
 
 alignment:
   namespace: "FluidSingularSets"
