@@ -58,8 +58,9 @@ status:
     nonlinear trap give native origin regularity; genuine quarter-box rescaling
     and compact regularity give a universal fixed inner-cylinder criterion.
     All three target declarations are proved without placeholders or added
-    analytic hypotheses. Full Comparator verification, official Palomar preflight
-    and registration remain pending.
+    analytic hypotheses. Full Comparator verification and official Palomar preflight
+    passed for source snapshot dd3ae61ce421a634818f52a6e11a8b78dd1bfc97.
+    Palomar registration remains pending.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms: []
@@ -92,7 +93,7 @@ fidelity:
     also has a proved nullity corollary in RepeatedLogGauge.
 
 review:
-  status: "Internal automated statement audit; full mechanical verification pending"
+  status: "Internal automated statement audit; full mechanical verification passed"
   reviewers: []
   notes: >-
     The two completed gauge targets passed the unsandboxed local development
@@ -102,9 +103,16 @@ review:
     An independent automated review of the 299-module box dependency closure,
     including source finiteness, regularity transfers and covering definitions,
     is recorded in docs/box-source-audit.md. The completed proof assembly passes
-    strict compilation and the complete project build. Full Comparator and
-    official Palomar preflight remain pending. No external human mathematical
-    review is claimed.
+    strict compilation and the complete project build. The full Comparator passed
+    at e4cda018f26b6c9dbb538aa9f2c2a30f98a8161e, with con-ron, NanoDa and Lean's
+    default kernel accepting all three targets:
+    https://github.com/CoolRmal/FluidSingularSets/actions/runs/37404871659.
+    Official full Palomar preflight passed on the source snapshot
+    dd3ae61ce421a634818f52a6e11a8b78dd1bfc97:
+    https://github.com/CoolRmal/FluidSingularSets/actions/runs/37406563795.
+    See docs/verification.md for the precise source identities and nonblocking
+    review-surface advisory. Palomar registration remains pending.
+    No external human mathematical review is claimed.
 
 alignment:
   namespace: "FluidSingularSets"

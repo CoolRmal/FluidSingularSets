@@ -15,6 +15,10 @@ $$
 for every compact interior patch $$K$$. The solution class is unforced, local,
 three-dimensional and suitable, as independently specified in `Challenge.lean`.
 
+All three target declarations passed the full Comparator and the official full
+Palomar mechanical preflight for the source identities in the
+[verification record](verification.md). Palomar registration remains pending.
+
 The following tables record the proved gauge theorem, box theorem and supporting statements.
 A theorem about abstract coefficients is used only after deriving its hypotheses
 from the solution. Those hypotheses are not added to either target theorem.

@@ -33,8 +33,9 @@ Its actual Hausdorff measure is bounded by that of the successive-product gauge.
 
 
 **Both requested conclusions are proved, including every finite gauge depth.
-Full Comparator verification and official Palomar mechanical preflight are pending.
-The project is not yet registered on Palomar.** Challenge contains the intentional
+Full Comparator verification and official Palomar mechanical preflight passed
+for published source snapshot `dd3ae61`. Palomar registration remains pending.**
+See the [verification record](docs/verification.md). Challenge contains the intentional
 independent statement placeholders; Solution and the supporting proofs have none.
 
 The gauge proof constructs a genuine Frostman measure from positive gauge measure,
@@ -48,8 +49,8 @@ At public proof checkpoint `151a12f`, the gauge-only configuration
 `comparator-gauges.json` passed the [secure Linux comparison](https://github.com/CoolRmal/FluidSingularSets/actions/runs/37336630111)
 with bubblewrap, including Lean paranoid, lean4lean, NanoDa, con-leche, con-ron
 and the default Lean kernel. This verifies both gauge targets against their
-independent statements. The full comparison and official Palomar mechanical
-preflight check the completed box proof as well.
+independent statements. The completed full comparison and official Palomar mechanical
+preflight also verified the box proof.
 
 For the box bound, the actual pressure gradient at exponent 5/4, the normalized
 weighted Poincaré estimate, the absolutely continuous weighted mean, and the
