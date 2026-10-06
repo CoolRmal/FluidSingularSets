@@ -215,6 +215,9 @@ from the solution. Those hypotheses are not added to either target theorem.
 | Genuine tested suitable Caccioppoli inequality | Proved from the actual projected LEI and literal integrable signed RHS, with endpoint Young absorption and no assumed energy bound | FullBallTestedRhsBounds, FullBallEndpointAbsorption, FullBallTestedCaccioppoli |
 | Actual terminal-independent canonical gradient estimate | Proved with genuine compact admissible cutoffs, exact unit plateaus and three-quarter original-gradient contraction | FullBallCanonicalCutoffData, FullBallGradientMomentFinite, FullBallCanonicalCaccioppoli |
 | Actual energy extraction for joint space-time tests | Proved true essential energy supremum and full coordinate dissipation for arbitrary genuine nonnegative supported tests | FullBallGeneralTestedEnergy |
+| Genuine whole source polynomial gap bound | Proved from actual operator coefficients and canonical cutoff budgets, with no terminal-cap dependence | FullBallEndpointCoefficientBounds |
+| True terminal cylinder exhaustion | Proved countable increasing exhaustion and null terminal-slice transport to the literal CKN cylinder | TruncatedCylinderExhaustion |
+| Actual joint-test pressure mean cancellation | Proved genuine spatial slices and exact centered nonlinear/viscous pressure pairings for arbitrary joint smooth tests and arbitrary time-dependent means | FullBallJointPressureTest |
 | Discharge the velocity-only criterion in the actual box target | Open | Projected energy and its estimates needed |
 | Apply charge bound to every compact interior patch | Open | Solution |
 

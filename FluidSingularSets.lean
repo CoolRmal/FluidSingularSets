@@ -307,6 +307,10 @@ public import FluidSingularSets.FullBallTestedCaccioppoli
 public import FluidSingularSets.FullBallCanonicalCaccioppoli
 public import FluidSingularSets.FullBallGeneralTestedEnergy
 
+public import FluidSingularSets.FullBallJointPressureTest
+public import FluidSingularSets.FullBallEndpointCoefficientBounds
+public import FluidSingularSets.TruncatedCylinderExhaustion
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the
