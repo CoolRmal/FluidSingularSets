@@ -276,4 +276,4 @@ the required bubblewrap sandbox. Solution and supporting proofs now contain no
 placeholders or custom axioms. The full `comparator.json` and pinned official
 Palomar workflow passed for the completed snapshot in the
 [verification record](verification.md). The approved snapshot has been submitted
-to Palomar. Its service verification, review and registration remain pending.
+to Palomar, and its service verification passed. Review and registration remain pending.

@@ -2,7 +2,7 @@
 
 The completed formalization has passed independent Comparator CI and the official full
 Palomar mechanical preflight. The approved source snapshot has been submitted to
-Palomar; service verification, review and registration remain pending.
+Palomar, and its service verification also passed. Review and registration remain pending.
 
 Both runs checked these three targets:
 
@@ -38,3 +38,14 @@ targets above. Its verifier and Challenge provenance audit succeeded.
 
 The report includes one nonblocking advisory: the configured Challenge source exceeds
 the preferred 32 KiB / 300-line review surface. The report's status is `pass`, with no errors.
+
+After the approved intake, [Palomar's own verification run](https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37409636115)
+also passed for the exact source commit `dd3ae61ce421a634818f52a6e11a8b78dd1bfc97`.
+Its mechanical report records `status: pass`, `stage: complete`, and no errors,
+checked at `2026-10-06T03:49:07Z`. All three targets passed with acceptance by
+con-ron, NanoDa, and Lean's default kernel.
+
+The service report rates Challenge provenance as `high`, records Mathlib as its
+only direct import, and lists no untrusted sources. Challenge has 322 lines and
+14,633 bytes; the line count accounts for the nonblocking review-surface advisory.
+Palomar's private review and registration remain pending.
