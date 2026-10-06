@@ -362,6 +362,15 @@ public import FluidSingularSets.ProjectedGaussianNonpressureRhs
 public import FluidSingularSets.ProjectedGradientCriterion
 public import FluidSingularSets.CompactRegularVelocity
 
+public import FluidSingularSets.ProjectedGaussianRecurrenceCoefficients
+public import FluidSingularSets.ProjectedGaussianScalarRecurrence
+public import FluidSingularSets.FullBallGaussianEnergyStep
+public import FluidSingularSets.FullBallInitialEndpointQuantity
+public import FluidSingularSets.CompactBoxCriterion
+
+public import FluidSingularSets.FullBallEndpointIterationStep
+public import FluidSingularSets.EndpointRecurrenceSmallness
+
 /-! # Singular-set refinements for suitable weak Navier–Stokes solutions
 
 This root exports the completed supporting development. The three target declarations for the

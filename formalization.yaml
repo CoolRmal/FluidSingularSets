@@ -41,61 +41,22 @@ related_formalizations:
 status:
   scope: >-
     Three target declarations for the two requested conclusions are independently
-    restated using Mathlib alone. The zero-factor family member follows from CKN.
-    Supporting divergence at every finite logarithmic depth, gauge identities,
-    mass-ratio layer cake, dyadic Carleson embedding at exponent 7/6,
-    mass-ratio stopping including zero masses, critical weak-gradient Sobolev
-    and mean-subtracted Poincare estimates, integrated spatial embedding,
-    actual-solution mixed-gradient integrability, adjacent parabolic grids,
-    arbitrary-scale CKN regularity and persistent singular charge,
-    finite real activity and joint activity measurability,
-    actual-solution velocity and mixed-gradient pressure decay on smaller windows,
-    combined real window decay and local energy control by symmetric activity,
-    small-radius gauge monotonicity and doubling, finite capacity measures,
-    compact weak-limit construction, geometric gauge Frostman construction,
-    concrete slice-cell descendant bounds and compact localization,
-    the actual Frostman-to-cell growth and integrated coefficient embedding,
-    finite-trace contradiction and geometric packing arguments are proved.
-    The actual scale recurrence, concrete mass-ratio trace, and full-domain
-    gauge nullity are proved for every finite logarithmic depth. Actual local
-    pressure-gradient integrability at exponent 5/4 is also proved. The weighted
-    Poincare estimate, absolutely continuous mean and actual acceleration formula,
-    quantitative scale bound for the mean, and finite compact density with genuine
-    local pressure gradients are proved. Canonical normalized smooth weights and
-    the full actual moving-frame data for time L^(3/2) acceleration are proved.
-    Full smooth-frame suitability and strong local convergence under uniformly
-    convergent moving translations are proved. Smooth approximation of the actual
-    AC mean, its acceleration and path, common compact tube containment, and
-    strong nonlinear Holder products are proved. Full actual AC-frame suitability and moving-frame regularity transfer are
-    proved. The mean-zero polynomial divergence inverse has a degree-independent
-    energy bound and extends to all mean-zero ball L² data by actual density.
-    The local Stokes energy solution and reconstructed velocity are proved, as
-    are continuous pressure projection, gradient fixing, actual arbitrary-data
-    bounded mean-zero pressure, weak harmonicity for divergence-free sources,
-    C² representatives and quantitative interior gradient/Hessian estimates.
-    The literal repeated-deepest gauge variant also has proved nullity at every
-    finite depth. Genuine measurable spatial Lp class curves and time moments
-    are proved. The actual suitable centered pressure has a finite time 5/4 L²
-    moment and literal energy-dual gradient pairing. Actual nonlinear and viscous
-    projected pressures have time 4/3 and 2 classes. Canonical harmonic gradient
-    and Hessian operators have true representation, bounds and weak derivatives.
-    The actual suitable pressure-correction time equation and force gradient
-    extension with true source compatibility, actual harmonic-gradient evolution
-    and its AC representative are proved. Energy-dual evolution
-    follows from compact suitable momentum pairings, and
-    smooth harmonic square cancellations are proved. The projected local energy
-    inequality for smooth harmonic corrections and actual harmonic-preserving time
-    approximations are proved from original suitability;
-    actual S1 time L∞ curve bounds, mixed pressure-velocity integral limits and
-    exact endpoint cubic interpolation, genuine harmonic-preserving spatial
-    approximation, actual scalar pressure-value/Hessian kernels, jointly smooth
-    harmonic corrections and strong operator-curve limits are proved. The actual nonsmooth
-    correction limit remains. A conditional
-    uniform lower-charge reduction at exponent 25/23 is complete, including
-    genuine terminal shifts, moving frames and common compact measure. Its
-    velocity-only regularity criterion still needs proof from ordinary suitability.
-    The box-dimension proof retains one placeholder, so the complete project is
-    not yet eligible for Palomar registration.
+    restated using Mathlib alone. The complete finite successive-logarithm gauge
+    family and its original logarithmic-square corollary are proved from actual
+    suitable weak data, the genuine Frostman trace and the pinned CKN dependency.
+    The literal repeated-deepest logarithmic gauge also has proved nullity at
+    every finite depth. The box development proves actual moving-frame suitability,
+    pressure-gradient integrability, a common finite compact charge measure and
+    the singular reverse-charge reduction conditional on its analytic criterion.
+    The analytic development proves the genuine local Stokes projection, nonsmooth
+    projected energy inequality, actual terminal-free radius Caccioppoli estimate,
+    native initial projected energy and nonlinear pressure, true Gaussian error
+    bounds and energy extraction, normalized pressure contraction and the actual
+    nonlinear iteration step. A positive geometric projected-energy budget implies
+    original CKN regularity. The remaining work joins nonlinear recurrence trapping
+    to origin regularity and to the uniform fixed inner-cylinder criterion.
+    The box-dimension target retains one placeholder. Full Comparator verification,
+    official Palomar preflight and registration remain pending its completion.
   sorry_count: 1
   sorry_in_definitions: 0
   axioms: []
